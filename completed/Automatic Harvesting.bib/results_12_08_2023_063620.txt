@@ -1,0 +1,18 @@
+{DeepFruits}: A Fruit Detection System Using Deep Neural Networks
+
+
+
+1. CRF: Although CRF shows impressive performance, there are a couple of challenges; difﬁculty in pixel-level ground truthing and huge processing time. For example, the processing time in order to produce the results shown in Figure 9 takes 331 s/frame with a 17 sstandard deviation for featurisation, which extracts and prepares features for subsequent detection, and 0.819 swith a 0.067 sstandard deviation for the detection; while Faster R-CNN can run of 393 ms/frame including all procedures (842-times faster than CRF).
+
+Comparing the performance metrics of CRF and Faster R-CNN, we can see that Faster R-CNN has a significant advantage in terms of processing time and detection rate. However, CRF still maintains a competitive detection rate, especially when combined with other methods, such as early and late fusion.
+
+1. Early Fusion: Early fusion combines the results of multiple detectors to improve the overall performance. Although it can be computationally expensive, the performance gains can be substantial.
+
+1. Late Fusion: Late fusion combines the results of multiple detectors after applying CRF to refine the boundaries of the detected objects. This method can further improve the detection performance, especially when combined with other methods, such as early fusion and object proposal networks.
+
+1. Object Proposal Networks: These networks generate region proposals that can be used as input for other detection methods, such as CRF and Faster R-CNN. The performance of these networks depends on the quality of the proposals and the specific detection method being used.
+
+When comparing the performance of these methods to the state-of-the-art, we can see that they are competitive and can achieve high detection rates. However, the state-of-the-art methods often incorporate additional techniques, such as data augmentation, transfer learning, and more advanced detection algorithms, which can further improve performance.
+
+In conclusion, the methods discussed in this answer are competitive and can achieve high detection rates. However, to remain at the forefront of the field, continued research and development are necessary to incorporate the latest advancements and techniques.
+

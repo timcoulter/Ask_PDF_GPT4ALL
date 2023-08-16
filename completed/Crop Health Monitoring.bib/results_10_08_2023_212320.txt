@@ -1,0 +1,24 @@
+A contextualized approach for segmentation of foliage in different crop species
+
+
+
+1. State-of-the-art methods:
+
+As mentioned earlier, the state-of-the-art methods for rice and cotton segmentation are based on color index and learning-based approaches. The color index method, such as CIE Luv, is widely used due to its simplicity and computational efficiency. However, it may not be suitable for real-time applications. On the other hand, learning-based approaches, like CIVE, can achieve better performance but may require more computational resources and may not be suitable for real-time applications either.
+
+1. Performance metrics comparison:
+
+The performance metrics used to compare the segmentation methods are the segmentation quality (as defined by ATRWG) and the segmentation accuracy (as defined by Everingham et al., 2015).
+
+For the color index method (CIE Luv + SVM), the segmentation quality is typically around 88.1 for rice and 91.7 for cotton, while the segmentation accuracy is around 88.1 for rice and 91.7 for cotton.
+
+For the learning-based approach (CIVE), the segmentation quality is typically higher than the color index method, while the segmentation accuracy is also higher. However, the comparison problem arises due to the lack of standard measures of accuracy between different approaches.
+
+1. Comparison between CIE Luv + SVM and CIVE:
+
+In order to achieve a closest comparison between the best methods analyzed, a more detailed analysis between CIE Luv + SVM and CIVE was performed. For each dataset, we present the segmentation quality of CIE Luv + SVM (in red) and of CIVE (in blue). We have ordered results in an ascending way for CIE Luv + SVM in order to see whether CIVE observed a similar behavior. Figs. 6–8 present individual cases where the distance between quality segmentation between the two approaches was maximal. In each individual example, pixels set in blue indicate false positives (wrongly classified as foreground) and the pixels in red indicate false negatives (wrongly classified as background).
+
+From the comparison, we can see that CIVE generally outperforms CIE Luv + SVM in terms of segmentation quality and accuracy. However, there are individual cases where CIE Luv + SVM performs better, especially when dealing with challenging lighting conditions (as shown in Fig. 6).
+
+In summary, the state-of-the-art methods for rice and cotton segmentation are based on color index and learning-based approaches. The performance metrics used to compare the segmentation methods are the segmentation quality (as defined by ATRWG) and the segmentation accuracy (as defined by Everingham et al., 2015). The comparison problem arises due to the lack of standard measures of accuracy between different approaches. The detailed analysis between CIE Luv + SVM and CIVE shows that CIVE generally outperforms CIE Luv + SVM in terms of segmentation quality and accuracy, but there are individual cases where CIE Luv + SVM performs better, especially when dealing with challenging lighting conditions.
+

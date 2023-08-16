@@ -1,0 +1,172 @@
+Divide and Contrast: Self-supervised Learning from Uncurated Data
+
+}rbpzqzk}2
+14
+
+self-supervised learning. Given an augmented input image
+xwith clustering id k, we feed it into the distillation model
+to produce the projection-head output z. Similarly we get
+zbandzkfrom the base model and the k-th expert model
+respectively. We also `2-normalizezbandzkto be unit-
+norm. The distillation objective is then the average of the
+two mean squared errors:
+Lpxq1
+2}rbpzqzb}2
+2}rbpzqzk}2
+15
+
+self-supervised learning. Given an augmented input image
+xwith clustering id k, we feed it into the distillation model
+to produce the projection-head output z. Similarly we get
+zbandzkfrom the base model and the k-th expert model
+respectively. We also `2-normalizezbandzkto be unit-
+norm. The distillation objective is then the average of the
+two mean squared errors:
+Lpxq1
+2}rbpzqzb}2
+2}rbpzqzk}2
+16
+
+self-supervised learning. Given an augmented input image
+xwith clustering id k, we feed it into the distillation model
+to produce the projection-head output z. Similarly we get
+zbandzkfrom the base model and the k-th expert model
+respectively. We also `2-normalizezbandzkto be unit-
+norm. The distillation objective is then the average of the
+two mean squared errors:
+Lpxq1
+2}rbpzqzb}2
+2}rbpzqzk}2
+17
+
+self-supervised learning. Given an augmented input image
+xwith clustering id k, we feed it into the distillation model
+to produce the projection-head output z. Similarly we get
+zbandzkfrom the base model and the k-th expert model
+respectively. We also `2-normalizezbandzkto be unit-
+norm. The distillation objective is then the average of the
+two mean squared errors:
+Lpxq1
+2}rbpzqzb}2
+2}rbpzqzk}2
+18
+
+self-supervised learning. Given an augmented input image
+xwith clustering id k, we feed it into the distillation model
+to produce the projection-head output z. Similarly we get
+zbandzkfrom the base model and the k-th expert model
+respectively. We also `2-normalizezbandzkto be unit-
+norm. The distillation objective is then the average of the
+two mean squared errors:
+Lpxq1
+2}rbpzqzb}2
+2}rbpzqzk}2
+19
+
+self-supervised learning. Given an augmented input image
+xwith clustering id k, we feed it into the distillation model
+to produce the projection-head output z. Similarly we get
+zbandzkfrom the base model and the k-th expert model
+respectively. We also `2-normalizezbandzkto be unit-
+norm. The distillation objective is then the average of the
+two mean squared errors:
+Lpxq1
+2}rbpzqzb}2
+2}rbpzqzk}2
+20
+
+self-supervised learning. Given an augmented input image
+xwith clustering id k, we feed it into the distillation model
+to produce the projection-head output z. Similarly we get
+zbandzkfrom the base model and the k-th expert model
+respectively. We also `2-normalizezbandzkto be unit-
+norm. The distillation objective is then the average of the
+two mean squared errors:
+Lpxq1
+2}rbpzqzb}2
+2}rbpzqzk}2
+21
+
+self-supervised learning. Given an augmented input image
+xwith clustering id k, we feed it into the distillation model
+to produce the projection-head output z. Similarly we get
+zbandzkfrom the base model and the k-th expert model
+respectively
+
+{ClusterFit}: Improving Generalization of Visual Representations
+
+1. State-of-the-art methods: Some of the state-of-the-art methods for self-supervised learning include Jigsaw [1], Rotation [2], and Moonshine [3]. For supervised pre-training, the most popular method is the ConvNet [4].
+2. Comparison with state-of-the-art: Our proposed method, ClusterFit, outperforms these state-of-the-art methods in terms of transfer learning performance. For example, in Table 6, our method (Ncf) achieves higher mAP scores than the best performing layer of Jigsaw (JigsawNpre), Rotation (RotNetNpre), and Moonshine (MoonshineNpre) on the VOC07 dataset. Similarly, on the ImageNet-1k dataset, our method (Ncf) outperforms the ConvNet (Conv1) pre-trained on ImageNet-1k.
+3. Performance metrics comparison: The performance metrics for different methods vary depending on the dataset and target task. For instance, on the VOC07 dataset, our method (Ncf) achieves higher mAP scores than the best performing layer of Jigsaw (JigsawNpre), Rotation (RotNetNpre), and Moonshine (MoonshineNpre). On the ImageNet-1k dataset, our method (Ncf) outperforms the ConvNet (Conv1) pre-trained on ImageNet-1k.
+
+In summary, ClusterFit outperforms state-of-the-art self-supervised learning methods and supervised pre-training methods in terms of transfer learning performance. The performance metrics comparison varies depending on the dataset and target task, but our method consistently demonstrates improved performance.
+
+Local Aggregation for Unsupervised Learning of Visual Embeddings
+
+1. Supervised Learning:
+
+* LAMethod: 53.5
+* IR [72]: 53.2
+
+Comparing the performance of LAMethod and IR, both methods achieve similar performance. However, it is important to note that the results presented here are based on our implementation and optimization goals, which may differ from the original papers.
+
+1. Unsupervised Learning:
+
+* LAMethod: 51.1
+* Context [14]: 51.1
+
+Both LAMethod and Context achieve similar performance in unsupervised learning. Again, it is important to consider that the results presented here are based on our implementation and optimization goals, which may differ from the original papers.
+
+1. Semi-Supervised Learning:
+
+* LAMethod: 65.9
+* R-CNN [71]: 65.6
+
+In semi-supervised learning, LAMethod outperforms R-CNN by a small margin. This demonstrates the effectiveness of our method in leveraging unlabeled data for improved performance.
+
+1. Self-Supervised Learning:
+
+* LAMethod: 68.4
+* Video [68]: 67.3
+
+In self-supervised learning, LAMethod outperforms Video by a small margin. This highlights the advantage of our method in learning meaningful representations from unlabeled data.
+
+1. Clustering:
+
+* LAMethod: 53.5
+* DBSCAN [8]: 53.2
+
+Comparing the performance of LAMethod and DBSCAN, both methods achieve similar performance in clustering. However, it is important to note that the results presented here are based on our implementation and optimization goals, which may differ from the original papers.
+
+In summary, the results from the methods discussed in this context are competitive with state-of-the-art methods. LAMethod achieves comparable or better performance in various tasks, demonstrating the effectiveness of our approach in learning meaningful representations from unlabeled data.
+
+Deep Clustering for Unsupervised Learning of Visual Features
+
+1. DeepCluster: The paper proposes a novel unsupervised learning method called DeepCluster. The method is based on the idea of learning hierarchical representations of images using a deep convolutional neural network (CNN). The method demonstrates state-of-the-art performance on several benchmarks, including ImageNet and Places datasets.
+2. Autoencoder-based methods: Autoencoder-based methods, such as DAE and AAE, are also popular unsupervised learning techniques. These methods have shown promising results on various benchmarks, including ImageNet and Places datasets. However, they generally do not achieve the same level of performance as DeepCluster.
+3. Deep Visual Clustering (DVC): DVC is an unsupervised learning method that aims to learn hierarchical representations of images using a deep CNN. The method has shown competitive performance on several benchmarks, including ImageNet and Places datasets. However, it generally does not achieve the same level of performance as DeepCluster.
+4. Non-negative Matrix Factorization (NMF): NMF is a popular unsupervised learning technique for learning hierarchical representations of data. The method has shown promising results on various benchmarks, including ImageNet and Places datasets. However, it generally does not achieve the same level of performance as DeepCluster.
+
+In summary, DeepCluster outperforms the state-of-the-art methods, including Autoencoder-based methods, Deep Visual Clustering, and Non-negative Matrix Factorization. The performance metrics of DeepCluster are generally better than those of the other methods, demonstrating the effectiveness of the proposed approach.
+
+Self-supervised Pretraining of Visual Features in the Wild
+
+1. State-of-the-art methods:
+
+a. Supervised pretraining on ImageNet (e.g., ResNet, DenseNet, etc.)
+b. Self-supervised pretraining on ImageNet (e.g., SwAV, etc.)
+c. Semi-supervised pretraining on ImageNet (e.g., BYOL, etc.)
+d. Unsupervised pretraining on large-scale datasets (e.g., CLIP, etc.)
+
+1. Performance metrics comparison:
+
+a. Top-1 accuracy on ImageNet:
+Our method (10% of ImageNet) achieves 77.9% top-1 accuracy, which is competitive with these methods (2% gap).
+
+b. Linear evaluation on downstream tasks:
+We compare the features from different pretrainings with a linear evaluation on top of frozen features. We report accuracy on the following downstream tasks: iNaturalist (“iNat.”), OpenImages (“OpIm.”), Places205, and Pascal VOC2007.
+
+In Table 3, we can see that our method (10% of ImageNet) outperforms or is competitive with other state-of-the-art methods in terms of linear evaluation accuracy.
+
+In conclusion, our method, which is based on self-supervised pretraining on random images, is competitive with state-of-the-art methods in terms of both top-1 accuracy on ImageNet and linear evaluation accuracy on downstream tasks. However, it is important to note that our method does not rely on data curation or supervision, which may limit its performance compared to other methods that do rely on these aspects.
+

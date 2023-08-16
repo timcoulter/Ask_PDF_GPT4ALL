@@ -1,0 +1,48 @@
+{DeepFruits}: A Fruit Detection System Using Deep Neural Networks
+
+1. CRF: Although CRF shows impressive performance, there are a couple of challenges; difﬁculty in pixel-level ground truthing and huge processing time. For example, the processing time in order to produce the results shown in Figure 9 takes 331 s/frame with a 17 sstandard deviation for featurisation, which extracts and prepares features for subsequent detection, and 0.819 swith a 0.067 sstandard deviation for the detection; while Faster R-CNN can run of 393 ms/frame including all procedures (842-times faster than CRF).
+
+Comparing the performance metrics of CRF and Faster R-CNN, we can see that Faster R-CNN has a significant advantage in terms of processing time and detection rate. However, CRF still maintains a competitive detection rate, especially when combined with other methods, such as early and late fusion.
+
+1. Early Fusion: Early fusion combines the results of multiple detectors to improve the overall performance. Although it can be computationally expensive, the performance gains can be substantial.
+
+1. Late Fusion: Late fusion combines the results of multiple detectors after applying CRF to refine the boundaries of the detected objects. This method can further improve the detection performance, especially when combined with other methods, such as early fusion and object proposal networks.
+
+1. Object Proposal Networks: These networks generate region proposals that can be used as input for other detection methods, such as CRF and Faster R-CNN. The performance of these networks depends on the quality of the proposals and the specific detection method being used.
+
+When comparing the performance of these methods to the state-of-the-art, we can see that they are competitive and can achieve high detection rates. However, the state-of-the-art methods often incorporate additional techniques, such as data augmentation, transfer learning, and more advanced detection algorithms, which can further improve performance.
+
+In conclusion, the methods discussed in this answer are competitive and can achieve high detection rates. However, to remain at the forefront of the field, continued research and development are necessary to incorporate the latest advancements and techniques.
+
+A nighttime image enhancement method based on Retinex and guided filter for object recognition of apple harvesting robot
+
+1. Guided filter: The guided filter is a simple and efficient edge-preserving filter. It has been widely used in various image processing applications. The guided filter parameter analysis shows that when using guided filter to estimate the illumination component, filter window rand adjustment parameter e has certain effect on the filter result. While the larger ris, the guidance image will be carried out in a larger range, which makes the edge details more abundant and the transition more smoothed. However, when ris too large, averageness on both sides of the edge is excessive and the edge smoothing is more obvious but not stable. Referring to the works of Tang et al.,18r¼2, 8, 30, and 200 is chosen to make an experimental comparison, it is found that when ris 8, enhancement effect is better.
+
+1. Histogram equalization: Histogram equalization is a simple and effective method for enhancing the contrast of an image. The performance indexes comparison and analysis of different image enhancement methods show that histogram equalization has a higher average gray value, information entropy, and average gradient, but a higher segmentation error.
+
+1. Retinex algorithm with bilateral filtering: The Retinex algorithm with bilateral filtering is a powerful and effective method for enhancing the contrast of an image while preserving the details. The performance indexes comparison and analysis show that the Retinex algorithm with bilateral filtering has a higher average gray value, information entropy, and average gradient, but a higher running time.
+
+1. Proposed algorithm: The proposed algorithm is an improved version of the Retinex algorithm with bilateral filtering. The performance indexes comparison and analysis show that the proposed algorithm has a higher average gray value, information entropy, and average gradient, but a higher running time.
+
+Comparing the results from the methods discussed with the state-of-the-art, we can see that the proposed algorithm and the Retinex algorithm with bilateral filtering have better performance in terms of average gray value, information entropy, and average gradient. However, the proposed algorithm and the Retinex algorithm with bilateral filtering have higher running times compared to the state-of-the-art methods.
+
+In summary, the proposed algorithm and the Retinex algorithm with bilateral filtering have better performance in terms of enhancing the contrast of the apple images while preserving the details. However, they have higher running times compared to the state-of-the-art methods.
+
+Visual detection of occluded crop: For automated harvesting
+
+1. Hung et al. [2] proposed a method that uses a combination of features, including LBP, HOG, and SIFT. However, they did not provide their parameters, making it difficult to compare directly to our method.
+2. Our method uses a combination of features, including LBP, HOG, and SIFT, but with a focus on the LBP feature. We also use a CRF model and an auto-encoder for post-processing.
+3. To compare the performance of our method with Hung et al.'s [2], we can look at the average detection rate (DR) and the average false positive rate per image (aFPI) for varying thresholds, as shown in an ROC curve.
+4. The DR and aFPI measures are used for detection, rather than precision-recall, as they can be directly related to a physical quantity (the number of crop detected).
+5. To provide a characterisation of performance based on probability theory, we propose using probabilistic measures, such as the predictive probability of successful detection (PPSD).
+
+Now, let's compare the performance metrics of our method with Hung et al.'s [2] based on the information available:
+
+1. Both methods use a combination of features, including LBP, HOG, and SIFT. However, Hung et al. [2] did not provide their parameters, making it difficult to compare directly to our method, which focuses more on the LBP feature.
+2. Our method uses a CRF model and an auto-encoder for post-processing, while Hung et al.'s [2] method uses a combination of features without any specific post-processing techniques.
+3. The average detection rate (DR) and the average false positive rate per image (aFPI) for varying thresholds can be used to compare the performance of our method with Hung et al.'s [2]. However, without knowing their specific parameters and thresholds, it is difficult to make a direct comparison.
+4. The DR and aFPI measures are used for detection, rather than precision-recall, as they can be directly related to a physical quantity (the number of crop detected).
+5. The predictive probability of successful detection (PPSD) can be used as a characterisation of performance based on probability theory. However, without knowing the specific PPSD values for both methods, it is difficult to make a direct comparison.
+
+In summary, while it is difficult to make a direct comparison between our method and Hung et al.'s [2] method based on the available information, our method focuses more on the LBP feature and uses a CRF model and an auto-encoder for post-processing. The performance metrics, such as the average detection rate (DR) and the average false positive rate per image (aFPI), can be used to provide an indication of the performance of both methods. Additionally, the predictive probability of successful detection (PPSD) can be used as a characterisation of performance based on probability theory.
+

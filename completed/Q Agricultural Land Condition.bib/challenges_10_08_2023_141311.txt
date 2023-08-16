@@ -1,0 +1,152 @@
+Deep learning techniques to classify agricultural crops through {UAV} imagery: a review
+
+
+
+Challenge 1: Time to cover large fields is one of the most disturbing problems that face the adoption of UAV platforms to handle large area covering.
+
+Challenge 2: One solution to overcome such a problem is to build a whole intelligent Internet of Drone (IoD) system that could monitor farmlands to improve crop productivity with less human intervention.
+
+Challenge 3: Moreover, we should focus on the development of powerful lightweight versions of deep learning algorithms that can be implemented on small devices with low computational power while reducing the energy consumption to increase the flying time of UAVs, which is a crucial problem.
+
+In summary, the challenges mentioned are related to improving the efficiency and effectiveness of UAV platforms for large area coverage, such as developing intelligent IoD systems, optimizing deep learning algorithms for energy efficiency, and addressing the time-consuming nature of UAV operations.
+
+Quantifying Grazing Intensity Using Remote Sensing in Alpine Meadows on Qinghai-Tibetan Plateau
+
+
+
+Challenges mentioned:
+
+1. Range: Indicating that the grazing intensity threshold did not result in exposure of the land and avoided the problem of vegetation damage at lower levels due to overestimation of the threshold.
+2. Raw data: Raw data have uploaded in the supplementary materials for EVI and aboveground biomass in September 2017.
+
+Based on the challenges mentioned, we can summarize the key points as follows:
+
+1. Grazing intensity threshold: The challenge is related to the proper estimation of the grazing intensity threshold to avoid overgrazing and vegetation damage.
+2. Business model: The challenge is to adapt the business model of the Qinghai-Tibet Plateau, which is dominated by herd husbandry, to a more sustainable free-grazing mode.
+3. Data analysis: The challenge is to analyze the raw data for EVI and aboveground biomass in September 2017 to better understand the relationships between these variables and the overall health of the ecosystem.
+
+In conclusion, the challenges mentioned involve proper estimation of grazing intensity thresholds, adapting the business model to a more sustainable free-grazing mode, and analyzing raw data to better understand the relationships between EVI, aboveground biomass, and the health of the ecosystem.
+
+Characterizing the Spatial Distribution of Grazing and Browsing Resources in Africa Using Random Forest Classifier and Multi-Sensor Data
+
+
+
+Challenges mentioned:
+
+1. Declined forage productivity due to erratic rainfall patterns, intensified natural disasters, and overutilization of rangelands.
+2. Proliferation of invasive alien plants, pests, and diseases.
+3. Reduced capacity of rangelands to support various fauna and flora, provide ecosystem services, and sustain livestock agriculture.
+4. Poor range management practices such as overstocking, grazing routines, and fire mismanagement that further deteriorate and weaken the resilience of rangelands.
+
+Now let's analyze each challenge in detail:
+
+1. Declined forage productivity: Erratic rainfall patterns and intensified natural disasters, such as droughts, can lead to a decline in forage productivity. This is compounded by overutilization of rangelands, which can cause a reduction in the overall agro-ecological value (Galop et al., 2011).
+2. Proliferation of invasive alien plants, pests, and diseases: The degradation of rangelands is associated with poor range management practices such as overstocking, grazing routines, and fire mismanagement that further deteriorate and weaken the resilience of rangelands (Galop et al., 2011). These factors have lasting impacts on the integrity of rangelands and associated agro-ecological services, and human livelihoods.
+3. Reduced capacity of rangelands to support various fauna and flora, provide ecosystem services, and sustain livestock agriculture: The challenges mentioned earlier, such as declined forage productivity and the proliferation of invasive alien plants, pests, and diseases, contribute to the reduced capacity of rangelands to support various fauna and flora, provide ecosystem services, and sustain livestock agriculture (Galop et al., 2011).
+4. Poor range management practices: Poor range management practices, such as overstocking, grazing routines, and fire mismanagement, can further deteriorate and weaken the resilience of rangelands (Galop et al., 2011). These practices can cause lasting impacts on the integrity of rangelands and associated agro-ecological services, and human livelihoods.
+
+In summary, the challenges mentioned in the context involve declined forage productivity, the proliferation of invasive alien plants, pests, and diseases, and the reduced capacity of rangelands to support various fauna and flora, provide ecosystem services, and sustain livestock agriculture. Additionally, poor range management practices can further deteriorate and weaken the resilience of rangelands. Addressing these challenges is crucial for maintaining the integrity of African rangelands and addressing Africa's food security challenges.
+
+Grazing pressure index considering both wildlife and livestock in Three-River Headwaters, Qinghai-Tibetan Plateau {\textbar} Elsevier Enhanced Reader
+
+
+
+Challenges mentioned:
+
+1. Low carrying capacity of grassland in Qumahe Township.
+2. Conflict between wild animals and herdsmen.
+3. Traditional production mode of animal husbandry.
+4. Increase the amount of livestock sales at the end of the peak grass season.
+5. Plant high-quality and high-yield artificial forage in peripheral areas.
+6. Investigate the selective feeding of animals and seasonal factors.
+7. Apply the findings to refine the balance between forage production and animal requirements.
+8. Apply the findings to fragile grassland conflicted by livestock and wild herbivores.
+
+Please note that the challenges mentioned are related to the study of the balance between forage production and animal requirements, as well as the management of the relationship between livestock and wild herbivores in the Three-River Headwaters region of Qinghai-Tibet Plateau, China.
+
+Can We Use Machine Learning for Agricultural Land Suitability Assessment?
+
+
+
+1. Selection of training locations based on yield or crop quality can increase the likelihood that the maps re���ect ecological suitability.
+2. Researchers should explicitly state whether they aim to map ecological or socioeconomic suitability, and they need to ensure that the methods are appropriate for the purpose.
+3. Preferably, researchers should conduct analyses to determine if it is possible to isolate ecological suitability from socioeconomic suitability and, if so, how.
+4. Maxent includes built-in regularization to reduce overfitting, with penalization parameters (m) that depend on the feature type and the number of presence points.
+5. Users can specify which feature types to include and choose to modify regularization by adjusting the regularization parameter (m).
+
+By addressing these challenges, researchers can improve the accuracy and relevance of land suitability maps for various applications, such as agriculture, forestry, and conservation.
+
+Agricultural Land Suitability Assessment Using Satellite Remote Sensing-Derived Soil-Vegetation Indices
+
+0–0.372483
+S1 0.000000–0.000000
+[33,48,49]SoilMoistureS2 0.000000–0.000000
+S3 0.000000–0.000000
+N 0.000000–0.000000
+S1 0.000000–0.000000
+[34,50,51]TemperatureS2 0.000000–0.000000
+S3 0.000000–0.000000
+N 0.000000–0.000000
+S1 0.000000–0.000000
+[35,52,53]PrecipitationS2 0.000000–0.000000
+S3 0.000000–0.000000
+N 0.000000–0.000000
+S1 0.000000–0.000000
+[36,54,55]WindSpeedS2 0.000000–0.000000
+S3 0.000000–0.000000
+N 0.000000–0.000000
+S1 0.000000–0.000000
+[37,56,57]CloudCoverS2 0.000000–0.000000
+S3 0.000000–0.000000
+N 0.000000–0.000000
+S1 0.000000–0.000000
+[38,58,59]RelativeHumidityS2 0.000000–0.000000
+S3 0.000000–0.000000
+N 0.000000–0.000000
+S1 0.000000–0.000000
+[39,60,61]ChlorophyllConcentrationS2 0.000000–0.000000
+S3 0.000000–0.000000
+N 0.000000–0.000000
+S1 0.000000–0.000000
+[40,62,63]LeafAreaIndexS2 0.000000–0.000000
+S3 0.000000–0.000000
+N 0.000000–0.000000
+S1 0.000000–0.000000
+[41,64,65]FoliageDensityS2 0.000000–0.000000
+S3 0.000000–0.000000
+N 0.000000–0.000000
+S1 0.000000–0.000000
+[42,66,67]CoverDensityS2 0.000000–0.000000
+S3 0.000000–0.000000
+N 0.000000–0.000000
+S1 0.000000–0
+
+Understanding the relationship between livestock grazing and wetland condition
+
+
+
+Challenges mentioned:
+
+1. Uncertainty in management activities due to lack of understanding of the role of grazing in wetlands.
+2. Barriers to change in landowners' perceptions and practices.
+3. Insufficient measures to maintain wetland conditions.
+4. Potential for adverse outcomes due to lack of safeguards in place.
+
+Please note that the challenges mentioned are related to the context of perception of landowners of the risks and benefits of different management practices and barriers to change.
+
+Assessment and prediction of index based agricultural drought vulnerability using machine learning algorithms
+
+
+
+Challenges mentioned in the context:
+
+1. Data availability: The authors acknowledge that data availability is a challenge in their research.
+2. Declaration of competing interest: The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+3. Acknowledgement: The authors would like to acknowledge USGS Earth explorer, Global Land Cover Facility, and Indian Space Research Organization for providing data used in the study.
+
+Based on the challenges mentioned, we can summarize the key points as follows:
+
+1. Data availability: Access to relevant and accurate data is a significant challenge in conducting the research.
+2. Declaration of competing interest: The authors have ensured that they have no competing financial interests or personal relationships that could have influenced their work.
+3. Acknowledgement: The authors have properly acknowledged the sources of data used in their study.
+

@@ -1,0 +1,51 @@
+Ground based hyperspectral imaging for extensive mango yield estimation
+
+
+
+1. Hyperspectral imaging (HSI) vs. RGB:
+HSI provides full spectral information in each pixel, which should be better than RGB for detecting fruit. However, line-scan HSI sensors commonly make significant sacrifices in the spatial dimension compared to RGB cameras, with lower resolution and/or limited fields of view. This makes them less suitable for detecting fruit in some cases.
+
+1. Yield estimation using ground-based HSI vs. state-of-the-art RGB approach:
+There is limited prior work on yield estimation using ground-based HSI, so it is difficult to make direct comparisons. However, the methodology followed in this study allows for the possibility of predicting mango yields with a moderately high precision, as shown in Fig. 8 (R2 of 0.72). This is also reinforced by the similarity to the correlations from the optimisation directly with ﬁeld count methodologies, which lie not very far from Fig. 8.
+
+1. Performance metrics comparison:
+The performance metrics obtained in this paper, such as R2values, show that HSI can be a feasible alternative for extensive mango yield estimation, particularly in applications where HSI is already (and maybe solely) chosen to detect some other trait. The methodology followed in this study also allows for the possibility of predicting ﬁeld count values with a moderately high precision, as shown in Fig. 8 (R2 of 0.72).
+
+In summary, while line-scan HSI sensors may not be as suitable as RGB cameras for detecting fruit in some cases, the methodology followed in this study allows for the possibility of predicting mango yields with a moderately high precision. The performance metrics obtained in this paper, such as R2values, show that HSI can be a feasible alternative for extensive mango yield estimation, particularly in applications where HSI is already (and maybe solely) chosen to detect some other trait.
+
+Automatic green fruit counting in orange trees using digital images
+
+
+
+1. The results from the methods discussed show a better performance than the state-of-the-art. The percentage of correct identifications were constant and the amount of false-positives were low. False-positive rates greater than the observed here were reported by Kurtulmus et al. (2011) in their method, reaching up to 40.3%, which conﬁrms a better performance of the here proposed method.
+2. The performance metrics of the discussed methods compare favorably with the state-of-the-art. The coefﬁcient of determination (R
+2) for the linear regression model ranged from 0.19 (Pêra from 3 to 5 years old) to 0.74 (Natal with age equal or older than 11 years) ( Fig. 7 ). These results show that the linear regression is capable of representing the relationship between automatic and manual methods in 11 of the 12 combinations.
+3. The methods benchmarking comparison shows that the automatic method provided a reduction on time spent of approximately 85% in comparison with the manual method and a reduction of about 90% in comparison with the method of Kurtulmus et al. (2011) . The time savings here presented would be extremely important for practical purposes, enabling the use of a greater number of images for the estimation of the total number of fruits per plant.
+
+In summary, the discussed methods show a better performance than the state-of-the-art, with favorable performance metrics. The time savings achieved by the automatic method are significant, making it a valuable tool for practical applications.
+
+A methodology for fresh tomato maturity detection using computer vision
+
+
+
+1. BPNN: The accuracy rate of BPNN for B value when NHL is 8, 10, and 12 is 93.75%. For H value when NHL is 8, 10, and 12, the accuracy rate is 95.83%. The results from BPNN are competitive with the state-of-the-art, as the accuracy rates are high.
+2. SVM: The results from SVM are also competitive with the state-of-the-art. The accuracy rates for B value when NHL is 8, 10, and 12 are 97.92%, 97.92%, and 97.92%, respectively. For H value when NHL is 8, 10, and 12, the accuracy rates are 95.83%, 95.83%, and 95.83%, respectively. The performance metrics of SVM are quite high, which indicates that the results are competitive with the state-of-the-art.
+3. k-NN: The results from k-NN are also competitive with the state-of-the-art. The accuracy rates for B value when NHL is 8, 10, and 12 are 97.92%, 97.92%, and 97.92%, respectively. For H value when NHL is 8, 10, and 12, the accuracy rates are 95.83%, 95.83%, and 95.83%, respectively. The performance metrics of k-NN are quite high, which indicates that the results are competitive with the state-of-the-art.
+4. LDA: The results from LDA are competitive with the state-of-the-art. The accuracy rates for B value when NHL is 8, 10, and 12 are 97.92%, 97.92%, and 97.92%, respectively. For H value when NHL is 8, 10, and 12, the accuracy rates are 95.83%, 95.83%, and 95.83%, respectively. The performance metrics of LDA are quite high, which indicates that the results are competitive with the state-of-the-art.
+
+Comparing the performance metrics of the discussed methods, we can see that all the methods have high accuracy rates, which indicates that the results are competitive with the state-of-the-art. However, it is important to note that the performance metrics may vary depending on the dataset and the specific problem being addressed.
+
+Fruit Quantity and Ripeness Estimation Using a Robotic Vision System
+
+
+
+1. Parallel-RCNN (Detection and Ripeness Estimation):
+The parallel-RCNN system outperforms the state-of-the-art methods in terms of detection and ripeness estimation. The F1-score for detection of green, mixed, and red fruit is 68.3 at IoU = 0.4. This is a significant improvement over the state-of-the-art methods.
+
+1. MultiClass-RCNN (Detection Only):
+The MultiClass-RCNN system performs well in terms of detection, but its performance in ripeness estimation is not as good as the parallel-RCNN system. The F1-score for detection of green, mixed, and red fruit is 72.5 at IoU = 0.4. Although this is a strong performance, it is not as good as the parallel-RCNN system, particularly in terms of ripeness estimation.
+
+Comparing the performance metrics of the parallel-RCNN and MultiClass-RCNN systems, we can see that the parallel-RCNN system has a higher F1-score for detection and ripeness estimation. This demonstrates the advantage of using a parallel-RCNN system for fruit detection and ripeness estimation tasks.
+
+In summary, the parallel-RCNN system outperforms the state-of-the-art methods and the MultiClass-RCNN system in terms of detection and ripeness estimation. The parallel-RCNN system's higher F1-score demonstrates its advantage in handling both detection and ripeness estimation tasks.
+

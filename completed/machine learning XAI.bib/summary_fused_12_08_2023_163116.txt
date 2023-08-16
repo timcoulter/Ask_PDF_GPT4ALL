@@ -1,0 +1,106 @@
+Explainable artificial intelligence and interpretable machine learning for agricultural data analysis
+
+1. Interpretable machine learning: An overview
+Machine learning algorithms can make accurate predictions, but understanding the rationales behind predictions is often difficult. The lack of interpretability makes scientists and stakeholders wonder how much they should trust what the models predict regardless of accuracy (Meske and Bunde, 2020 ; Ribeiro et al., 2016 ). This problem developed the idea of XAI and various tools, namely, interpretable machine learning ( Murdoch et al., 2019 ). XAI aims to develop tools for enhancing the interpretability of complex machine learning algorithms without sacrificing accuracy ( Carvalho et al., 2019 ). XAI has been gaining popularity in the past decade, and its potential has been disseminated to several natural science fields, such as biodiversity research ( Ryo et al., 2021 ), geoscience ( Mamalakis et al., 2022 ), and hydrological/climatic science ( Başağaoğlu et al., 2022 ).
+
+1. Explainable arti ﬁcial intelligence and interpretable machine learning for agricultural data analysis
+Artificial intelligence and machine learning have been increasingly applied for prediction in agricultural science. However, many models are typically black boxes, meaning we cannot explain what the models learned from the data and the reasons behind predictions. To address this issue, I introduce an emerging subdomain of artificial intelligence, explainable artificial intelligence (XAI), and associated toolkits, interpretable machine learning.
+
+In this context, I propose to explore the potential of XAI and interpretable machine learning for agricultural data analysis. By applying these techniques, we can enhance the interpretability of complex agricultural models, making it easier for stakeholders to understand and trust the predictions. This novelty not only contributes to the trustworthiness of agricultural predictions but also fosters a better understanding of the underlying mechanisms, which can lead to more informed decision-making in agriculture.
+
+Explainable Deep Learning Study for Leaf Disease Classification
+
+1. The paper focuses on the importance of explainability, accuracy, and performance in deep learning models, particularly in the context of pest detection, plant disease recognition, and weed detection.
+2. The authors emphasize the need for xAI research to improve the interpretability and transparency of deep learning models.
+3. The paper proposes a novel approach to visualize the internal structure of deep learning models using visualization techniques.
+4. The main idea is to provide a more intuitive way for researchers to understand the deep learning model, by reducing the complexity and improving transparency.
+5. The novelty of the proposed approach lies in its ability to map abstract data into images, which helps to visualize the internal expression of the model and reduces the complexity.
+
+In summary, the main ideas and novelty proposed in the paper are:
+
+1. Highlighting the importance of explainability, accuracy, and performance in deep learning models, particularly in the context of agriculture.
+2. Emphasizing the need for xAI research to improve the interpretability and transparency of deep learning models.
+3. Proposing a novel approach to visualize the internal structure of deep learning models using visualization techniques.
+4. Offering a more intuitive way for researchers to understand the deep learning model by reducing complexity and improving transparency.
+5. The novelty of the proposed approach lies in its ability to map abstract data into images, which helps to visualize the internal expression of the model and reduces the complexity.
+
+Interpretability Versus Accuracy: A Comparison of Machine Learning Models Built Using Different Algorithms, Performance Measures, and Features to Predict E. coli Levels in Agricultural Water
+
+1. The study aims to address knowledge gaps in predicting E. coli levels in agricultural water using artificial intelligence (AI) models. This is a novel approach to food safety in agriculture, as previous studies have mainly focused on traditional microbiological methods for monitoring water quality.
+2. The study proposes a framework for developing ﬁeld-ready models that can be used by growers to manage food safety risks in real-time. This framework considers the specific costs, including time and capital investment, worker training/expertize, and computational costs, associated with collecting data for training AI models.
+3. The study compares the efﬁcacy of different AI models built using different algorithms and different feature types. This comparison helps identify the most important predictors for E. coli levels in agricultural water, which can optimize data collection efforts and ensure that ﬁeld-ready models developed as part of future studies do not require growers to invest substantial time and money collecting multiple data types.
+4. The study also discusses trade-offs between interpretability and accuracy of AI models. Although such considerations were outside the scope of the present study, addressing these trade-offs is crucial for ensuring that AI-based food safety tools are both effective and accessible to growers.
+
+In summary, the main ideas and novelty proposed by the study are:
+
+1. Applying AI models to predict E. coli levels in agricultural water, which is a novel approach to food safety in agriculture.
+2. Proposing a framework for developing ﬁeld-ready AI models that considers the costs and challenges associated with data collection for training these models.
+3. Comparing the efﬁcacy of different AI models built using different algorithms and feature types, which helps identify the most important predictors for E. coli levels in agricultural water.
+4. Discussing trade-offs between interpretability and accuracy of AI models, although such considerations were outside the scope of the present study. Addressing these trade-offs is crucial for ensuring that AI-based food safety tools are both effective and accessible to growers.
+
+Evaluation of the factors explaining the use of agricultural land: A machine learning and model-agnostic approach
+
+1. The paper proposes a novel approach to integrate multiple factors affecting the use of agricultural land into a single model.
+2. The main idea is to develop a model that can predict the distribution of different types of agricultural land use (wheat, maize, and olive groves) based on a set of environmental, bioclimatic, and socioeconomic factors.
+3. The novelty of the proposed approach lies in its integration of multiple factors and the use of machine learning (ML) algorithms to predict land use distribution.
+4. The paper also emphasizes the importance of interpretability and explainability in ML models, which is a novel aspect in the context of land use modelling.
+
+In summary, the main ideas and novelty proposed in the paper are:
+
+1. Integration of multiple factors affecting land use into a single model.
+2. Use of machine learning algorithms for predicting land use distribution.
+3. Emphasis on interpretability and explainability in ML models for land use modelling.
+
+Explainable artificial intelligence and interpretable machine learning for agricultural data analysis
+
+1. Interpretable machine learning: An overview
+Machine learning algorithms can make accurate predictions, but understanding the rationales behind predictions is often difficult. The lack of interpretability makes scientists and stakeholders wonder how much they should trust what the models predict regardless of accuracy (Meske and Bunde, 2020 ; Ribeiro et al., 2016 ). This problem developed the idea of XAI and various tools, namely, interpretable machine learning ( Murdoch et al., 2019 ). XAI aims to develop tools for enhancing the interpretability of complex machine learning algorithms without sacrificing accuracy ( Carvalho et al., 2019 ). XAI has been gaining popularity in the past decade, and its potential has been disseminated to several natural science fields, such as biodiversity research ( Ryo et al., 2021 ), geoscience ( Mamalakis et al., 2022 ), and hydrological/climatic science ( Başağaoğlu et al., 2022 ).
+
+1. Explainable arti ﬁcial intelligence and interpretable machine learning for agricultural data analysis
+Artificial intelligence and machine learning have been increasingly applied for prediction in agricultural science. However, many models are typically black boxes, meaning we cannot explain what the models learned from the data and the reasons behind predictions. To address this issue, I introduce an emerging subdomain of artificial intelligence, explainable artificial intelligence (XAI), and associated toolkits, interpretable machine learning.
+
+In this context, I propose to explore the potential of XAI and interpretable machine learning for agricultural data analysis. By applying these techniques, we can enhance the interpretability of complex agricultural models, making it easier for stakeholders to understand and trust the predictions. This novelty not only contributes to the trustworthiness of agricultural predictions but also fosters a better understanding of the underlying mechanisms, which can lead to more informed decision-making in agriculture.
+
+Explainable Deep Learning Study for Leaf Disease Classification
+
+1. The paper focuses on the importance of explainability, accuracy, and performance in deep learning models, particularly in the context of pest detection, plant disease recognition, and weed detection.
+2. The authors emphasize the need for xAI research to improve the interpretability and transparency of deep learning models.
+3. The paper proposes a novel approach to visualize the internal structure of deep learning models using visualization techniques.
+4. The main idea is to provide a more intuitive way for researchers to understand the deep learning model, by reducing the complexity and improving transparency.
+5. The novelty of the proposed approach lies in its ability to map abstract data into images, which helps to visualize the internal expression of the model and reduces the complexity.
+
+In summary, the main ideas and novelty proposed in the paper are:
+
+1. Highlighting the importance of explainability, accuracy, and performance in deep learning models, particularly in the context of agriculture.
+2. Emphasizing the need for xAI research to improve the interpretability and transparency of deep learning models.
+3. Proposing a novel approach to visualize the internal structure of deep learning models using visualization techniques.
+4. Offering a more intuitive way for researchers to understand the deep learning model by reducing complexity and improving transparency.
+5. The novelty of the proposed approach lies in its ability to map abstract data into images, which helps to visualize the internal expression of the model and reduces the complexity.
+
+Interpretability Versus Accuracy: A Comparison of Machine Learning Models Built Using Different Algorithms, Performance Measures, and Features to Predict E. coli Levels in Agricultural Water
+
+1. The study aims to address knowledge gaps in predicting E. coli levels in agricultural water using artificial intelligence (AI) models. This is a novel approach to food safety in agriculture, as previous studies have mainly focused on traditional microbiological methods for monitoring water quality.
+2. The study proposes a framework for developing ﬁeld-ready models that can be used by growers to manage food safety risks in real-time. This framework considers the specific costs, including time and capital investment, worker training/expertize, and computational costs, associated with collecting data for training AI models.
+3. The study compares the efﬁcacy of different AI models built using different algorithms and different feature types. This comparison helps identify the most important predictors for E. coli levels in agricultural water, which can optimize data collection efforts and ensure that ﬁeld-ready models developed as part of future studies do not require growers to invest substantial time and money collecting multiple data types.
+4. The study also discusses trade-offs between interpretability and accuracy of AI models. Although such considerations were outside the scope of the present study, addressing these trade-offs is crucial for ensuring that AI-based food safety tools are both effective and accessible to growers.
+
+In summary, the main ideas and novelty proposed by the study are:
+
+1. Applying AI models to predict E. coli levels in agricultural water, which is a novel approach to food safety in agriculture.
+2. Proposing a framework for developing ﬁeld-ready AI models that considers the costs and challenges associated with data collection for training these models.
+3. Comparing the efﬁcacy of different AI models built using different algorithms and feature types, which helps identify the most important predictors for E. coli levels in agricultural water.
+4. Discussing trade-offs between interpretability and accuracy of AI models, although such considerations were outside the scope of the present study. Addressing these trade-offs is crucial for ensuring that AI-based food safety tools are both effective and accessible to growers.
+
+Evaluation of the factors explaining the use of agricultural land: A machine learning and model-agnostic approach
+
+1. The paper proposes a novel approach to integrate multiple factors affecting the use of agricultural land into a single model.
+2. The main idea is to develop a model that can predict the distribution of different types of agricultural land use (wheat, maize, and olive groves) based on a set of environmental, bioclimatic, and socioeconomic factors.
+3. The novelty of the proposed approach lies in its integration of multiple factors and the use of machine learning (ML) algorithms to predict land use distribution.
+4. The paper also emphasizes the importance of interpretability and explainability in ML models, which is a novel aspect in the context of land use modelling.
+
+In summary, the main ideas and novelty proposed in the paper are:
+
+1. Integration of multiple factors affecting land use into a single model.
+2. Use of machine learning algorithms for predicting land use distribution.
+3. Emphasis on interpretability and explainability in ML models for land use modelling.
+

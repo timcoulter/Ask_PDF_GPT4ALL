@@ -1,0 +1,79 @@
+Recognition of ripe, unripe and scaled condition of orange citrus based on decision tree classification
+
+1. Comparison with state-of-the-art:
+
+The state-of-the-art methods for fruit classification and ripeness prediction are based on machine learning techniques, such as decision trees, neural networks, and naive Bayes classifiers. These methods have achieved high accuracy rates, with some reaching up to 90% or more [7,8].
+
+1. Performance metrics comparison:
+
+Now let's compare the performance metrics of the methods discussed in this study with the state-of-the-art methods:
+
+a) Decision Tree Classifier:
+
+* Accuracy: The decision tree classifier achieved an accuracy of 93.13%, which is comparable to the state-of-the-art methods [7,8].
+* Precision: The decision tree classifier performed best for the precision of ripe and unripe conditions, but it was slightly behind the neural network for the scaled condition.
+* Recall: The decision tree classifier performed best for the class recall of ripe and scaled conditions.
+
+b) Neural Network Classifier:
+
+* Accuracy: The neural network classifier achieved an accuracy of 92.84%, which is also comparable to the state-of-the-art methods [7,8].
+* Precision: The neural network classifier was slightly better than the decision tree classifier for the precision of the scaled condition.
+* Recall: The neural network classifier performed best for the case and for class recall.
+
+c) Naive Bayes Classifier:
+
+* Accuracy: The naive Bayes classifier achieved an accuracy of 91.94%, which is also comparable to the state-of-the-art methods [7,8].
+* Precision: The naive Bayes classifier was slightly better than the decision tree classifier for the precision of the unripe condition.
+* Recall: The naive Bayes classifier performed best for the case and for class recall.
+
+In summary, the decision tree, neural network, and naive Bayes classifiers, used in this study, have shown promising results in terms of accuracy, precision, and recall. Although these performance metrics are comparable to the state-of-the-art methods, further research and optimization could lead to even better results and improved fruit classification and ripeness prediction systems.
+
+Fruit and vegetables classification system using image saliency and convolutional neural network
+
+1. State-of-the-art methods:
+
+a. KNN: 8.3% accuracy
+b. KSVM: 86.2% accuracy
+c. ABC-FNN: 86.7% accuracy
+d. FSC-ABC-FNN: 89.9% accuracy
+e. PROPOSED (R): 89.6% accuracy
+f. PROPOSED (P): 92.5% accuracy
+
+1. Comparison of performance metrics:
+
+a. KNN: 8.3% accuracy
+b. KSVM: 86.2% accuracy
+c. ABC-FNN: 86.7% accuracy
+d. FSC-ABC-FNN: 89.9% accuracy
+e. PROPOSED (R): 89.6% accuracy
+f. PROPOSED (P): 92.5% accuracy
+
+1. Comparison with state-of-the-art methods:
+
+a. KNN: Outperformed by all proposed methods.
+b. KSVM: Outperformed by all proposed methods.
+c. ABC-FNN: Outperformed by all proposed methods.
+d. FSC-ABC-FNN: Outperformed by all proposed methods.
+e. PROPOSED (R): Outperformed by PROPOSED (P) method.
+f. PROPOSED (P): Achieved the highest accuracy among all methods, including state-of-the-art methods.
+
+In conclusion, the proposed methods have significantly outperformed the state-of-the-art methods, with the PROPOSED (P) method achieving the highest accuracy of 92.5%. This demonstrates the effectiveness and advancement of the proposed methods in the field of fruit and vegetable classification.
+
+Classification of Vegetables using {TensorFlow}
+
+1. Comparison with state-of-the-art methods:
+
+The proposed method uses TensorFlow, which is a popular and powerful deep learning framework. TensorFlow has been widely adopted in various domains, including computer vision and image processing. Several state-of-the-art methods have been developed using TensorFlow, achieving high accuracy in vegetable classification and disease detection.
+
+Comparing the performance metrics of the proposed method with state-of-the-art methods, we can see that the accuracy of the proposed method is 99%. This is a remarkable achievement, considering that the method is based on multiple physical parameters and uses TensorFlow for training and classification.
+
+When compared to state-of-the-art methods, the proposed method's performance metrics are competitive and sometimes even better. However, it is essential to note that the performance of a method depends on various factors, such as the quality and size of the training dataset, the choice of deep learning architecture, and the preprocessing techniques applied.
+
+1. Comparison of performance metrics:
+
+The performance metrics of the proposed method, as shown in Figure 9, include CPU size used, nodes, tensors, and other technical aspects of the system. These metrics provide valuable insights into the system's performance and resource utilization.
+
+When compared to state-of-the-art methods, the performance metrics of the proposed method are competitive and sometimes even better, depending on the specific method and the chosen performance metrics.
+
+In conclusion, the proposed method using TensorFlow for vegetable classification and disease detection has achieved a high accuracy of 99%. When compared to state-of-the-art methods, the performance metrics of the proposed method are competitive and sometimes even better, depending on various factors. The method's effectiveness has been verified through the comparison experiment, and there is room for improvement and enhancement in the future.
+

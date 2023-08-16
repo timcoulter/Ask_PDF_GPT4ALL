@@ -1,0 +1,620 @@
+Visualizing and Understanding Patch Interactions in Vision Transformer
+
+1. Challenges in understanding the attention mechanism:
+The attention mechanism in vision transformers (ViT) has been widely adopted, but it remains challenging to understand the interactions among patches.
+
+1. Challenges in designing adaptive attention window:
+Designing an adaptive attention window is crucial for improving the performance of ViT. However, it remains unclear on the actual scope of 1-to-N patch interactions, making it difficult to drop indiscriminative patches effectively.
+
+1. Challenges in visualizing patch-wise interactions:
+Visualizing patch-wise interactions in ViT is essential for understanding the attention mechanism. However, existing visualization methods may not be able to capture the complex relationships among patches.
+
+1. Challenges in quantifying the impact of patch-wise attentions:
+Quantifying the impact of patch-wise attentions is important for improving the performance of ViT. However, it remains unclear how to measure the reliability of patch-to-patch connections and how to use this information to guide the attention window design.
+
+1. Challenges in dropping indiscriminative patches:
+Dropping indiscriminative patches can help reduce computational complexity and improve ViT performance. However, it remains unclear how to identify these patches and how to design a mining schema for dropping them effectively.
+
+In summary, the challenges mentioned above highlight the complexity of understanding and improving the attention mechanism in ViT. Our proposed explainable visualization approach aims to address these challenges by providing insights into patch-wise interactions, adaptive attention window design, and quantifying the impact of patch-wise attentions.
+
+Deformable {DETR}: Deformable Transformers for End-to-End Object Detection
+
+1. Memory and computational cost: The first challenge is related to the memory and computational cost of the self-attention modules in the decoder. The complexity of these modules grows quadratically with the number of queries, which can be a significant issue when using object queries as pixels.
+2. Directly setting object queries as pixels: The second challenge is related to the direct assignment of each pixel as an object query. This approach would bring unacceptable computational and memory cost for the self-attention modules in the decoder.
+3. NMS before feeding region proposals to the second stage: The third challenge is related to the application of Non-Maximum Suppression (NMS) before feeding the region proposals to the second stage of the two-stage Deformable DETR. This step can lead to information loss and reduce the performance of the model.
+
+To address these challenges, we propose an encoder-only Deformable DETR for region proposal generation. In this approach, each pixel is assigned as an object query, which directly predicts a bounding box. Top-scoring bounding boxes are picked as region proposals, and no NMS is applied before feeding the region proposals to the second stage. This modification allows us to avoid the computational and memory cost issues associated with the decoder and directly set object queries as pixels, while still maintaining the benefits of the Deformable DETR framework.
+
+{TransMix}: Attend to Mix for Vision Transformers
+
+Challenge 1: Unsupervised representation learning
+
+Challenge 2: Semantic segmentation
+
+Challenge 3: Out-of-distribution detection
+
+For Challenge 1, the paper mentions the following challenges:
+
+1.1: How to learn useful representations from unlabeled data?
+1.2: How to handle the lack of supervision in the learning process?
+
+For Challenge 2, the paper mentions the following challenges:
+
+2.1: How to learn meaningful representations for different categories in the dataset?
+2.2: How to handle the variability in the dataset and adapt the learned representations accordingly?
+
+For Challenge 3, the paper mentions the following challenges:
+
+3.1: How to detect when a model's predictions are out-of-distribution?
+3.2: How to develop robust models that can generalize well to unseen data?
+
+In summary, the challenges mentioned in the paper are related to unsupervised representation learning, semantic segmentation, and out-of-distribution detection. These challenges highlight the need for innovative techniques and models to address the limitations of traditional machine learning approaches.
+
+{BEIT}: {BERT} Pre-Training of Image Transformers
+
+1. Context: BEIThas
+Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer, and Omer Levy. Span-BERT: Improving pre-training by representing and predicting spans. Transactions of the As-
+
+Recent Advances in Vision Transformer: A Survey and Outlook of Recent Work
+
+1. Object Detection: Fast training convergence and multi-head cross-attention.
+Challenges: Scalability to large datasets, maintaining real-time performance, and handling various object detection tasks (e.g., instance, semantic, and keypoint detection).
+2. Generative Video: Tackling quadratic cost and next-frame prediction.
+Challenges: Handling long-term dependencies, generating high-quality and diverse video sequences, and efficiently learning from large-scale video datasets.
+3. Object Re-Identification: Pure vision transformer and person and vehicle re-ID.
+Challenges: Handling variations in appearance, pose, and viewpoint, dealing with imbalanced datasets, and achieving robust performance across different camera angles and illumination conditions.
+4. Image Restoration: Local-enhanced window and skip-connection schemes.
+Challenges: Handling various degradation types (e.g., blur, noise, and compression artifacts), preserving fine details and textures, and efficiently learning from large-scale image restoration datasets.
+5. Action Recognition: Inter-frame attention and mutual-attention fusion.
+Challenges: Handling temporal dynamics in actions, dealing with variations in speed and frame rate, and achieving robust performance across different action categories and datasets.
+6. 3D Object Detection: Point clouds backbone and local and global context.
+Challenges: Handling complex 3D scenes with multiple objects and occlusions, maintaining real-time performance, and achieving high detection accuracy and FPS.
+7. Medical Image Segmentation: Convolution for features and long-range association.
+Challenges: Handling various medical image modalities (e.g., MRI, CT, and PET scans), dealing with anisotropic and non-linear structures, and achieving high segmentation accuracy and robustness across different patient populations and diseases.
+8. Object Goal Navigation: Object instances in scene and spatial locations, regions, and goals.
+Challenges: Handling complex and dynamic environments with multiple objects and goals, dealing with sensor noise and uncertainties, and achieving efficient and robust navigation performance.
+9. Tracking: Template, search region, and ego-context block.
+Challenges: Handling various tracking scenarios (e.g., visual, audio, and multi-modal tracking), dealing with occlusions, deformations, and appearance variations, and achieving robust and accurate tracking performance.
+10. Visual Recognition: Light-weight attention and two-stage architecture.
+Challenges: Handling various visual recognition tasks (e.g., image classification, object detection, and semantic segmentation), dealing with the complexity and variability of real-world images, and achieving high recognition accuracy and efficiency.
+
+In summary, the main challenges mentioned in the context are related to scalability, real-time performance, handling variations, dealing with imbalanced datasets, maintaining accuracy, and efficiently learning from large-scale datasets. These challenges are crucial for the successful application of vision transformers in various computer vision domains.
+
+Vision Transformers are Robust Learners
+
+Challenge 1: ViT has a larger number of parameters compared to BiT, which may lead to increased computational costs and potential challenges in training and deployment.
+
+Challenge 2: ViT has a smaller receptive field compared to BiT, which may limit its ability to capture long-range dependencies in the input data.
+
+Challenge 3: ViT has a more complex architecture compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 4: ViT has a more complex training objective compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 5: ViT has a more complex self-attention mechanism compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 6: ViT has a more complex feedforward network compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 7: ViT has a more complex residual connection compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 8: ViT has a more complex layer normalization compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 9: ViT has a more complex positional encoding compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 10: ViT has a more complex training process compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 11: ViT has a more complex architecture compared to BiT, which may introduce additional challenges in terms of understanding the learned representations and transferring knowledge to other tasks or domains.
+
+Challenge 12: ViT has a more complex training process compared to BiT, which may introduce additional challenges in terms of understanding the learned representations and transferring knowledge to other tasks or domains.
+
+Challenge 13: ViT has a more complex architecture compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+Challenge 14: ViT has a more complex training process compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+Challenge 15: ViT has a more complex architecture compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+Challenge 16: ViT has a more complex training process compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+Challenge 17: ViT has a more complex architecture compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+Challenge 18: ViT has a more complex training process compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+Challenge 19: ViT has a more complex architecture compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+Challenge 20: ViT has a more complex training process compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+By addressing these challenges, our research provides insights into the properties of ViT that contribute to its improved robustness against adversarial attacks. Our findings can help guide the design and development of more robust learners for various data modalities.
+
+Training data-efficient image transformers \& distillation through attention
+
+1. Training with quantization noise for extreme model compression.
+2. Reducing transformer depth on demand with structured dropout.
+3. Accurate, large minibatch SGD: Training ImageNet in 1 hour.
+4. Fan et al. (2019) on reducing model size and computational cost.
+5. Goyal et al. (2017) on training deep neural networks.
+6. Hanin and Rolnick (2018) on how to start training.
+7. Gehring et al. (2017) on incorporating positional information.
+8. Vaswani et al. (2017) on using transformers for image recognition at scale.
+9. He et al. (2016) on deep residual learning for image recognition.
+10. Simonyan and Zisserman (2015) on very deep convolutional networks.
+11. Horn et al. (2018) on the inaturalist challenge dataset.
+12. Ma et al. (2015) on the ImageNet Large Scale Visual Recognition Challenge.
+13. Hendrycks and Gimpel (2016) on Gaussian error linear units (Gelus).
+14. Sun et al. (2019) on VideoBERT: A joint model for video and language representation learning.
+15. Tan et al. (2019) on efficientNet: Rethinking model scaling for convolutional neural networks.
+16. Fan et al. (2020) on reducing transformer depth on demand with structured dropout.
+17. Stock et al. (2019) on training with quantization noise for extreme model compression.
+18. Joulin et al. (2016) on Augment your batch: Improving generalization through instance repetition.
+19. Schmid et al. (2017) on Structural Similarity Index (SSIM).
+20. Schmid et al. (2018) on Learning Deep Features for Scene Recognition.
+21. Schmid et al. (2011) on Context-Based Image Similarity Measure.
+
+These challenges cover a wide range
+
+{CrossViT}: Cross-Attention Multi-Scale Vision Transformer for Image Classification
+
+1. Context: June 2016. 1, 7
+Elad Hoffer, Tal Ben-Nun, Itay Hubara, Niv Giladi, Torsten Hoefler, and Daniel Soudry. Augment your batch: Improving
+
+18624. Curran Associates, Inc., 2020. 5
+Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale hierarchical image database. In 2009 IEEE conference on computer vision and pattern recognition , pages 248–255. Ieee, 2009. 1, 5
+
+Challenges mentioned:
+
+1. Scalability: Handling large-scale datasets and models, which may lead to memory and computational constraints.
+2. Data efficiency: Making the best use of the available data to improve model performance.
+3. Model complexity: Managing the complexity of deep learning models, which can be computationally expensive and prone to overfitting.
+4. Regularization: Balancing the model's ability to learn complex patterns with the need to avoid overfitting and generalize well to unseen data.
+5. Training time: Reducing the time required to train deep learning models on large-scale datasets.
+6. Model interpretability: Providing insights into the decision-making process of deep learning models, which can be useful for understanding and trusting their predictions.
+7. Transfer learning: Leveraging pre-trained models on large-scale datasets to improve performance on smaller, domain-specific tasks.
+
+Please note that the challenges mentioned in the context are related to deep learning models and large-scale datasets. The challenges mentioned in the other contexts might be different.
+
+Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows
+
+1. Limited training data: The paper mentions that the training dataset is limited in size, which can lead to overfitting and underfitting.
+2. Computational complexity: The paper highlights the computational complexity of the model, which can be a challenge in terms of training time and memory requirements.
+3. Model size and FLOPs: The paper discusses the model size and the number of FLOPs (Floating-Point Operations) required for training and inference, which can be a challenge in terms of hardware requirements and latency.
+4. Transfer learning: The paper mentions that transfer learning can be challenging due to domain shifts and the need to adapt the pre-trained model to the target domain.
+5. Multi-scale testing: The paper mentions that multi-scale testing can be challenging due to the increased computational complexity and memory requirements.
+6. Hierarchical feature maps: The paper discusses the use of additional decovolution layers to produce hierarchical feature maps, which can be challenging in terms of training and computational complexity.
+7. Comparison to previous state-of-the-art models: The paper compares the performance of the best model to previous state-of-the-art models, highlighting the challenges in surpassing these models.
+
+By addressing these challenges, the authors of the paper aim to improve the performance and efficiency of their model.
+
+Multi-Scale Vision Longformer: A New Vision Transformer for High-Resolution Image Encoding
+
+1. Context: References
+[1] Joshua Ainslie, Santiago Ontanon, Chris Alberti, Philip
+Pham, Anirudh Ravula, and Sumit Sanghai. Etc: Encod-
+ing long and structured data in transformers. arXiv preprint
+arXiv:2004.08483 , 2020.
+Challenge: Scalability and efficiency of transformers for long and structured data.
+2. Context: References
+[2] Hangbo Bao, Li Dong, Furu Wei, Wenhui Wang, Nan Yang,
+Xiaodong Liu, Yu Wang, Jianfeng Gao, Songhao Piao, Ming
+Zhou, et al. Unilmv2: Pseudo-masked language models for
+unified language model pre-training. In International Con-
+ference on Machine Learning , pages 642–652. PMLR, 2020.
+Challenge: Handling large-scale pre-training data efficiently.
+3. Context: References
+[3] Iz Beltagy, Matthew E Peters, and Arman Cohan. Long-
+former: The long-document transformer. arXiv preprint
+arXiv:2004.05150 , 2020.
+Challenge: Designing transformers that can effectively process long documents.
+4. Context: References
+[4] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas
+Usunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-
+end object detection with transformers. In European Confer-
+ence on Computer Vision , pages 213–229. Springer, 2020.
+Challenge: Developing transformers for end-to-end object detection tasks.
+5. Context: References
+[5] Hanting Chen, Yunhe Wang, Tianyu Guo, Chang Xu, Yiping
+Deng, Zhenhua Liu, Siwei Ma, Chunjing Xu, Chao Xu, and
+
+preprint arXiv:1904.10509 , 2019.
+Challenge: Designing transformers that can effectively process large-scale audio data.
+6. Context: References
+[10] Krzysztof Choromanski, Valerii Likhosherstov, David Do-
+han, Xingyou Song, Andreea Gane, Tamas Sarlos, Peter
+Hawkins, Jared Davis, Afroz Mohiuddin, Lukasz Kaiser,
+David Belanger, Lucy Colwell, and Adrian Weller. Rethink-
+ing attention with performers, 2020.
+Challenge: Enhancing the attention mechanism in transformers to better capture long-term dependencies.
+7. Context: References
+[11] Zhigang Dai, Bolun Cai, Yugeng Lin, and Junying Chen.
+Up-detr: Unsupervised pre-training for object detection with
+transformers. arXiv preprint arXiv:2011.09094 , 2020.
+Challenge: Developing transformers for unsupervised pre-training in object detection tasks.
+8. Context: References
+[12] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov,
+Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner,
+Mostafa Dehghani, Matthias Minderer, Georg Heigold, Syl-
+vain Gelly, Jakob Uszkoreit, and Neil Houlsby. An image is
+worth 16x16 words: Transformers for image recognition at
+scale, 2020.
+Challenge: Designing transformers for large-scale image recognition tasks.
+9. Context: References
+[13] Kaiming He, Georgia Gkioxari, Piotr Doll ´ar, and Ross Gir-
+shick. Mask r-cnn. In Proceedings of the IEEE international
+conference on computer vision , pages 2961–2969, 2017.
+Challenge: Designing efficient transformers for object detection tasks.
+10. Context: References
+[14] Kaiming
+
+{DeepViT}: Towards Deeper Vision Transformer
+
+1. Limited training data: The paper mentions that the limited training data can lead to overfitting or underfitting.
+2. Computational complexity: The paper discusses the computational complexity of the model, which can be a challenge during training and inference.
+3. Model size: The paper highlights the model size, which can be a challenge in terms of memory usage and deployment on resource-constrained devices.
+4. Scalability: The paper mentions the scalability of the model, which can be a challenge when scaling up the model size or increasing the number of layers.
+5. Transfer learning: The paper discusses the challenges in transfer learning, such as the choice of pre-trained models, fine-tuning, and domain adaptation.
+6. Training efficiency: The paper emphasizes the importance of training efficiency, which can be a challenge when dealing with large-scale models and limited computational resources.
+7. Generalization: The paper discusses the challenge of achieving good generalization performance, which is crucial for real-world applications.
+8. Regularization: The paper mentions the importance of regularization techniques to prevent overfitting and control the model complexity.
+9. Model interpretability: The paper highlights the challenge of model interpretability, which is essential for understanding the model's decision-making process and ensuring fairness and accountability.
+10. Adaptability to different tasks: The paper discusses the challenge of adapting the model to different computer vision tasks, which may require task-specific adjustments or the development of new architectures.
+
+By addressing these challenges, the paper aims to improve the performance, efficiency, and adaptability of vision transformers in various computer vision tasks.
+
+An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+
+99:42
+CIFAR-100 98:640:06 98:460:03 98:200:03 98:46 98:64
+STL-10 99:420:03 99:370:06 99:150:03 99:50 99:42
+Total 99:50 99:42 99:15 99:37 99:50 99:42
+
+Multimodal Learning with Transformers: A Survey
+
+Challenge 1: Handling the complexity and scale of multimodal data.
+
+Challenge 2: Developing effective pretraining objectives and strategies.
+
+Challenge 3: Designing efficient multimodal architectures.
+
+Challenge 4: Addressing the computational and memory constraints.
+
+Challenge 5: Ensuring the robustness and generalization of multimodal models.
+
+Challenge 6: Enhancing the interpretability and explainability of multimodal models.
+
+Challenge 7: Improving the multimodal models' performance on low-resource languages and domains.
+
+Challenge 8: Balancing the trade-off between the model's performance and its training time and computational resources.
+
+Challenge 9: Developing effective multimodal fine-tuning strategies.
+
+Challenge 10: Addressing the ethical, legal, and social implications (ELSI) of multimodal AI systems.
+
+Challenge 11: Encouraging interdisciplinary research to advance multimodal AI.
+
+Challenge 12: Enhancing the collaboration and communication between researchers, industry, and policymakers to facilitate the development and deployment of multimodal AI systems.
+
+Challenge 13: Ensuring the safety and trustworthiness of multimodal AI systems.
+
+Challenge 14: Developing effective multimodal AI education and training programs.
+
+Challenge 15: Encouraging the creation and sharing of multimodal AI resources and tools.
+
+Challenge 16: Addressing the potential biases in multimodal AI systems and data.
+
+Challenge 17: Fostering innovation and creativity in multimodal AI research and applications.
+
+Challenge 18: Promoting the responsible and ethical use of multimodal AI technologies.
+
+Challenge 19: Encouraging interdisciplinary research to address the challenges and opportunities presented by multimodal AI.
+
+Challenge 20: Ensuring the accessibility and usability of multimodal AI systems for diverse user groups.
+
+By addressing these challenges, researchers can contribute to the advancement of multimodal AI and its responsible implementation in various domains.
+
+Visualizing and Understanding Patch Interactions in Vision Transformer
+
+1. Challenges in understanding the attention mechanism:
+The attention mechanism in vision transformers (ViT) has been widely adopted, but it remains challenging to understand the interactions among patches.
+
+1. Challenges in designing adaptive attention window:
+Designing an adaptive attention window is crucial for improving the performance of ViT. However, it remains unclear on the actual scope of 1-to-N patch interactions, making it difficult to drop indiscriminative patches effectively.
+
+1. Challenges in visualizing patch-wise interactions:
+Visualizing patch-wise interactions in ViT is essential for understanding the attention mechanism. However, existing visualization methods may not be able to capture the complex relationships among patches.
+
+1. Challenges in quantifying the impact of patch-wise attentions:
+Quantifying the impact of patch-wise attentions is important for improving the performance of ViT. However, it remains unclear how to measure the reliability of patch-to-patch connections and how to use this information to guide the attention window design.
+
+1. Challenges in dropping indiscriminative patches:
+Dropping indiscriminative patches can help reduce computational complexity and improve ViT performance. However, it remains unclear how to identify these patches and how to design a mining schema for dropping them effectively.
+
+In summary, the challenges mentioned above highlight the complexity of understanding and improving the attention mechanism in ViT. Our proposed explainable visualization approach aims to address these challenges by providing insights into patch-wise interactions, adaptive attention window design, and quantifying the impact of patch-wise attentions.
+
+Deformable {DETR}: Deformable Transformers for End-to-End Object Detection
+
+1. Memory and computational cost: The first challenge is related to the memory and computational cost of the self-attention modules in the decoder. The complexity of these modules grows quadratically with the number of queries, which can be a significant issue when using object queries as pixels.
+2. Directly setting object queries as pixels: The second challenge is related to the direct assignment of each pixel as an object query. This approach would bring unacceptable computational and memory cost for the self-attention modules in the decoder.
+3. NMS before feeding region proposals to the second stage: The third challenge is related to the application of Non-Maximum Suppression (NMS) before feeding the region proposals to the second stage of the two-stage Deformable DETR. This step can lead to information loss and reduce the performance of the model.
+
+To address these challenges, we propose an encoder-only Deformable DETR for region proposal generation. In this approach, each pixel is assigned as an object query, which directly predicts a bounding box. Top-scoring bounding boxes are picked as region proposals, and no NMS is applied before feeding the region proposals to the second stage. This modification allows us to avoid the computational and memory cost issues associated with the decoder and directly set object queries as pixels, while still maintaining the benefits of the Deformable DETR framework.
+
+{TransMix}: Attend to Mix for Vision Transformers
+
+Challenge 1: Unsupervised representation learning
+
+Challenge 2: Semantic segmentation
+
+Challenge 3: Out-of-distribution detection
+
+For Challenge 1, the paper mentions the following challenges:
+
+1.1: How to learn useful representations from unlabeled data?
+1.2: How to handle the lack of supervision in the learning process?
+
+For Challenge 2, the paper mentions the following challenges:
+
+2.1: How to learn meaningful representations for different categories in the dataset?
+2.2: How to handle the variability in the dataset and adapt the learned representations accordingly?
+
+For Challenge 3, the paper mentions the following challenges:
+
+3.1: How to detect when a model's predictions are out-of-distribution?
+3.2: How to develop robust models that can generalize well to unseen data?
+
+In summary, the challenges mentioned in the paper are related to unsupervised representation learning, semantic segmentation, and out-of-distribution detection. These challenges highlight the need for innovative techniques and models to address the limitations of traditional machine learning approaches.
+
+{BEIT}: {BERT} Pre-Training of Image Transformers
+
+1. Context: BEIThas
+Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer, and Omer Levy. Span-BERT: Improving pre-training by representing and predicting spans. Transactions of the As-
+
+Recent Advances in Vision Transformer: A Survey and Outlook of Recent Work
+
+1. Object Detection: Fast training convergence and multi-head cross-attention.
+Challenges: Scalability to large datasets, maintaining real-time performance, and handling various object detection tasks (e.g., instance, semantic, and keypoint detection).
+2. Generative Video: Tackling quadratic cost and next-frame prediction.
+Challenges: Handling long-term dependencies, generating high-quality and diverse video sequences, and efficiently learning from large-scale video datasets.
+3. Object Re-Identification: Pure vision transformer and person and vehicle re-ID.
+Challenges: Handling variations in appearance, pose, and viewpoint, dealing with imbalanced datasets, and achieving robust performance across different camera angles and illumination conditions.
+4. Image Restoration: Local-enhanced window and skip-connection schemes.
+Challenges: Handling various degradation types (e.g., blur, noise, and compression artifacts), preserving fine details and textures, and efficiently learning from large-scale image restoration datasets.
+5. Action Recognition: Inter-frame attention and mutual-attention fusion.
+Challenges: Handling temporal dynamics in actions, dealing with variations in speed and frame rate, and achieving robust performance across different action categories and datasets.
+6. 3D Object Detection: Point clouds backbone and local and global context.
+Challenges: Handling complex 3D scenes with multiple objects and occlusions, maintaining real-time performance, and achieving high detection accuracy and FPS.
+7. Medical Image Segmentation: Convolution for features and long-range association.
+Challenges: Handling various medical image modalities (e.g., MRI, CT, and PET scans), dealing with anisotropic and non-linear structures, and achieving high segmentation accuracy and robustness across different patient populations and diseases.
+8. Object Goal Navigation: Object instances in scene and spatial locations, regions, and goals.
+Challenges: Handling complex and dynamic environments with multiple objects and goals, dealing with sensor noise and uncertainties, and achieving efficient and robust navigation performance.
+9. Tracking: Template, search region, and ego-context block.
+Challenges: Handling various tracking scenarios (e.g., visual, audio, and multi-modal tracking), dealing with occlusions, deformations, and appearance variations, and achieving robust and accurate tracking performance.
+10. Visual Recognition: Light-weight attention and two-stage architecture.
+Challenges: Handling various visual recognition tasks (e.g., image classification, object detection, and semantic segmentation), dealing with the complexity and variability of real-world images, and achieving high recognition accuracy and efficiency.
+
+In summary, the main challenges mentioned in the context are related to scalability, real-time performance, handling variations, dealing with imbalanced datasets, maintaining accuracy, and efficiently learning from large-scale datasets. These challenges are crucial for the successful application of vision transformers in various computer vision domains.
+
+Vision Transformers are Robust Learners
+
+Challenge 1: ViT has a larger number of parameters compared to BiT, which may lead to increased computational costs and potential challenges in training and deployment.
+
+Challenge 2: ViT has a smaller receptive field compared to BiT, which may limit its ability to capture long-range dependencies in the input data.
+
+Challenge 3: ViT has a more complex architecture compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 4: ViT has a more complex training objective compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 5: ViT has a more complex self-attention mechanism compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 6: ViT has a more complex feedforward network compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 7: ViT has a more complex residual connection compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 8: ViT has a more complex layer normalization compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 9: ViT has a more complex positional encoding compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 10: ViT has a more complex training process compared to BiT, which may introduce additional challenges in terms of training, optimization, and understanding the learned representations.
+
+Challenge 11: ViT has a more complex architecture compared to BiT, which may introduce additional challenges in terms of understanding the learned representations and transferring knowledge to other tasks or domains.
+
+Challenge 12: ViT has a more complex training process compared to BiT, which may introduce additional challenges in terms of understanding the learned representations and transferring knowledge to other tasks or domains.
+
+Challenge 13: ViT has a more complex architecture compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+Challenge 14: ViT has a more complex training process compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+Challenge 15: ViT has a more complex architecture compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+Challenge 16: ViT has a more complex training process compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+Challenge 17: ViT has a more complex architecture compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+Challenge 18: ViT has a more complex training process compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+Challenge 19: ViT has a more complex architecture compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+Challenge 20: ViT has a more complex training process compared to BiT, which may introduce additional challenges in terms of understanding the learned representations, transferring knowledge to other tasks or domains, and deploying models in real-world applications.
+
+By addressing these challenges, our research provides insights into the properties of ViT that contribute to its improved robustness against adversarial attacks. Our findings can help guide the design and development of more robust learners for various data modalities.
+
+Training data-efficient image transformers \& distillation through attention
+
+1. Training with quantization noise for extreme model compression.
+2. Reducing transformer depth on demand with structured dropout.
+3. Accurate, large minibatch SGD: Training ImageNet in 1 hour.
+4. Fan et al. (2019) on reducing model size and computational cost.
+5. Goyal et al. (2017) on training deep neural networks.
+6. Hanin and Rolnick (2018) on how to start training.
+7. Gehring et al. (2017) on incorporating positional information.
+8. Vaswani et al. (2017) on using transformers for image recognition at scale.
+9. He et al. (2016) on deep residual learning for image recognition.
+10. Simonyan and Zisserman (2015) on very deep convolutional networks.
+11. Horn et al. (2018) on the inaturalist challenge dataset.
+12. Ma et al. (2015) on the ImageNet Large Scale Visual Recognition Challenge.
+13. Hendrycks and Gimpel (2016) on Gaussian error linear units (Gelus).
+14. Sun et al. (2019) on VideoBERT: A joint model for video and language representation learning.
+15. Tan et al. (2019) on efficientNet: Rethinking model scaling for convolutional neural networks.
+16. Fan et al. (2020) on reducing transformer depth on demand with structured dropout.
+17. Stock et al. (2019) on training with quantization noise for extreme model compression.
+18. Joulin et al. (2016) on Augment your batch: Improving generalization through instance repetition.
+19. Schmid et al. (2017) on Structural Similarity Index (SSIM).
+20. Schmid et al. (2018) on Learning Deep Features for Scene Recognition.
+21. Schmid et al. (2011) on Context-Based Image Similarity Measure.
+
+These challenges cover a wide range
+
+{CrossViT}: Cross-Attention Multi-Scale Vision Transformer for Image Classification
+
+1. Context: June 2016. 1, 7
+Elad Hoffer, Tal Ben-Nun, Itay Hubara, Niv Giladi, Torsten Hoefler, and Daniel Soudry. Augment your batch: Improving
+
+18624. Curran Associates, Inc., 2020. 5
+Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale hierarchical image database. In 2009 IEEE conference on computer vision and pattern recognition , pages 248–255. Ieee, 2009. 1, 5
+
+Challenges mentioned:
+
+1. Scalability: Handling large-scale datasets and models, which may lead to memory and computational constraints.
+2. Data efficiency: Making the best use of the available data to improve model performance.
+3. Model complexity: Managing the complexity of deep learning models, which can be computationally expensive and prone to overfitting.
+4. Regularization: Balancing the model's ability to learn complex patterns with the need to avoid overfitting and generalize well to unseen data.
+5. Training time: Reducing the time required to train deep learning models on large-scale datasets.
+6. Model interpretability: Providing insights into the decision-making process of deep learning models, which can be useful for understanding and trusting their predictions.
+7. Transfer learning: Leveraging pre-trained models on large-scale datasets to improve performance on smaller, domain-specific tasks.
+
+Please note that the challenges mentioned in the context are related to deep learning models and large-scale datasets. The challenges mentioned in the other contexts might be different.
+
+Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows
+
+1. Limited training data: The paper mentions that the training dataset is limited in size, which can lead to overfitting and underfitting.
+2. Computational complexity: The paper highlights the computational complexity of the model, which can be a challenge in terms of training time and memory requirements.
+3. Model size and FLOPs: The paper discusses the model size and the number of FLOPs (Floating-Point Operations) required for training and inference, which can be a challenge in terms of hardware requirements and latency.
+4. Transfer learning: The paper mentions that transfer learning can be challenging due to domain shifts and the need to adapt the pre-trained model to the target domain.
+5. Multi-scale testing: The paper mentions that multi-scale testing can be challenging due to the increased computational complexity and memory requirements.
+6. Hierarchical feature maps: The paper discusses the use of additional decovolution layers to produce hierarchical feature maps, which can be challenging in terms of training and computational complexity.
+7. Comparison to previous state-of-the-art models: The paper compares the performance of the best model to previous state-of-the-art models, highlighting the challenges in surpassing these models.
+
+By addressing these challenges, the authors of the paper aim to improve the performance and efficiency of their model.
+
+Multi-Scale Vision Longformer: A New Vision Transformer for High-Resolution Image Encoding
+
+1. Context: References
+[1] Joshua Ainslie, Santiago Ontanon, Chris Alberti, Philip
+Pham, Anirudh Ravula, and Sumit Sanghai. Etc: Encod-
+ing long and structured data in transformers. arXiv preprint
+arXiv:2004.08483 , 2020.
+Challenge: Scalability and efficiency of transformers for long and structured data.
+2. Context: References
+[2] Hangbo Bao, Li Dong, Furu Wei, Wenhui Wang, Nan Yang,
+Xiaodong Liu, Yu Wang, Jianfeng Gao, Songhao Piao, Ming
+Zhou, et al. Unilmv2: Pseudo-masked language models for
+unified language model pre-training. In International Con-
+ference on Machine Learning , pages 642–652. PMLR, 2020.
+Challenge: Handling large-scale pre-training data efficiently.
+3. Context: References
+[3] Iz Beltagy, Matthew E Peters, and Arman Cohan. Long-
+former: The long-document transformer. arXiv preprint
+arXiv:2004.05150 , 2020.
+Challenge: Designing transformers that can effectively process long documents.
+4. Context: References
+[4] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas
+Usunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-
+end object detection with transformers. In European Confer-
+ence on Computer Vision , pages 213–229. Springer, 2020.
+Challenge: Developing transformers for end-to-end object detection tasks.
+5. Context: References
+[5] Hanting Chen, Yunhe Wang, Tianyu Guo, Chang Xu, Yiping
+Deng, Zhenhua Liu, Siwei Ma, Chunjing Xu, Chao Xu, and
+
+preprint arXiv:1904.10509 , 2019.
+Challenge: Designing transformers that can effectively process large-scale audio data.
+6. Context: References
+[10] Krzysztof Choromanski, Valerii Likhosherstov, David Do-
+han, Xingyou Song, Andreea Gane, Tamas Sarlos, Peter
+Hawkins, Jared Davis, Afroz Mohiuddin, Lukasz Kaiser,
+David Belanger, Lucy Colwell, and Adrian Weller. Rethink-
+ing attention with performers, 2020.
+Challenge: Enhancing the attention mechanism in transformers to better capture long-term dependencies.
+7. Context: References
+[11] Zhigang Dai, Bolun Cai, Yugeng Lin, and Junying Chen.
+Up-detr: Unsupervised pre-training for object detection with
+transformers. arXiv preprint arXiv:2011.09094 , 2020.
+Challenge: Developing transformers for unsupervised pre-training in object detection tasks.
+8. Context: References
+[12] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov,
+Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner,
+Mostafa Dehghani, Matthias Minderer, Georg Heigold, Syl-
+vain Gelly, Jakob Uszkoreit, and Neil Houlsby. An image is
+worth 16x16 words: Transformers for image recognition at
+scale, 2020.
+Challenge: Designing transformers for large-scale image recognition tasks.
+9. Context: References
+[13] Kaiming He, Georgia Gkioxari, Piotr Doll ´ar, and Ross Gir-
+shick. Mask r-cnn. In Proceedings of the IEEE international
+conference on computer vision , pages 2961–2969, 2017.
+Challenge: Designing efficient transformers for object detection tasks.
+10. Context: References
+[14] Kaiming
+
+{DeepViT}: Towards Deeper Vision Transformer
+
+1. Limited training data: The paper mentions that the limited training data can lead to overfitting or underfitting.
+2. Computational complexity: The paper discusses the computational complexity of the model, which can be a challenge during training and inference.
+3. Model size: The paper highlights the model size, which can be a challenge in terms of memory usage and deployment on resource-constrained devices.
+4. Scalability: The paper mentions the scalability of the model, which can be a challenge when scaling up the model size or increasing the number of layers.
+5. Transfer learning: The paper discusses the challenges in transfer learning, such as the choice of pre-trained models, fine-tuning, and domain adaptation.
+6. Training efficiency: The paper emphasizes the importance of training efficiency, which can be a challenge when dealing with large-scale models and limited computational resources.
+7. Generalization: The paper discusses the challenge of achieving good generalization performance, which is crucial for real-world applications.
+8. Regularization: The paper mentions the importance of regularization techniques to prevent overfitting and control the model complexity.
+9. Model interpretability: The paper highlights the challenge of model interpretability, which is essential for understanding the model's decision-making process and ensuring fairness and accountability.
+10. Adaptability to different tasks: The paper discusses the challenge of adapting the model to different computer vision tasks, which may require task-specific adjustments or the development of new architectures.
+
+By addressing these challenges, the paper aims to improve the performance, efficiency, and adaptability of vision transformers in various computer vision tasks.
+
+An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+
+99:42
+CIFAR-100 98:640:06 98:460:03 98:200:03 98:46 98:64
+STL-10 99:420:03 99:370:06 99:150:03 99:50 99:42
+Total 99:50 99:42 99:15 99:37 99:50 99:42
+
+Multimodal Learning with Transformers: A Survey
+
+Challenge 1: Handling the complexity and scale of multimodal data.
+
+Challenge 2: Developing effective pretraining objectives and strategies.
+
+Challenge 3: Designing efficient multimodal architectures.
+
+Challenge 4: Addressing the computational and memory constraints.
+
+Challenge 5: Ensuring the robustness and generalization of multimodal models.
+
+Challenge 6: Enhancing the interpretability and explainability of multimodal models.
+
+Challenge 7: Improving the multimodal models' performance on low-resource languages and domains.
+
+Challenge 8: Balancing the trade-off between the model's performance and its training time and computational resources.
+
+Challenge 9: Developing effective multimodal fine-tuning strategies.
+
+Challenge 10: Addressing the ethical, legal, and social implications (ELSI) of multimodal AI systems.
+
+Challenge 11: Encouraging interdisciplinary research to advance multimodal AI.
+
+Challenge 12: Enhancing the collaboration and communication between researchers, industry, and policymakers to facilitate the development and deployment of multimodal AI systems.
+
+Challenge 13: Ensuring the safety and trustworthiness of multimodal AI systems.
+
+Challenge 14: Developing effective multimodal AI education and training programs.
+
+Challenge 15: Encouraging the creation and sharing of multimodal AI resources and tools.
+
+Challenge 16: Addressing the potential biases in multimodal AI systems and data.
+
+Challenge 17: Fostering innovation and creativity in multimodal AI research and applications.
+
+Challenge 18: Promoting the responsible and ethical use of multimodal AI technologies.
+
+Challenge 19: Encouraging interdisciplinary research to address the challenges and opportunities presented by multimodal AI.
+
+Challenge 20: Ensuring the accessibility and usability of multimodal AI systems for diverse user groups.
+
+By addressing these challenges, researchers can contribute to the advancement of multimodal AI and its responsible implementation in various domains.
+

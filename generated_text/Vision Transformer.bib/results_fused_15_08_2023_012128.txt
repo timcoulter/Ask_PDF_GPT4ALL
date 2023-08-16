@@ -1,0 +1,712 @@
+Visualizing and Understanding Patch Interactions in Vision Transformer
+
+;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1
+
+Deformable {DETR}: Deformable Transformers for End-to-End Object Detection
+
+1. Deformable DETR: The method achieves 48.7 AP on COCO 2017 val set without bells and whistles. This result is competitive with the state-of-the-art, such as CRAFT (Cao et al., 2020) and DETR (Carion et al., 2020), which report 49.1 and 50.1 AP, respectively.
+2. Deformable DETR + iterative bounding box reﬁnement: This method further improves the performance to 49.0 AP, surpassing the state-of-the-art results.
+3. Deformable DETR + two-stage training: This method achieves 50.1 AP, which is the state-of-the-art performance on COCO 2017 val set.
+
+Now let's compare the performance metrics of these methods:
+
+1. Deformable DETR: 48.7 AP
+2. Deformable DETR + iterative bounding box reﬁnement: 49.0 AP
+3. Deformable DETR + two-stage training: 50.1 AP
+
+As we can see, the performance metrics of these methods are consistently improving as we progress through the methods. The state-of-the-art performance is achieved by Deformable DETR + two-stage training with 50.1 AP.
+
+In summary, the proposed method, Deformable DETR + two-stage training, achieves the state-of-the-art performance on COCO 2017 val set with 50.1 AP. The method demonstrates the effectiveness of incorporating deformable attention mechanisms into the DETR framework for object detection.
+
+{TransMix}: Attend to Mix for Vision Transformers
+
+1. Baseline (DeiT-S w/o CutMix): The baseline performance is 78.6% top1 accuracy on ImageNet-1k.
+2. CutMix: CutMix improves the baseline performance by 1.2% to 79.8% top1 accuracy.
+3. Attentive-CutMix: Although Attentive-CutMix reduces the performance by 1.1% compared to the baseline, it still achieves 77.5% top1 accuracy.
+4. SaliencyMix: SaliencyMix shows a marginal improvement of 0.6% over the baseline, resulting in 79.2% top1 accuracy.
+5. Puzzle-Mix: Puzzle-Mix provides a slight improvement of 0.6% compared to the baseline, leading to 79.8% top1 accuracy.
+6. TransMix: TransMix demonstrates the most significant improvement of 2.1% compared to the baseline, achieving 80.7% top1 accuracy.
+
+Comparing the performance metrics of these methods with the state-of-the-art, we can see that TransMix outperforms all other methods, including CutMix, Attentive-CutMix, SaliencyMix, and Puzzle-Mix. The improvements provided by these mixup variants are generally smaller than the gain achieved by TransMix.
+
+In summary, the results from the methods discussed in this paper are competitive with the state-of-the-art. TransMix demonstrates the most significant improvement, outperforming all other mixup variants. However, it is important to note that these results are based on a preliminary study, and further research is needed to fully understand the generalizability of TransMix and its potential impact on vision transformer models.
+
+{BEIT}: {BERT} Pre-Training of Image Transformers
+
+1. Compared with the models trained by random initialization, we find that pre-trained BEIT significantly improves performance on both datasets. Notably, on the smaller CIFAR-100 dataset, ViT trained from scratch only reaches 48:5% accuracy (Chen et al., 2021). In comparison, BEIT achieves 90:1% with the help of pre-training. The results indicate that BEIT can greatly reduce the requirement of annotation efforts. BEIT also improves the performance on ImageNet, which shows the effectiveness under the rich-resource setting.
+
+1. Among the compared methods, iGPT-1.36B (Chen et al., 2020a) uses much more parameters (i.e., 1:36B vs 86M), and ViT-JFT300M (Dosovitskiy et al., 2020) is pretrained on larger corpus (i.e., 300M vs 1:3M), while others pretrain ViT-Base on ImageNet-1K. iGPT-1.36B and ViT-JFT300M are the most comparable methods, which also follows auto-encoding pre-training for vision Transformer. Speciﬁcally, iGPT uses clustered image tokens as both input and output for image GPT or image BERT. In contrast, we use image patches as input to preserve raw pixels, and employ discrete visual tokens as a prediction bottleneck. ViT-JFT300 predicts the mean, 3-bit color of each masked patch, rather than visual tokens learned by discrete V AE. Moreover, BEIT outperforms DINO (Caron et al., 2021) on ImageNet, and MoCo v3 on CIFAR-100, respectively. We can see that BEIT achieves state-of-the-art performance on both datasets, surpassing previous methods.
+
+In summary, BEIT outperforms previous state-of-the-art methods, demonstrating the effectiveness of our proposed method for image classiﬁcation tasks.
+
+Recent Advances in Vision Transformer: A Survey and Outlook of Recent Work
+
+1. Pure ViT: Pure ViT models like DeiT, T2T-ViT, and Visformer have shown promising results in terms of performance. However, they still lack shared weights, local context, and receptive fields compared to CNNs.
+2. Combination of CNN and ViT: Studies have shown that combining CNN and ViT leads to better performance than using pure ViTs. This is because CNNs provide local features, while ViTs capture long-range relationships.
+
+Comparing the results from the methods discussed with the state-of-the-art, we can see that ViT-based models have surpassed CNN-based methods in terms of performance on various benchmark datasets. For example, the ViT model achieved 81.6 points on the ImageNet dataset, surpassing the previous state-of-the-art result.
+
+When comparing performance metrics, ViT-based models generally outperform CNN-based methods in terms of top-1 accuracy, top-5 accuracy, and other relevant metrics. However, CNN-based methods often have lower computational costs and require fewer parameters, making them more suitable for resource-constrained devices.
+
+In summary, ViT-based models have shown significant improvements in performance compared to CNN-based methods. While ViT-based models may have higher computational costs and require more parameters, they provide better long-range relationship modeling capabilities. The choice between ViT-based and CNN-based methods largely depends on the specific requirements of the task at hand, such as computational resources, model complexity, and desired trade-offs between accuracy and efficiency.
+
+Vision Transformers are Robust Learners
+
+First, let's discuss the results from the methods discussed in the paper. The paper presents a comprehensive analysis of the robustness of ViTs and BiTs under similar parameter and FLOP regimes, pre-training setups, and data regimes. The authors perform a series of experiments to verify the enhanced robustness of ViTs and to explain the reasons behind their improved performance.
+
+Now, let's compare the performance metrics of ViTs and BiTs with the state-of-the-art (SOTA) CNNs. The SOTA CNNs are typically based on ResNet-50 (He et al. 2016) or EfficientNet (Tan et al. 2019).
+
+1. Robustness under similar parameter and FLOP regimes:
+ViTs show improved robustness compared to BiTs and SOTA CNNs under similar parameter and FLOP regimes. For example, ViTs achieve a top-1 accuracy of 28.10% on ImageNet-A, which is 4.3x higher than a comparable variant of BiT. This demonstrates the superior robustness of ViTs compared to BiTs and SOTA CNNs.
+
+1. Pre-training setup:
+ViTs and BiTs share similar pre-training schedules and dataset regimes, such as using larger datasets like ImageNet-21k (Deng et al. 2009) and JFT-300 (Sun et al. 2017), longer pre-training schedules, and so on. This shared setup allows for a fair comparison between ViTs and BiTs.
+
+1. Data regimes:
+Both ViTs and BiTs are designed to work with large-scale datasets, which helps them achieve better performance compared to SOTA CNNs. The shared data regime between ViTs and BiTs ensures a fair comparison between the two models.
+
+In summary, the results from the methods discussed in the paper show that ViTs outperform BiTs and SOTA CNNs in terms of robustness under similar parameter and FLOP regimes, pre-training setups, and data regimes. The performance metrics of ViTs are significantly better than those of BiTs and SOTA CNNs, demonstrating the enhanced robustness of ViTs.
+
+Training data-efficient image transformers \& distillation through attention
+
+1. Auto-Augment ( Cubuk et al. ,2018 ): This method significantly improves the results, especially for large models like DeiT-B. The performance metrics for different models are as follows:
+* DeiT-B: Top-1 accuracy of 8.4% with Auto-Augment.
+* DeiT-S: Top-1 accuracy of 61.3% with Auto-Augment.
+1. Rand-Augment ( Cubuk et al. ,2019 ): This method also improves the results, especially for large models like DeiT-B. The performance metrics for different models are as follows:
+* DeiT-B: Top-1 accuracy of 8.4% with Rand-Augment.
+* DeiT-S: Top-1 accuracy of 61.3% with Rand-Augment.
+1. Random Erasing ( Zhong et al. ,2020 ): This method also improves the results, especially for large models like DeiT-B. The performance metrics for different models are as follows:
+* DeiT-B: Top-1 accuracy of 8.4% with Random Erasing.
+* DeiT-S: Top-1 accuracy of 61.3% with Random Erasing.
+1. Compared to the state-of-the-art: The results from the methods discussed are competitive with the state-of-the-art. For example, the DeiT-B model with Auto-Augment, Rand-Augment, and Random Erasing achieves top-1 accuracy of 8.4%, which is comparable to the state-of-the-art models like ConvNeXt ( Bello et al. ,2020 ) and RegNetY-16GF ( Radosavovic et al. ,2020 ).
+
+In summary, the results from the methods discussed are competitive with the state-of-the-art, and they significantly improve the performance of large models like DeiT-B and DeiT-S. The performance metrics for different models are as follows:
+
+* DeiT-B: Top-1 accuracy of 8.4% with Auto-Augment, Rand-Augment, and Random Erasing.
+* DeiT-S: Top-1 accuracy of 61.3% with Auto-Augment, Rand-Augment, and Random Erasing.
+
+These results demonstrate the effectiveness of the proposed methods in improving the data-efficiency of training transformers.
+
+{CrossViT}: Cross-Attention Multi-Scale Vision Transformer for Image Classification
+
+1. CrossViT-15 †outperforms the small models of all the other approaches with comparable FLOPs and parameters.
+2. CrossViT-18 †significantly outperforms ViT-B by 4.9% in accuracy while requiring 50% less FLOPs and parameters.
+3. Our CrossViT models are very competitive with the recent DeiT [35] models on all the downstream classification tasks.
+
+Comparing the results from the methods discussed with the state-of-the-art, we can see that our proposed approach (CrossViT-18 †) significantly outperforms the baseline ViT-B model by a large margin (4.9% in accuracy) while requiring 50% less FLOPs and parameters. This demonstrates the efficiency and effectiveness of our proposed approach.
+
+Moreover, our CrossViT models are very competitive with the recent DeiT [35] models on all the downstream classification tasks. This shows that our proposed approach can achieve comparable performance to the state-of-the-art CNN models while maintaining the efficiency and accuracy advantages of vision transformers.
+
+In summary, our proposed approach (CrossViT-18 †) outperforms the state-of-the-art models in terms of accuracy, efficiency, and transfer learning performance. The results demonstrate the effectiveness and competitiveness of our proposed approach in the field of computer vision.
+
+Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows
+
+1. ImageNet-1K classification:
+Our Swin-T model with shifted windows achieves +1.1% top-1 accuracy, surpassing the previous best result by +0.3%. This demonstrates the effectiveness of the shifted windows approach in improving the model's performance.
+
+1. COCO object detection and instance segmentation:
+Our best model achieves 58.7 box AP and 51.1 mask AP, surpassing the previous best results by +2.7 box AP (Copy-paste [23] without external data) and +2.6 mask AP (DetectoRS [42]). These results show that our model outperforms the previous state-of-the-art in terms of object detection and instance segmentation on COCO.
+
+1. ADE20K semantic segmentation:
+Our Swin-L model achieves 49.3 mIoU, which is +5.3 mIoU higher than DeiT-S with similar computation cost. It is also +4.4 mIoU higher than ResNet-101, and +2.4 mIoU higher than ResNeSt-101 [70]. These results demonstrate the effectiveness of our model in semantic segmentation on ADE20K.
+
+In summary, our proposed methods and models have achieved state-of-the-art performance in various computer vision tasks, including image classification, object detection, and semantic segmentation. The results show that our models outperform the previous state-of-the-art models in terms of accuracy, object detection, and semantic segmentation.
+
+Multi-Scale Vision Longformer: A New Vision Transformer for High-Resolution Image Encoding
+
+1. The results from the methods discussed (ViL-Tiny, ViL-Base, and ViL-Large) outperform the state-of-the-art models, such as ResNeXt101-64x4d, PVT-Large, and others.
+2. When comparing the performance metrics, we can see that ViL-Tiny with "3x+MS" schedule already outperforms ResNeXt101-64x4d and PVT-Large models.
+3. The ViL-Tiny model achieves 42.9 APb, while ResNeXt101-64x4d and PVT-Large are around 30.04 AP. This demonstrates a significant improvement in performance.
+
+In summary, the results from the methods discussed (ViL-Tiny, ViL-Base, and ViL-Large) outperform the state-of-the-art models in terms of performance metrics. The ViL-Tiny model achieves 42.9 APb, surpassing the performance of ResNeXt101-64x4d and PVT-Large, which are around 30.04 AP. This demonstrates a substantial improvement in performance, particularly for the ViL-Tiny model with "3x+MS" schedule.
+
+{DeepViT}: Towards Deeper Vision Transformer
+
+-k) blocks.
+
+An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+
+1. ViT-L/16:
+The ViT-L/16 model achieves 82.1% top-5 accuracy on the ObjectNet benchmark, surpassing the state-of-the-art performance by a significant margin.
+
+1. ViT-H/14:
+The ViT-H/14 model achieves 61.7% top-1 accuracy on the ObjectNet benchmark, demonstrating competitive performance compared to other state-of-the-art models.
+
+1. ResNet50 and ResNet152x2:
+The pre-trained ResNet models, fine-tuned with Adam and SGD, show promising performance on various datasets, outperforming the state-of-the-art models in some cases.
+
+Comparing the performance metrics across different models, we can see that the ViT models generally achieve higher top-1 accuracy compared to ResNet models. However, ResNet models often have better top-5 accuracy.
+
+In summary, the ViT models demonstrate state-of-the-art performance on the ObjectNet benchmark, while the ResNet models show competitive performance across various datasets. The choice of model and pre-training method depends on the specific requirements and constraints of the downstream task at hand.
+
+Multimodal Learning with Transformers: A Survey
+
+1. Early concatenation based multimodal interaction:
+The performance of this method depends on the quality of the individual modalities. If the modalities are well-trained and of high quality, the early concatenation method can achieve competitive results compared to state-of-the-art multimodal models. However, if the modalities are of low quality or not well-trained, the performance may be suboptimal.
+2. Asymmetrical network structures:
+These structures can lead to improved performance in multimodal models, especially when the modalities have different capacities or computational requirements. The performance of these structures can be competitive with state-of-the-art multimodal models, depending on the specific architecture and training setup.
+3. Improving utilization of training samples:
+This method can lead to improved performance in multimodal models, especially when the training data is limited. The performance of these methods can be competitive with state-of-the-art multimodal models, depending on the specific self-supervised learning technique and training setup.
+4. Compressing and pruning model:
+The performance of this method depends on the ability to identify and remove redundant or unnecessary components from the multimodal model. If the compression and pruning techniques are effective, the resulting model can achieve competitive results compared to state-of-the-art multimodal models, while potentially requiring fewer resources.
+5. Optimizing the complexity of self-attention:
+This method can lead to improved performance in multimodal models, especially when the input sequences are long. The performance of these methods can be competitive with state-of-the-art multimodal models, depending on the specific optimization technique and the complexity of the self-attention mechanism in the multimodal model.
+
+In summary, the performance of these methods compared to the state-of-the-art depends on various factors, such as the quality of the individual modalities, the specific architecture and training setup, the effectiveness of the compression and pruning techniques, and the complexity of the self-attention mechanism. While these methods can lead to competitive results in some cases, a thorough evaluation is required to determine their performance metrics and compare them to the state-of-the-art multimodal models.
+
+Visualizing and Understanding Patch Interactions in Vision Transformer
+
+;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1(xr
+p;yb
+pg.)
+p=1
+
+Deformable {DETR}: Deformable Transformers for End-to-End Object Detection
+
+1. Deformable DETR: The method achieves 48.7 AP on COCO 2017 val set without bells and whistles. This result is competitive with the state-of-the-art, such as CRAFT (Cao et al., 2020) and DETR (Carion et al., 2020), which report 49.1 and 50.1 AP, respectively.
+2. Deformable DETR + iterative bounding box reﬁnement: This method further improves the performance to 49.0 AP, surpassing the state-of-the-art results.
+3. Deformable DETR + two-stage training: This method achieves 50.1 AP, which is the state-of-the-art performance on COCO 2017 val set.
+
+Now let's compare the performance metrics of these methods:
+
+1. Deformable DETR: 48.7 AP
+2. Deformable DETR + iterative bounding box reﬁnement: 49.0 AP
+3. Deformable DETR + two-stage training: 50.1 AP
+
+As we can see, the performance metrics of these methods are consistently improving as we progress through the methods. The state-of-the-art performance is achieved by Deformable DETR + two-stage training with 50.1 AP.
+
+In summary, the proposed method, Deformable DETR + two-stage training, achieves the state-of-the-art performance on COCO 2017 val set with 50.1 AP. The method demonstrates the effectiveness of incorporating deformable attention mechanisms into the DETR framework for object detection.
+
+{TransMix}: Attend to Mix for Vision Transformers
+
+1. Baseline (DeiT-S w/o CutMix): The baseline performance is 78.6% top1 accuracy on ImageNet-1k.
+2. CutMix: CutMix improves the baseline performance by 1.2% to 79.8% top1 accuracy.
+3. Attentive-CutMix: Although Attentive-CutMix reduces the performance by 1.1% compared to the baseline, it still achieves 77.5% top1 accuracy.
+4. SaliencyMix: SaliencyMix shows a marginal improvement of 0.6% over the baseline, resulting in 79.2% top1 accuracy.
+5. Puzzle-Mix: Puzzle-Mix provides a slight improvement of 0.6% compared to the baseline, leading to 79.8% top1 accuracy.
+6. TransMix: TransMix demonstrates the most significant improvement of 2.1% compared to the baseline, achieving 80.7% top1 accuracy.
+
+Comparing the performance metrics of these methods with the state-of-the-art, we can see that TransMix outperforms all other methods, including CutMix, Attentive-CutMix, SaliencyMix, and Puzzle-Mix. The improvements provided by these mixup variants are generally smaller than the gain achieved by TransMix.
+
+In summary, the results from the methods discussed in this paper are competitive with the state-of-the-art. TransMix demonstrates the most significant improvement, outperforming all other mixup variants. However, it is important to note that these results are based on a preliminary study, and further research is needed to fully understand the generalizability of TransMix and its potential impact on vision transformer models.
+
+{BEIT}: {BERT} Pre-Training of Image Transformers
+
+1. Compared with the models trained by random initialization, we find that pre-trained BEIT significantly improves performance on both datasets. Notably, on the smaller CIFAR-100 dataset, ViT trained from scratch only reaches 48:5% accuracy (Chen et al., 2021). In comparison, BEIT achieves 90:1% with the help of pre-training. The results indicate that BEIT can greatly reduce the requirement of annotation efforts. BEIT also improves the performance on ImageNet, which shows the effectiveness under the rich-resource setting.
+
+1. Among the compared methods, iGPT-1.36B (Chen et al., 2020a) uses much more parameters (i.e., 1:36B vs 86M), and ViT-JFT300M (Dosovitskiy et al., 2020) is pretrained on larger corpus (i.e., 300M vs 1:3M), while others pretrain ViT-Base on ImageNet-1K. iGPT-1.36B and ViT-JFT300M are the most comparable methods, which also follows auto-encoding pre-training for vision Transformer. Speciﬁcally, iGPT uses clustered image tokens as both input and output for image GPT or image BERT. In contrast, we use image patches as input to preserve raw pixels, and employ discrete visual tokens as a prediction bottleneck. ViT-JFT300 predicts the mean, 3-bit color of each masked patch, rather than visual tokens learned by discrete V AE. Moreover, BEIT outperforms DINO (Caron et al., 2021) on ImageNet, and MoCo v3 on CIFAR-100, respectively. We can see that BEIT achieves state-of-the-art performance on both datasets, surpassing previous methods.
+
+In summary, BEIT outperforms previous state-of-the-art methods, demonstrating the effectiveness of our proposed method for image classiﬁcation tasks.
+
+Recent Advances in Vision Transformer: A Survey and Outlook of Recent Work
+
+1. Pure ViT: Pure ViT models like DeiT, T2T-ViT, and Visformer have shown promising results in terms of performance. However, they still lack shared weights, local context, and receptive fields compared to CNNs.
+2. Combination of CNN and ViT: Studies have shown that combining CNN and ViT leads to better performance than using pure ViTs. This is because CNNs provide local features, while ViTs capture long-range relationships.
+
+Comparing the results from the methods discussed with the state-of-the-art, we can see that ViT-based models have surpassed CNN-based methods in terms of performance on various benchmark datasets. For example, the ViT model achieved 81.6 points on the ImageNet dataset, surpassing the previous state-of-the-art result.
+
+When comparing performance metrics, ViT-based models generally outperform CNN-based methods in terms of top-1 accuracy, top-5 accuracy, and other relevant metrics. However, CNN-based methods often have lower computational costs and require fewer parameters, making them more suitable for resource-constrained devices.
+
+In summary, ViT-based models have shown significant improvements in performance compared to CNN-based methods. While ViT-based models may have higher computational costs and require more parameters, they provide better long-range relationship modeling capabilities. The choice between ViT-based and CNN-based methods largely depends on the specific requirements of the task at hand, such as computational resources, model complexity, and desired trade-offs between accuracy and efficiency.
+
+Vision Transformers are Robust Learners
+
+First, let's discuss the results from the methods discussed in the paper. The paper presents a comprehensive analysis of the robustness of ViTs and BiTs under similar parameter and FLOP regimes, pre-training setups, and data regimes. The authors perform a series of experiments to verify the enhanced robustness of ViTs and to explain the reasons behind their improved performance.
+
+Now, let's compare the performance metrics of ViTs and BiTs with the state-of-the-art (SOTA) CNNs. The SOTA CNNs are typically based on ResNet-50 (He et al. 2016) or EfficientNet (Tan et al. 2019).
+
+1. Robustness under similar parameter and FLOP regimes:
+ViTs show improved robustness compared to BiTs and SOTA CNNs under similar parameter and FLOP regimes. For example, ViTs achieve a top-1 accuracy of 28.10% on ImageNet-A, which is 4.3x higher than a comparable variant of BiT. This demonstrates the superior robustness of ViTs compared to BiTs and SOTA CNNs.
+
+1. Pre-training setup:
+ViTs and BiTs share similar pre-training schedules and dataset regimes, such as using larger datasets like ImageNet-21k (Deng et al. 2009) and JFT-300 (Sun et al. 2017), longer pre-training schedules, and so on. This shared setup allows for a fair comparison between ViTs and BiTs.
+
+1. Data regimes:
+Both ViTs and BiTs are designed to work with large-scale datasets, which helps them achieve better performance compared to SOTA CNNs. The shared data regime between ViTs and BiTs ensures a fair comparison between the two models.
+
+In summary, the results from the methods discussed in the paper show that ViTs outperform BiTs and SOTA CNNs in terms of robustness under similar parameter and FLOP regimes, pre-training setups, and data regimes. The performance metrics of ViTs are significantly better than those of BiTs and SOTA CNNs, demonstrating the enhanced robustness of ViTs.
+
+Training data-efficient image transformers \& distillation through attention
+
+1. Auto-Augment ( Cubuk et al. ,2018 ): This method significantly improves the results, especially for large models like DeiT-B. The performance metrics for different models are as follows:
+* DeiT-B: Top-1 accuracy of 8.4% with Auto-Augment.
+* DeiT-S: Top-1 accuracy of 61.3% with Auto-Augment.
+1. Rand-Augment ( Cubuk et al. ,2019 ): This method also improves the results, especially for large models like DeiT-B. The performance metrics for different models are as follows:
+* DeiT-B: Top-1 accuracy of 8.4% with Rand-Augment.
+* DeiT-S: Top-1 accuracy of 61.3% with Rand-Augment.
+1. Random Erasing ( Zhong et al. ,2020 ): This method also improves the results, especially for large models like DeiT-B. The performance metrics for different models are as follows:
+* DeiT-B: Top-1 accuracy of 8.4% with Random Erasing.
+* DeiT-S: Top-1 accuracy of 61.3% with Random Erasing.
+1. Compared to the state-of-the-art: The results from the methods discussed are competitive with the state-of-the-art. For example, the DeiT-B model with Auto-Augment, Rand-Augment, and Random Erasing achieves top-1 accuracy of 8.4%, which is comparable to the state-of-the-art models like ConvNeXt ( Bello et al. ,2020 ) and RegNetY-16GF ( Radosavovic et al. ,2020 ).
+
+In summary, the results from the methods discussed are competitive with the state-of-the-art, and they significantly improve the performance of large models like DeiT-B and DeiT-S. The performance metrics for different models are as follows:
+
+* DeiT-B: Top-1 accuracy of 8.4% with Auto-Augment, Rand-Augment, and Random Erasing.
+* DeiT-S: Top-1 accuracy of 61.3% with Auto-Augment, Rand-Augment, and Random Erasing.
+
+These results demonstrate the effectiveness of the proposed methods in improving the data-efficiency of training transformers.
+
+{CrossViT}: Cross-Attention Multi-Scale Vision Transformer for Image Classification
+
+1. CrossViT-15 †outperforms the small models of all the other approaches with comparable FLOPs and parameters.
+2. CrossViT-18 †significantly outperforms ViT-B by 4.9% in accuracy while requiring 50% less FLOPs and parameters.
+3. Our CrossViT models are very competitive with the recent DeiT [35] models on all the downstream classification tasks.
+
+Comparing the results from the methods discussed with the state-of-the-art, we can see that our proposed approach (CrossViT-18 †) significantly outperforms the baseline ViT-B model by a large margin (4.9% in accuracy) while requiring 50% less FLOPs and parameters. This demonstrates the efficiency and effectiveness of our proposed approach.
+
+Moreover, our CrossViT models are very competitive with the recent DeiT [35] models on all the downstream classification tasks. This shows that our proposed approach can achieve comparable performance to the state-of-the-art CNN models while maintaining the efficiency and accuracy advantages of vision transformers.
+
+In summary, our proposed approach (CrossViT-18 †) outperforms the state-of-the-art models in terms of accuracy, efficiency, and transfer learning performance. The results demonstrate the effectiveness and competitiveness of our proposed approach in the field of computer vision.
+
+Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows
+
+1. ImageNet-1K classification:
+Our Swin-T model with shifted windows achieves +1.1% top-1 accuracy, surpassing the previous best result by +0.3%. This demonstrates the effectiveness of the shifted windows approach in improving the model's performance.
+
+1. COCO object detection and instance segmentation:
+Our best model achieves 58.7 box AP and 51.1 mask AP, surpassing the previous best results by +2.7 box AP (Copy-paste [23] without external data) and +2.6 mask AP (DetectoRS [42]). These results show that our model outperforms the previous state-of-the-art in terms of object detection and instance segmentation on COCO.
+
+1. ADE20K semantic segmentation:
+Our Swin-L model achieves 49.3 mIoU, which is +5.3 mIoU higher than DeiT-S with similar computation cost. It is also +4.4 mIoU higher than ResNet-101, and +2.4 mIoU higher than ResNeSt-101 [70]. These results demonstrate the effectiveness of our model in semantic segmentation on ADE20K.
+
+In summary, our proposed methods and models have achieved state-of-the-art performance in various computer vision tasks, including image classification, object detection, and semantic segmentation. The results show that our models outperform the previous state-of-the-art models in terms of accuracy, object detection, and semantic segmentation.
+
+Multi-Scale Vision Longformer: A New Vision Transformer for High-Resolution Image Encoding
+
+1. The results from the methods discussed (ViL-Tiny, ViL-Base, and ViL-Large) outperform the state-of-the-art models, such as ResNeXt101-64x4d, PVT-Large, and others.
+2. When comparing the performance metrics, we can see that ViL-Tiny with "3x+MS" schedule already outperforms ResNeXt101-64x4d and PVT-Large models.
+3. The ViL-Tiny model achieves 42.9 APb, while ResNeXt101-64x4d and PVT-Large are around 30.04 AP. This demonstrates a significant improvement in performance.
+
+In summary, the results from the methods discussed (ViL-Tiny, ViL-Base, and ViL-Large) outperform the state-of-the-art models in terms of performance metrics. The ViL-Tiny model achieves 42.9 APb, surpassing the performance of ResNeXt101-64x4d and PVT-Large, which are around 30.04 AP. This demonstrates a substantial improvement in performance, particularly for the ViL-Tiny model with "3x+MS" schedule.
+
+{DeepViT}: Towards Deeper Vision Transformer
+
+-k) blocks.
+
+An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+
+1. ViT-L/16:
+The ViT-L/16 model achieves 82.1% top-5 accuracy on the ObjectNet benchmark, surpassing the state-of-the-art performance by a significant margin.
+
+1. ViT-H/14:
+The ViT-H/14 model achieves 61.7% top-1 accuracy on the ObjectNet benchmark, demonstrating competitive performance compared to other state-of-the-art models.
+
+1. ResNet50 and ResNet152x2:
+The pre-trained ResNet models, fine-tuned with Adam and SGD, show promising performance on various datasets, outperforming the state-of-the-art models in some cases.
+
+Comparing the performance metrics across different models, we can see that the ViT models generally achieve higher top-1 accuracy compared to ResNet models. However, ResNet models often have better top-5 accuracy.
+
+In summary, the ViT models demonstrate state-of-the-art performance on the ObjectNet benchmark, while the ResNet models show competitive performance across various datasets. The choice of model and pre-training method depends on the specific requirements and constraints of the downstream task at hand.
+
+Multimodal Learning with Transformers: A Survey
+
+1. Early concatenation based multimodal interaction:
+The performance of this method depends on the quality of the individual modalities. If the modalities are well-trained and of high quality, the early concatenation method can achieve competitive results compared to state-of-the-art multimodal models. However, if the modalities are of low quality or not well-trained, the performance may be suboptimal.
+2. Asymmetrical network structures:
+These structures can lead to improved performance in multimodal models, especially when the modalities have different capacities or computational requirements. The performance of these structures can be competitive with state-of-the-art multimodal models, depending on the specific architecture and training setup.
+3. Improving utilization of training samples:
+This method can lead to improved performance in multimodal models, especially when the training data is limited. The performance of these methods can be competitive with state-of-the-art multimodal models, depending on the specific self-supervised learning technique and training setup.
+4. Compressing and pruning model:
+The performance of this method depends on the ability to identify and remove redundant or unnecessary components from the multimodal model. If the compression and pruning techniques are effective, the resulting model can achieve competitive results compared to state-of-the-art multimodal models, while potentially requiring fewer resources.
+5. Optimizing the complexity of self-attention:
+This method can lead to improved performance in multimodal models, especially when the input sequences are long. The performance of these methods can be competitive with state-of-the-art multimodal models, depending on the specific optimization technique and the complexity of the self-attention mechanism in the multimodal model.
+
+In summary, the performance of these methods compared to the state-of-the-art depends on various factors, such as the quality of the individual modalities, the specific architecture and training setup, the effectiveness of the compression and pruning techniques, and the complexity of the self-attention mechanism. While these methods can lead to competitive results in some cases, a thorough evaluation is required to determine their performance metrics and compare them to the state-of-the-art multimodal models.
+

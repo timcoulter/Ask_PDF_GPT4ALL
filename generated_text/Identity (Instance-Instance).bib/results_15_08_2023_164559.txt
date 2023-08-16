@@ -1,0 +1,1440 @@
+An Empirical Study of Training Self-Supervised Vision Transformers
+
+
+
+1. Compare the results from the methods discussed to the state-of-the-art:
+
+The results from the methods discussed in the paper are compared to the state-of-the-art in Table 4. The paper focuses on comparing the performance of different self-supervised learning frameworks (MoCo v3, SimCLR, BYOL, and SwA V) on ViT models. The results show that MoCo v3 has the best performance among these frameworks, with a higher accuracy than the other methods.
+
+1. Compare the performance metrics:
+
+The performance metrics for ViT models in Table 4 include accuracy, which is the main metric for comparing different models. However, the paper does not provide detailed information on other performance metrics, such as F1 score, precision, recall, or ROC curves.
+
+In summary, the paper discusses the comparison of different self-supervised learning frameworks on ViT models, with a focus on MoCo v3. The results show that MoCo v3 has the best performance among these frameworks, with a higher accuracy than the other methods. The paper does not provide detailed information on other performance metrics.
+
+Barlow Twins: Self-Supervised Learning via Redundancy Reduction
+
+
+
+1. SIMCLR (Chen et al., 2020a) and BYOL (Bachman et al., 2019) are two of the most popular and state-of-the-art self-supervised learning methods. SIMCLR uses a contrastive loss, while BYOL uses a prediction error loss. Both methods have achieved top-1 accuracy of around 69% on ImageNet.
+2. Our method, BARLOW TWINS, also achieves a top-1 accuracy of 73.2%. This is comparable to the state-of-the-art methods, and even slightly better than some of them.
+3. When comparing the performance metrics of different methods, it's important to consider the specific dataset and the evaluation protocol used. However, based on the results presented in the paper, our method (BARLOW TWINS) seems to perform on par with or slightly better than other state-of-the-art methods, such as SIMCLR and BYOL.
+
+In summary, our method, BARLOW TWINS, achieves a top-1 accuracy of 73.2% on ImageNet, which is comparable to or slightly better than other state-of-the-art self-supervised learning methods like SIMCLR and BYOL.
+
+{OBoW}: Online Bag-of-Visual-Words Generation for Self-Supervised Learning
+
+
+
+1. Sup. OBoW MoCo v2 BYOL
+Epochs 100 200 800 300
+Measured with 256-sized mini-batches
+Time per epoch 1.00 3.91 1.58 3.47
+Training time 1.00 7.82 12.64 10.41
+Memory per GPU 1.00 2.00 1.13 1.72
+ImageNet linear classiﬁcation accuracy
+batch size = 256 76.5 73.8 71.1 -
+batch size = 4096 - - - 72.5y
+Table 8: Time and memory consumption relative to supervised
+training. “Sup.” is the supervised ImageNet training. To mea-
+sure the time and memory consumption, for all methods we used
+ResNet50-based implementations, 256-sized mini-batches and data-
+distributed training with 4 Tesla V100 GPUs. We measured the
+time consumption based on a single training epoch (“Time per
+epoch”). We also provide the projected time for the full training
+of a method (“Training time”), which is estimated based on the
+speciﬁed number of training epochs (“Epochs”). For OBoW, we
+used its full implementation.y: for BYOL we provide the time
+and memory consumption w.r.t. 256-sized mini-batches, but BYOL 
+
+ epochs and the batch size of each model respectively. The ﬁrst section includes models pre-trained with a similar number of epochs as
+our model (second section). We boldfaced the best results among all sections as well as of only the top two. For the linear classiﬁcation
+tasks, we provide the top-1 accuracy. For object detection, we ﬁne-tuned Faster R-CNN (R50-C4) on VOC trainval07+12 and report
+detection AP scores by testing on test07 . For semi-supervised learning, we ﬁne-tune the pre-trained models on 1%and10% of ImageNet
+and report the top-5 accuracy. Note that, in this case the “Supervised” entry results come from [ 83] and are obtained by supervised training
+using only 1%or10% of the labelled data. All the classiﬁcation results are computed with single-crop testing.y: results computed by us.
+
+Our method achieves substantially better empirical results across the board compared to instance discrimination methods MoCo v2 and SimCLR, and even improves over the recently proposed BYOL and SwA V methods when considering a similar amount of pre-training epochs. Moreover, in VOC07 classiﬁcation and Places205 classiﬁcation, it achieves a new state of the art despite using significantly fewer pre-training epochs than related methods. On the semi-supervised ImageNet ResNet50 setting, it signiﬁcantly surpasses the state of the art for 1% labels, and is also better for 10% labels using much fewer epochs. On VOC detection, it outperforms previous state-of-the-art methods while demonstrating strong performance improvements over supervised pre-training.
+
+In summary, our method achieves state-of-the-art performance across various tasks, including linear classiﬁcation, object detection, and semi-supervised learning, while using fewer training epochs and consuming less memory compared to previous methods.
+
+Boosting Contrastive Self-Supervised Learning with False Negative Cancellation
+
+
+
+1. Comparison with state-of-the-art:
+
+The proposed method outperforms the state-of-the-art methods, such as MoCo v2, SwA V , and the supervised baseline. This demonstrates the effectiveness of the proposed method in addressing the challenges in the dataset.
+
+1. Performance metrics comparison:
+
+As shown in Table 8, our proposed method outperforms all other methods in terms of top-1 accuracy, false negative elimination, and false negative attraction. The proposed method achieves better performance in all aspects, highlighting its effectiveness in addressing the challenges in the dataset.
+
+Weakly Supervised Contrastive Learning
+
+
+
+1. Supervised Learning: The baseline method, which achieves 76.5% Top-1 accuracy on linear evaluation.
+2. SeLa [43]: A state-of-the-art method that achieves 61.5% Top-1 accuracy on linear evaluation.
+3. SimCLR [6]: A pioneering method that achieves 69.1% Top-1 accuracy on linear evaluation.
+4. SimCLR v2 [7]: An improved version of SimCLR that achieves 71.7% Top-1 accuracy on linear evaluation.
+5. MoCo v2 [8]: A strong contender that achieves 71.1% Top-1 accuracy on linear evaluation.
+6. SimSiam [9]: A competitive method that achieves 71.3% Top-1 accuracy on linear evaluation.
+7. SwA V [5]: A state-of-the-art method that achieves 71.8% Top-1 accuracy on linear evaluation.
+8. SwA V* [5]: An improved version of SwA V that achieves 75.3% Top-1 accuracy on linear evaluation.
+9. BYOL [18]: A groundbreaking method that achieves 74.3% Top-1 accuracy on linear evaluation.
+10. FNCancel* [23]: A recent advancement that achieves 74.4% Top-1 accuracy on linear evaluation.
+11. AdpCLR [49]: A strong contender that achieves 72.3% Top-1 accuracy on linear evaluation.
+
+Now let's compare the performance metrics of the methods discussed:
+
+1. Our method (WCL and WCL*) with 80.78% Top-1 accuracy on linear evaluation, which has 5% improvements over the SimCLR baseline (75.79%).
+2. SwA V* [5]: 75.3% Top-1 accuracy on linear evaluation.
+3. BYOL [18]: 74.3% Top-1 accuracy on linear evaluation.
+4. FNCancel* [23]: 74.4% Top-1 accuracy on linear evaluation.
+5. AdpCLR [49]: 72.3% Top-1 accuracy on linear evaluation.
+
+Comparing the performance metrics, our method (WCL and WCL*) outperforms the state-of-the-art methods, such as SwA V* [5], BYOL [18], FNCancel* [23], and AdpCLR [49], with a significant improvement of 5% or more. This demonstrates the effectiveness
+
+Solving Inefficiency of Self-supervised Representation Learning
+
+
+
+1. Compare the results from the methods discussed with the state-of-the-art:
+
+As shown in Table 2, our method achieves a single-scale center-crop top-1 accuracy of 75.9%, outperforming the latest state-of-the-art methods by a clear margin. For example, SimSiam [9] and BYOL [22] achieve 73.6% and 74.3%, respectively, while our method surpasses these results with 75.9%. This demonstrates the effectiveness of our method compared to the state-of-the-art.
+
+1. Compare the performance metrics of the discussed methods with the state-of-the-art:
+
+To provide a comprehensive comparison, we need to analyze the performance metrics of the discussed methods in relation to the state-of-the-art. As shown in Table 2, our method achieves a single-scale center-crop top-1 accuracy of 75.9%, which is higher than the state-of-the-art methods. However, the table does not provide information on learning efﬁciency.
+
+To address this, let's look at Table 3, which shows the object detection results on COCO 2017 for Mask-RCNN.
+
+In Table 3, we can see that the learning efﬁciency of the state-of-the-art SSL methods is about ten times lower than the supervised learning methods. For example, the supervised learning method typically takes about 100 epochs to train a ResNet50 on ImageNet [36]. In comparison, SimCLR and BYOL have to cost 1,000 epochs, and MoCo v2 needs to cost 800 epochs (See Figure 1).
+
+Attempting to address this issue, we rethink existing SSL methods and propose a new approach that achieves better performance and higher learning efﬁciency than the state-of-the-art SSL methods. Our proposed method uses a smoothed truncated triplet loss function and achieves a single-scale center-crop top-1 accuracy of 73.6% (200 epochs), which is comparable to the state-of-the-art methods. However, our method also demonstrates higher learning efﬁciency, achieving the same accuracy with only 180 epochs, which is much fewer than the 1,000 epochs required by the state-of-the-art SSL methods.
+
+In conclusion, our proposed method outperforms the state-of-the-art SSL methods in terms of both performance and learning efﬁciency.
+
+Contrastive Learning with Stronger Augmentations
+
+
+
+1. CLSA:
+CLSA outperforms MoCo V2 and SimCLV2 with 200 epochs of pre-training, achieving 69.4% top-1 accuracy. With multiple stronger augmentations, CLSA* also surpasses the state-of-the-art SWA.
+2. Running Time:
+CLSA achieves better results than MoCo V2 with the same running time, indicating that the optimization of contrastive loss and DDM loss can also benefit the convergence of representation learning.
+
+Comparing the results with the state-of-the-art methods, CLSA demonstrates competitive performance. For example, BYOL, a popular unsupervised method, achieves 66.5% top-1 accuracy. However, CLSA outperforms BYOL with a larger margin (2.9% vs 0.9%).
+
+In summary, CLSA demonstrates competitive performance compared to state-of-the-art unsupervised methods. The proposed DDM loss plays a crucial role in learning from stronger augmentations, avoiding performance degeneration, and further boosting the representation for strongly augmented images.
+
+Self-supervised Pre-training with Hard Examples Improves Visual Representations
+
+
+
+1. Compare the results from the methods discussed with the state-of-the-art:
+
+* MoCo-v2 [8] and HEXA MoCo: Both achieve similar performance, with HEXA MoCo slightly outperforming MoCo-v2 in some cases. However, HEXA MoCo is still behind the state-of-the-art (SOTA) method, SimSiam [3], which uses a different training strategy.
+* DeepCluster-v2 [3, 4] and HEXA DCluster: Both methods show competitive performance, with HEXA DCluster slightly outperforming DeepCluster-v2 in some cases. However, HEXA DCluster is still behind the SOTA method, BYOL [4], which uses a different training strategy.
+* SwAV [4] and HEXA+ DCluster (8-crop): Both methods show competitive performance, with HEXA+ DCluster (8-crop) slightly outperforming SwAV in some cases. However, HEXA+ DCluster (8-crop) is still behind the SOTA method, SimSiam [3], which uses a different training strategy.
+
+1. Compare the performance metrics:
+
+* For contrastive methods (SimSiam [3], SimCLR [6], and BYOL [4]), the performance metrics include Top-1 accuracy, Top-5 accuracy, and other relevant metrics like per-class accuracy, hard examples ratio, and linear evaluation accuracy.
+* For prototype methods (MoCo [22], PCL-v2 [30], and HEXA), the performance metrics include Top-1 accuracy, Top-5 accuracy, and other relevant metrics like per-class accuracy, hard examples ratio, and linear evaluation accuracy.
+
+In summary, HEXA and its variants consistently outperform their counterparts for both contrastive and prototype methods, demonstrating the effectiveness of hard examples in improving self-supervised learning methods. However, HEXA and its variants are still behind the state-of-the-art methods, which use different training strategies.
+
+With a Little Help from My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations
+
+
+
+1. NNCLR: NNCLR provides more than 3:6% improvement over well-known contrastive learning approaches such as MoCo v2 [13] and SimCLR v2 [12]. Even compared to InfoMin Aug. [56], which explicitly studies "good view" transformations to apply in contrastive learning, NNCLR achieves more than 2% improvement on top-1 classiﬁcation performance. NNCLR outperforms BYOL [28] (which is the state-of-the-art method among methods that use two views) by more than 1%.
+
+1. SwA V: NNCLR achieves 3:6% improvement compared to the state of the art clustering-based method SwA V [8] in the same setting of using two views. In this setting, our method outperforms SwA V by 0:3% in Top-1 accuracy. Note that while multi-crop is responsible for 3:5% performance improvement for SwA V, for our method it provides a boost of only 0:2%. However, increasing the number of crops 
+
+ 
+                         #  - -
+                         # Question: How does NNCLR compare to other state-of-the-art methods in terms of computational efficiency?
+                         # Answer: NNCLR provides a significant boost in computational efficiency compared to other state-of-the-art methods. This is mainly due to the following factors:
+
+1. Reduced reliance on data augmentation techniques: NNCLR reduces the reliance on data augmentation techniques drastically, which helps in reducing the computational overhead associated with data augmentation.
+2. Nearest-neighbor selection strategy: Instead of using the entire dataset for contrastive learning, NNCLR uses a smaller support set. This reduces the computational cost of training, as the model needs to process fewer samples.
+3. Reduced number of views: NNCLR uses only the larger views to calculate the NNs, which reduces the number of views needed for training. This, in turn, reduces the computational cost of training the model.
+
+Considering these factors, NNCLR offers a more efficient alternative to other state-of-the-art methods in terms of computational resources required for training.
+
+{ReSSL}: Relational Self-Supervised Learning with Weak Augmentation
+
+-4. For ReSSL, we use the AdamW optimizer with a weight decay of 1e-4.
+
+We train all methods for 200 epochs with a batch size of 256. For ReSSL, we use 8x V100 GPUs with 42GB GPU memory.
+
+We report the average performance over 5 runs (except for k=full) for all methods.
+
+Table 10: Comparison of mAP on PASCAL VOC2007 dataset
+Method k=1 k=2 k=4
+MoCo v2 6.2 68.4 70.6
+ReSSL (Ours) 66.8 73.8 75.2
+SimCLR 66.8 73.8 75.2
+BYOL 69.9 74.2 76.5
+
+ReSSL (4 Crops) 73.8 77.2 78.4
+
+From Table 10, we can see that ReSSL (Ours) outperforms MoCo v2, SimCLR, and BYOL across all different k values. ReSSL (4 Crops) also achieves competitive results, demonstrating the effectiveness of our proposed method in learning robust and transferable representations.
+
+Seed the Views: Hierarchical Semantic Alignment for Contrastive Representation Learning
+
+
+
+1. BYOL: BYOL is a contrastive learning method that does not require negative samples during training. It achieves 72.5% top-1 accuracy after 300 epochs. Although it is not the state-of-the-art, it demonstrates the potential of contrastive learning for self-supervised representation learning.
+2. CsMl: CsMl is an extension of BYOL that incorporates classiﬁcation-based self-supervised learning. It achieves 75.3% top-1 accuracy after 300 epochs, surpassing BYOL. CsMl demonstrates the beneﬁts of incorporating classiﬁcation-based learning in self-supervised representation learning.
+3. MoCo v2: MoCo v2 is a state-of-the-art contrastive learning method that achieves 67.5% top-1 accuracy after 200 epochs. Although it is not based on classiﬁcation-based learning, it still demonstrates the power of contrastive learning for representation learning.
+4. Our method: Our method, which is based on CsMl and incorporates classiﬁcation-based learning, achieves 74.4% top-1 accuracy after 800 epochs. This performance surpasses both BYOL and MoCo v2, demonstrating the signiﬁcant improvements that can be achieved through the integration of classiﬁcation-based learning in self-supervised representation learning.
+
+In summary, our method outperforms the state-of-the-art methods, including BYOL and MoCo v2, by a significant margin. This demonstrates the effectiveness of incorporating classiﬁcation-based learning in self-supervised representation learning and the potential of our method to advance the ﬁeld of self-supervised learning.
+
+Self-Supervised Learning by Estimating Twin Class Distributions
+
+
+
+1. DINO: DINO is a state-of-the-art method for semi-supervised learning. It uses a contrastive loss to learn representations. The results show that DINO outperforms the previous state-of-the-art method by a large margin.
+2. T WIST: T WIST is a self-supervised learning method that uses a contrastive loss to learn representations. The results show that T WIST outperforms DINO by a large margin, especially when using ResNet-50 as the backbone.
+
+Comparing the performance metrics of DINO and T WIST, we can see that T WIST achieves better results across various benchmarks. For example, T WIST achieves 61.2% top-1 accuracy with ResNet-50 using only 1% labeled data, while DINO achieves 58.1% top-1 accuracy using 4% labeled data.
+
+In summary, T WIST outperforms DINO and sets a new state-of-the-art performance on various benchmarks. The results demonstrate the effectiveness of T WIST in learning robust and accurate representations for downstream tasks.
+
+Compressive Visual Representations
+
+
+
+1. SimCLR: The original paper [12] reports a top-1 accuracy of 71.1% and a top-5 accuracy of 88.1% on ResNet-50 with 300 epochs of training. This is already competitive with state-of-the-art supervised pretraining methods, such as Contrastive Pretraining (CP) [11] and MoCo v2 [10].
+2. BYOL: The paper [30] reports a top-1 accuracy of 77.2% and a top-5 accuracy of 93.5% on ResNet-50 with 1000 epochs of training. These results surpass the state-of-the-art supervised pretraining methods, such as CP [11] and MoCo v2 [10].
+3. Compressed SimCLR and BYOL: The results in Tables 1 and 2 show that the compressed versions of SimCLR and BYOL achieve performance that is comparable to their uncompressed counterparts. This suggests that the compression techniques do not significantly degrade the performance of the models.
+
+In summary, the results from SimCLR, BYOL, and their compressed versions compare favorably to the state-of-the-art. The performance metrics of the self-supervised models, such as SimCLR and BYOL, surpass the state-of-the-art supervised pretraining methods. The compressed versions of these models maintain competitive performance, demonstrating the effectiveness of CEB compression in improving the generalization and robustness of self-supervised representations.
+
+Pushing the limits of self-supervised {ResNets}: Can we outperform supervised learning without labels on {ImageNet}?
+
+
+
+1. RELICv2 outperforms all previous state-of-the-art self-supervised approaches by a significant margin in terms of both top-1 and top-5 accuracy. This demonstrates the effectiveness of the proposed method in learning robust and generalizable representations.
+2. The performance of RELICv2 is also competitive with supervised baselines on various datasets, including ImageNet. This shows that self-supervised learning can achieve comparable or even better performance than supervised learning in some cases.
+3. RELICv2 achieves state-of-the-art performance on several datasets, such as CIFAR-10, CIFAR-100, Food-101, Birdsnap, and Flowers. This highlights the versatility and generalization ability of the proposed method across different domains.
+
+Comparing the performance metrics of the discussed methods, we can see that RELICv2 consistently outperforms other self-supervised methods in terms of both top-1 and top-5 accuracy. This demonstrates the superiority of the proposed method in learning robust and generalizable representations.
+
+In summary, RELICv2 represents a significant advancement in self-supervised learning, outperforming previous state-of-the-art methods and achieving competitive performance with supervised baselines on various datasets. The method's versatility and generalization ability across different domains further highlight its effectiveness and potential in real-world applications.
+
+Emerging Properties in Self-Supervised Vision Transformers
+
+
+
+1. MoCo-v2 [15]: MoCo-v2 is a state-of-the-art self-supervised learning method. It uses a momentum encoder and achieves 71.1% linear and 62.0% k-NN accuracy on ResNet-50.
+2. BYOL [30]: BYOL is another state-of-the-art self-supervised learning method. It also uses a momentum encoder and achieves 72.7% linear and 66.6% k-NN accuracy on ResNet-50.
+3. SwA V [10]: SwA V is a state-of-the-art self-supervised learning method that uses a momentum encoder. It achieves 74.1% linear and 65.4% k-NN accuracy on ResNet-50.
+4. DINO [61]: DINO is a state-of-the-art self-supervised learning method that uses a momentum encoder. When applied to ViT, it outperforms MoCo-v2, SwA V, and BYOL by large margins (+4.3% with linear and +6.2% with k-NN evaluations).
+
+Comparing the performance metrics of these methods, we can see that DINO achieves better results than MoCo-v2, SwA V, and BYOL when applied to ViT. This demonstrates the potential of DINO to outperform state-of-the-art self-supervised learning methods, especially when applied to ViT architectures.
+
+Efficient Self-supervised Vision Transformers for Representation Learning
+
+
+
+1. EsViT (Swin-B/W=14) outperforms all systems, including DINO (ViT-B/16) and MoBY [ 64], which both use Swin-T as the backbone. EsViT (Swin-B/W=14) achieves top-1 accuracy of 81.3%, top-5 accuracy of 95.5%, and k-NN accuracy of 79.3%.
+2. EsViT (Swin-B/W=14) is 3:5parameter-efficient and has at least 10higher throughput than previous methods.
+3. The proposed method is 3:5parameter-efficient and has at least 10higher throughput than previous methods.
+
+In summary, the proposed EsViT (Swin-B/W=14) demonstrates the best performance among all systems, including DINO (ViT-B/16) and MoBY [ 64]. EsViT (Swin-B/W=14) is 3:5parameter-efficient and has at least 10higher throughput than previous methods.
+
+Mugs: A Multi-Granular Self-Supervised Learning Framework
+
+
+
+1. Fine-tuning:
+
+* Mugs achieves the highest top-1 accuracy on ImageNet-1K test dataset for all backbones, outperforming the runner-up by 0.4%, 0.9%, and 2.3% improvements on ViT-S, ViT-B, and ViT-L, respectively.
+* Compared to other SoTA methods, Mugs without multi-crop augmentation still consistently achieves very similar results as DINO with multi-crop augmentation.
+
+1. Semi-supervised learning:
+
+* Mugs achieves new SoTA results of 82.6% and 84.3% on ViT-S and ViT-B, respectively, improving the runner-up, namely iBOT and data2vec, by 0.2% and 0.1% respectively.
+
+Comparing the performance metrics of the discussed methods with the state-of-the-art, we can see that Mugs consistently outperforms other methods, including DINO, iBOT, and data2vec, in terms of top-1 accuracy. This demonstrates the effectiveness and superiority of Mugs in self-supervised learning.
+
+Exploring Simple Siamese Representation Learning
+
+
+
+1. SimSiam:
+SimSiam is a simple and efficient method that achieves competitive results compared to other state-of-the-art unsupervised representation learning methods, such as SimCLR and SwAV. It has better results than SimCLR in all cases, especially when pre-trained for 100 epochs. Although it has a smaller gain in training longer, it still maintains a decent level of performance.
+
+1. BYOL:
+BYOL is a more advanced method that uses a contrastive loss function to train the model. It outperforms SimSiam in most cases, especially when pre-trained for 800 epochs. However, BYOL requires more computational resources and time for training compared to SimSiam.
+
+1. Transfer Learning:
+In Table 5, we compare the performance of SimSiam, BYOL, and other state-of-the-art methods on various downstream tasks, including object detection, instance segmentation, and semantic segmentation. The results show that SimSiam and BYOL achieve competitive performance compared to other methods, such as SimCLR, SwAV, and MoCo. In some cases, SimSiam even outperforms BYOL, demonstrating its effectiveness in learning robust and transferable representations.
+
+In summary, SimSiam and BYOL, as two of the state-of-the-art unsupervised representation learning methods, compare favorably to other methods in terms of performance metrics. Both methods achieve competitive results and demonstrate the effectiveness of their training objectives in learning robust and transferable representations for various downstream tasks.
+
+Computer Vision – {ECCV} 2020: 16th European Conference, Glasgow, {UK}, August 23–28, 2020, Proceedings, Part {XI}
+
+
+
+1. State-of-the-art methods:
+
+As mentioned earlier, our method is the smallest and fastest among the state-of-the-art methods. It saves 55.5% of the parameters compared to the second lightest method, DMRA [26]. Our method outperforms all baselines on both 3D and BEV metrics, often by a large margin.
+
+1. Performance metrics comparison:
+
+The performance metrics used to evaluate the methods include 3D accuracy, BEV accuracy, and Average Precision (AP) for different IoU thresholds (0.5, 0.75, 0.95).
+
+Comparing the results from the methods discussed, our method consistently outperforms other single-stage, multi-class competitors such as M3D-RPN [1] and SS3D [8]. Additionally, our method achieves better performances compared to single class models (e.g., MonoDIS [30], MonoGRNet [22], SMOKE [19]) and methods that use LiDAR information during training (MonoPSR [9]).
+
+In summary, our method is the state-of-the-art in terms of size, speed, and performance. It outperforms other competing methods in terms of 3D accuracy, BEV accuracy, and AP for different IoU thresholds.
+
+What Makes for Good Views for Contrastive Learning?
+
+−2is a random image from the same dataset.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Representation Learning via Invariant Causal Mechanisms
+
+
+
+1. RELIC: RELIC is a recent method that has shown state-of-the-art performance on various benchmarks, including ImageNet and Clothing16k. RELIC outperforms other self-supervised representation learning methods, such as PIRL, CPC v2, CMC, SimCLR, SwAV, and InfoMin Aug.
+2. SimCLR: SimCLR is an earlier method that has also demonstrated state-of-the-art performance on various benchmarks. It is one of the most influential works in self-supervised learning and has inspired many follow-up methods, such as BYOL and RELIC.
+3. BYOL: BYOL is another state-of-the-art method that has shown impressive performance on various benchmarks. BYOL is based on the idea of using a teacher network to generate supervision signals for the student network, which helps in learning more robust and accurate representations.
+4. CURL: CURL is another recent method that has shown competitive performance on various benchmarks. It is based on the idea of using a causal inference framework to learn representations that are more robust and interpretable.
+5. Feeding augmented observations directly to the agent: This method has shown promising results in some cases, such as the DALL-E dataset (Karpathy et al., 2015). However, it may not generalize well to other tasks or datasets.
+
+In summary, the results from the methods discussed compare favorably to the state-of-the-art. RELIC, SimCLR, and BYOL are among the most influential and state-of-the-art methods in self-supervised representation learning. CURL, another recent method, has also shown competitive performance. However, it is important to note that the performance metrics may vary across different benchmarks and tasks.
+
+Momentum Contrast for Unsupervised Visual Representation Learning
+
+
+
+1. ImageNet supervised pre-training: The state-of-the-art performance is achieved by ConvNets with ResNet-like architectures [ 38, 40]. These models are pre-trained on ImageNet with supervised learning, achieving top-1 accuracy of around 70.4% [ 38].
+2. MoCo: Our MoCo results are competitive with the state-of-the-art ImageNet supervised pre-training counterparts. For example, with ResNet-50, MoCo achieves 60.6% accuracy, which is better than all competitors of similar model sizes (∼24M parameters) [ 60].
+3. Comparing performance metrics: The performance metrics for ImageNet supervised pre-training and MoCo are shown in Table 2. We can see that MoCo generally outperforms ImageNet supervised pre-training in terms of AP50, AP75, and AP scores. The gaps between MoCo and ImageNet supervised pre-training are at least +0.5 point for green bars in Table 2.
+
+In summary, MoCo performs competitively with the state-of-the-art ImageNet supervised pre-training counterparts. MoCo achieves better performance in terms of AP50, AP75, and AP scores, and the gaps between MoCo and ImageNet supervised pre-training are at least +0.5 point for green bars in Table 2.
+
+Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning
+
+ , and the gradient accumulation to 1 . We use the AdamW optimizer with the
+linear schedule for the learning rate.
+
+Please provide a brief summary of the main findings of the paper.
+
+Improved Baselines with Momentum Contrastive Learning
+
+
+
+1. SimCLR [2]: SimCLR is a popular unsupervised learning method for image classification. It uses a contrastive loss function to learn useful features from the data. SimCLR achieves 69.3% accuracy on ImageNet, which is the state-of-the-art result at the time of our submission.
+2. MoCo v1 [6]: MoCo v1 is an extension of the original MoCo method, which uses a momentum encoder to improve the feature extraction process. MoCo v1 achieves 66.6% accuracy on ImageNet, which is slightly better than SimCLR but still behind the state-of-the-art result.
+3. MoCo v2 (ours): MoCo v2 is an extension of MoCo v1, which incorporates a multi-layer perceptron (MLP) head during both the supervised and unsupervised training stages. MoCo v2 achieves 67.5% accuracy on ImageNet, which surpasses both SimCLR and MoCo v1, making it the new state-of-the-art result.
+
+Comparing the performance metrics, we can see that MoCo v2 outperforms both SimCLR and MoCo v1 in terms of accuracy on ImageNet. This demonstrates the effectiveness of incorporating the MLP head during both the supervised and unsupervised training stages.
+
+In summary, the results from the methods discussed compare to the state-of-the-art as follows:
+
+1. SimCLR [2]: 69.3% accuracy on ImageNet (state-of-the-art at the time of our submission).
+2. MoCo v1 [6]: 66.6% accuracy on ImageNet (slightly better than SimCLR but still behind the state-of-the-art result).
+3. MoCo v2 (ours): 67.5% accuracy on ImageNet (new state-of-the-art result, surpassing both SimCLR and MoCo v1).
+
+By incorporating the MLP head during both the supervised and unsupervised training stages, MoCo v2 achieves better performance metrics compared to the previous methods, demonstrating the effectiveness of the proposed approach.
+
+Big Self-Supervised Models are Strong Semi-Supervised Learners
+
+
+
+1. State-of-the-art methods:
+
+a. Supervised learning:
+
+* ResNet-50: 25.4% top-1 accuracy
+
+b. Unsupervised learning methods:
+
+* SimSiam [1]: 48.4% top-1 accuracy
+* BYOL [2]: 73.2% top-1 accuracy
+
+c. Semi-supervised learning methods:
+
+* FixMatch (w. RandAug) [15]: 71.5% top-1 accuracy
+* S4L (Rot+V AT+Entropy Min.) [30]: 73.2% top-1 accuracy
+
+d. Self-supervised learning methods:
+
+* CPC v2 [19]: 52.0% top-1 accuracy
+
+1. Performance metrics comparison:
+
+a. Supervised learning:
+
+* ResNet-50: 25.4% top-1 accuracy
+
+b. Unsupervised learning methods:
+
+* SimSiam [1]: 48.4% top-1 accuracy
+* BYOL [2]: 73.2% top-1 accuracy
+
+c. Semi-supervised learning methods:
+
+* FixMatch (w. RandAug) [15]: 71.5% top-1 accuracy
+* S4L (Rot+V AT+Entropy Min.) [30]: 73.2% top-1 accuracy
+
+d. Self-supervised learning methods:
+
+* CPC v2 [19]: 52.0% top-1 accuracy
+
+Comparing the results from the discussed methods with the state-of-the-art, we can see that:
+
+1. Our self-supervised ResNet-152 (3 +SK) achieves 68.9% top-1 accuracy when ﬁne-tuned on 1% of labeled examples, outperforming all other self-supervised learning methods, including CPC v2 [19].
+2. Our semi-supervised FixMatch (w. RandAug) [15] and S4L (Rot+V AT+Entropy Min.) [30] methods also show competitive performance, surpassing some unsupervised learning methods like BYOL [2] and SimSiam [1].
+3. Our ResNet-50 trained with different types of targets (label only, label + distillation loss on labeled set, and label + distillation loss on labeled+unlabeled sets) demonstrates the effectiveness of distillation loss in improving the performance, especially when the label fraction is low (1%).
+
+In summary, our proposed methods achieve state-of-the-art performance on ImageNet, outperforming many other methods, including both supervised and unsupervised learning, as well as
+
+Unsupervised Feature Learning via Non-parametric Instance Discrimination
+
+
+
+1. Lemniscate (Ours): The Lemniscate method achieves an accuracy of 42.5% on ImageNet, outperforming all baselines, including the state-of-the-art. Our method can readily scale up to deeper networks.
+2. Exemplar CNN [3]: The accuracy with exemplar CNN [3] is only 31.5% even with ResNet-101. This shows that Lemniscate significantly outperforms exemplar CNN.
+3. AlexNet: The Lemniscate method also achieves impressive results with AlexNet, reaching an accuracy of 38.7%. These results show remarkable generalization ability of Lemniscate compared to the state-of-the-art.
+
+Comparing the performance metrics, Lemniscate outperforms the state-of-the-art by a significant margin, achieving higher accuracy rates across different network architectures. The results demonstrate the ef
+
+{iBOT}: Image {BERT} Pre-Training with Online Tokenizer
+
+
+
+1. Self-supervised methods:
+
+* iBOT (ours) outperforms the state-of-the-art methods, such as MoCov3 (Chen et al., 2021) and DINO (Carion et al., 2020) on various downstream tasks, demonstrating the effectiveness of our proposed method.
+* Our method achieves state-of-the-art performance with ViT-S/16 even without multi-crop and comparable performance with ViT-B/16 compared with MoCov3.
+
+1. Supervised pretraining:
+
+* Our method iBOT surpasses the state-of-the-art supervised pretraining methods, such as SimCLRv2 (Chen et al., 2020b), Self-label (Asano et al., 2020), InfoMin (Tian et al., 2020), and SCAN (Van Gansbeke et al., 2020), on various downstream tasks, demonstrating the superiority of our proposed method.
+
+1. Comparison with other self-supervised methods:
+
+* Our method iBOT outperforms other state-of-the-art self-supervised methods, such as BYOL (Bachman et al., 2021), SimSiam (Wei et al., 2020), and PCoD (Duncan et al., 2021), on various downstream tasks, showcasing the effectiveness of our proposed method.
+
+In terms of performance metrics, our method iBOT consistently achieves higher scores than the state-of-the-art methods across various downstream tasks. For example, our method achieves 32.8% N
+
+A Simple Framework for Contrastive Learning of Visual Representations
+
+
+
+1. ResNet-50 (2 ) vs. ResNet-50 (4 ) (Table B.2):
+ResNet-50 (4 ) outperforms ResNet-50 (2 ) in terms of top-1 accuracy, demonstrating the advantage of using a larger model with more parameters.
+2. Longer training for supervised models (Figure B.2):
+Extending the training process leads to improved top-1 accuracy for ResNet-50. The use of a square root learning rate instead of a linear one might contribute to this improvement.
+3. SimCLR pretraining vs. ResNet-50 (Table B.2):
+SimCLR pretraining signiﬁcantly outperforms ResNet-50 in terms of top-1 accuracy for all data augmentation percentages. This demonstrates the beneﬁts of pretraining with a large-scale dataset and diverse data augmentations.
+
+Comparing the results from the methods discussed with the state-of-the-art, we can see that:
+
+1. ResNet-50 (2 ) vs. ResNet-50 (4 ) (Table B.2):
+While ResNet-50 (2 ) outperforms ResNet-50 (4 ) in terms of top-1 accuracy for ImageNet-1k, ResNet-50 (4 ) outperforms ResNet-50 (2 ) for VOC 2007. This suggests that the larger model with more parameters is advantageous for some datasets but not others.
+2. Longer training for supervised models (Figure B.2):
+Extending the training process leads to improved top-1 accuracy for ResNet-50, demonstrating the beneﬁts of longer training.
+3. SimCLR pretraining vs. ResNet-50 (Table B.2):
+SimCLR pretraining signiﬁcantly outperforms ResNet-50 in terms of top-1 accuracy for all data augmentation percentages. This highlights the importance of pretraining with a large-scale dataset and diverse data augmentations.
+
+In summary, ResNet-50 (4 ) outperforms ResNet-50 (2 ) on VOC 2007, and longer training leads to improved top-1 accuracy for ResNet-50. SimCLR pretraining signiﬁcantly outperforms ResNet-50 in terms of top-1 accuracy for all data augmentation percentages, demonstrating the beneﬁts of pretraining with a large-scale dataset and diverse data augmentations.
+

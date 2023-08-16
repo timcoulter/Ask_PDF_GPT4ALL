@@ -1,0 +1,58 @@
+Explainable artificial intelligence and interpretable machine learning for agricultural data analysis
+
+Challenge 1: Assessing the importance of a discovery
+
+The first challenge mentioned is assessing the importance of a discovery. In the context of machine learning, it is crucial to have interpretable and explainable models to evaluate the significance of a finding. This challenge highlights the need for XAI tools to make complex algorithms more understandable and predictable.
+
+Challenge 2: Fulfilling the demand for explainable AI
+
+The second challenge mentioned is fulfilling the demand for explainable AI. As AI and machine learning become more prevalent in various fields, there is an increasing need for tools that can make these algorithms more interpretable and explainable. This challenge emphasizes the importance of XAI in enhancing the predictability of complex algorithms without sacrificing their accuracy and effectiveness.
+
+Challenge 3: Developing XAI tools for enhancing interpretability
+
+The third challenge mentioned is developing XAI tools for enhancing interpretability. This challenge acknowledges the growing importance of XAI in various scientific disciplines, such as biodiversity research, geoscience, and hydrological/climatic science. The development of such tools aims to improve the understanding and predictability of complex algorithms in various domains.
+
+In summary, the challenges mentioned in the context of machine learning and AI include assessing the importance of discoveries, fulfilling the demand for explainable AI, and developing XAI tools for enhancing interpretability. These challenges highlight the need for interpretable and explainable models in various scientific disciplines to improve the understanding and predictability of complex algorithms.
+
+Explainable Deep Learning Study for Leaf Disease Classification
+
+1. Lack of "explainability": The models need to be trained with large datasets of good quality and a long time to achieve an admissible amount of accuracy and relevancy [ 9]. Among all the shortcomings, the lack of “explainability” is endemic and crucial to the black-box models in the widespread application, which is an important open point in artiﬁcial neural networks and deep learning models [ 10]. These neural network-based black box models make the users cannot fully grasp the information for which reason the output is generated [11,12].
+2. Drawbacks and barriers: Despite all the advantages of DL, the drawbacks and barriers cannot be ignored especially in further application of modern agriculture. For example, the models need to be trained with large datasets of good quality and a long time to achieve an admissible amount of accuracy and relevancy [ 9].
+3. Long training time: The models need to be trained with large datasets of good quality and a long time to achieve an admissible amount of accuracy and relevancy [ 9].
+4. Barriers in application: The drawbacks and barriers cannot be ignored especially in further application of modern agriculture. For example, the models need to be trained with large datasets of good quality and a long time to achieve an admissible amount of accuracy and relevancy [ 9].
+5. Grading: In recent years, with the continuous research grading [5], pest detection [6], plant disease recognition [7], and weed detection [8].
+6. Pest detection: In recent years, with the continuous research grading [5], pest detection [6], plant disease recognition [7], and weed detection [8].
+7. Plant disease recognition: In recent years, with the continuous research grading [5], pest detection [6], plant disease recognition [7], and weed detection [8].
+8. Weed detection: In recent years, with the continuous research grading [5], pest detection [6], plant disease recognition [7], and weed detection [8].
+9. Admissible amount of accuracy and relevancy: The models need to be trained with large datasets of good quality and a long time to achieve an admissible amount of accuracy and relevancy [ 9].
+10. Interpretability: The lack of “explainability” is endemic and crucial to the black-box models in the widespread application, which is an important open point in artiﬁcial neural networks and deep learning models [ 10]. These neural network-based black box models make the users cannot fully grasp the information for which reason the output is generated [11,12].
+11. Visualization of model internals: By mapping abstract data into images, the visual representation of the model is established, which reduces the difﬁculty for researchers to understand the deep learning model, understands the internal expression, reduces the complexity of the model to a certain extent, and improves transparency.
+12. Explanatory artiﬁcial intelligence (xAI) reveals its importance: In order to make the models more transparent and interpretable, explanatory artiﬁcial intelligence (xAI) reveals its importance, which is considered to be at the highest level in explainability, accuracy, and performance [ 10].
+
+Interpretability Versus Accuracy: A Comparison of Machine Learning Models Built Using Different Algorithms, Performance Measures, and Features to Predict E. coli Levels in Agricultural Water
+
+1. Challenges related to the selection of appropriate algorithms and features:
+* Choosing the right algorithm for a specific problem (e.g., linear regression, decision trees, random forests, or neural networks).
+* Identifying the most relevant features to include in the model (e.g., weather, water quality, soil characteristics, or management practices).
+1. Challenges related to data collection and costs:
+* Determining the most effective and efficient ways to collect data (e.g., using publicly available weather data or investing in equipment for on-site water quality monitoring).
+* Assessing the costs associated with data collection (e.g., capital investment in equipment, staff training, and ongoing maintenance costs).
+1. Challenges related to model evaluation and validation:
+* Establishing appropriate metrics for evaluating and comparing the performance of different models (e.g., accuracy, precision, recall, or F1 score).
+* Ensuring that the models are validated using independent datasets to confirm their generalizability and reliability.
+1. Challenges related to the development of field-ready models:
+* Designing models that can be easily integrated into existing decision-making processes and tools (e.g., through the creation of user-friendly graphical interfaces).
+* Ensuring that the models can be updated and refined as new data become available (e.g., through the implementation of machine learning techniques that enable model retraining and adaptation).
+
+By addressing these challenges, researchers can contribute to the development of ﬁeld-ready models that provide valuable insights and support informed decision-making in agricultural water management.
+
+Evaluation of the factors explaining the use of agricultural land: A machine learning and model-agnostic approach
+
+1. The paper mentions that the challenges faced in agricultural adaptation to climate-water effects are related to the complexity of the system and the need for interdisciplinary approaches.
+2. The authors also highlight the importance of integrating different sources of information, such as remote sensing, ground-based observations, and model outputs, to better understand and manage the system.
+3. Additionally, the paper emphasizes the need for adaptive management strategies that can account for uncertainties and changes in the system over time.
+4. Furthermore, the authors mention the challenges in communication and knowledge transfer between different stakeholders, including farmers, researchers, and policymakers.
+5. Lastly, the paper discusses the need for capacity building and education to enhance the understanding and management of climate-water effects on agriculture.
+
+In summary, the challenges mentioned in the paper are related to the complexity of the system, the need for interdisciplinary approaches, integrating different sources of information, adaptive management strategies, communication and knowledge transfer between different stakeholders, and capacity building and education.
+

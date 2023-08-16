@@ -1,0 +1,58 @@
+An intelligent mobile application for diagnosis of crop diseases in Pakistan using fuzzy inference system
+
+1. Fuzzy logic and fuzzy inference system:
+
+The proposed system uses fuzzy logic and fuzzy inference system to provide an easy-to-use interface for end users. The fuzzy rules have been encoded in the fuzzy rule-base of the FIS. The performance analysis of the proposed system has been conducted using various performance measures, including accuracy, recall, precision, and F_measure.
+
+The results from the proposed system compare favorably with the state-of-the-art. The accuracy, recall, precision, and F_measure of the proposed system using max aggregation and middle of maximum defuzziﬁcation methods have been shown in Table 4. The system achieved an average accuracy of 99%, recall of 89%, precision of 96%, and F_measure of 91%. These performance metrics are considered excellent and demonstrate the effectiveness of the proposed system.
+
+When compared to the state-of-the-art, the proposed system outperforms many existing solutions in terms of accuracy, recall, precision, and F_measure. This demonstrates the potential of the proposed system to become a leading solution in the domain of agricultural disease diagnosis and management.
+
+Please note that the comparison with state-of-the-art methods should be based on the specific context and requirements of the problem being addressed, as well as the performance metrics used for evaluation.
+
+Development of automatic counting system for urediospores of wheat stripe rust based on image processing
+
+1. Spore trap method: This method is widely used in the field to capture pathogen spores. It is considered a standard method for spore collection.
+2. Traditional microscopic counting method: This method is time-consuming and labor-intensive, making it less efficient than the proposed automatic counting system.
+3. Automatic counting system: The proposed system uses K-means clustering algorithm for binary segmentation and color segmentation of spore microscopic images. This method provides a more efficient and accurate way to count spores compared to the traditional microscopic counting method.
+
+Now let's compare the performance metrics of these methods:
+
+1. Spore trap method: This method is widely accepted and has been proven effective in the field. However, it may not provide precise spore counting data.
+2. Traditional microscopic counting method: This method is accurate but very time-consuming and labor-intensive.
+3. Automatic counting system: The proposed system uses K-means clustering algorithm for binary segmentation and color segmentation of spore microscopic images. This method provides a more efficient and accurate way to count spores compared to the traditional microscopic counting method. The performance metrics of the automatic counting system, such as accuracy, precision, and processing speed, are likely to be superior to those of the traditional microscopic counting method.
+
+In summary, the results from the methods discussed compare favorably to the state-of-the-art. The performance metrics of the automatic counting system, such as accuracy, precision, and processing speed, are likely to be superior to those of the traditional microscopic counting method. This system provides a more efficient and accurate way to count spores compared to the traditional microscopic counting method.
+
+Automatic Image-Based Plant Disease Severity Estimation Using Deep Learning
+
+1. State-of-the-art methods:
+
+a. Deep learning models: VGG16, VGG19, Inception-V3, ResNet50, etc. These models have achieved remarkable performance on various image classification tasks, such as ImageNet. They are pre-trained on large-scale datasets and fine-tuned for specific tasks.
+
+b. Transfer learning: This technique leverages pre-trained models on large-scale datasets and fine-tunes them for specific tasks with limited data. It has shown significant improvements in performance, especially when there is a lack of training data.
+
+c. Data augmentation: This technique artificially increases the size of the training dataset by applying various transformations (e.g., rotation, scaling, flipping, etc.) to the images. This helps improve the generalization capabilities of the model and can lead to better performance.
+
+d. Ensemble methods: These methods combine multiple models to make predictions, which can often lead to better performance than individual models.
+
+1. Performance metrics comparison:
+
+a. Accuracy: This is a commonly used performance metric, which measures the proportion of correctly classified samples. In the context of the PlantVillage dataset, achieving high accuracy is crucial for accurate disease diagnosis.
+
+b. Precision and Recall: These metrics are essential for evaluating the performance of classifiers, particularly when the class distribution is imbalanced. Precision measures the proportion of true positives among the predicted positives, while recall measures the proportion of true positives among the actual positives. Both metrics are important for assessing the quality of the classification results.
+
+c. F1 Score: This is a harmonic mean of precision and recall, which provides a balanced measure of the classifier's performance. It is particularly useful when the class distribution is imbalanced.
+
+1. Comparison with state-of-the-art:
+
+a. Deep learning models: The results obtained by the shallow network models discussed (e.g., SVM, k-NN, etc.) are likely to be outperformed by the state-of-the-art deep learning models, such as VGG16, VGG19, Inception-V3, ResNet50, etc. These models have been shown to achieve higher accuracies on various image classification tasks.
+
+b. Transfer learning: The results obtained by fine-tuning pre-trained models on the PlantVillage dataset are likely to be better than those obtained by training models from scratch, as transfer learning can alleviate the problem of insufficient training data.
+
+c. Data augmentation: Data augmentation techniques can further improve the performance of deep learning models, especially when the amount of training data is limited.
+
+d. Ensemble methods: Ensemble methods, such as stacking or voting, can be applied to combine the predictions of multiple models, potentially leading to better performance than individual models.
+
+In summary, the results obtained by the methods discussed are likely to be outperformed by state-of-the-art deep learning models, particularly when transfer learning and data augmentation techniques are employed. The performance metrics, such as accuracy, precision, recall, and F1 score, can help evaluate and compare the performance of different methods.
+

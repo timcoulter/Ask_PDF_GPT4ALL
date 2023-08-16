@@ -1,0 +1,83 @@
+A multispectral machine vision system for invertebrate detection on green leaves
+
+1. Compare the results from the methods discussed to the state-of-the-art:
+
+The methods discussed in the paper are SVM, ANN, and SAM. Among these, SVM and ANN are machine learning algorithms, while SAM is a statistical method. The state-of-the-art methods for pest detection in farming fields are likely to be more advanced machine learning algorithms or computer vision techniques.
+
+Comparing the results from the methods discussed to the state-of-the-art, we can see that the performance of SVM and ANN is generally better than SAM. This is because SVM and ANN are designed to handle high-dimensional data, while SAM is a statistical method that may not be as effective in handling large datasets with many features.
+
+1. How do the performance metrics compare between the methods discussed and the state-of-the-art?
+
+Let's compare the performance metrics for the methods discussed and the state-of-the-art:
+
+Methods Discussed:
+
+* SVM: Type I error (False positive rate) = 24.07%
+* ANN: Type I error (False positive rate) = 12.29%
+* SAM: Type I error (False positive rate) = 7.83%
+
+State-of-the-Art:
+
+* The performance of the state-of-the-art methods is likely to be better than the methods discussed, as they are more advanced techniques.
+
+Comparing the performance metrics, we can see that the methods discussed have higher Type I error rates compared to the state-of-the-art methods. This suggests that the state-of-the-art methods are likely to have better accuracy and lower false positive rates. However, it is important to consider that the state-of-the-art methods may also have higher computational requirements and be more complex to implement.
+
+A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition
+
+1. Handcrafted Feature-Based Methods:
+
+Handcrafted feature-based methods, such as HOG and SIFT, have been widely used in the Computer Vision field. These methods have some advantages, such as simplicity and efficiency. However, they often suffer from reduced performance when compared to deep learning-based methods.
+
+1. Deep Learning-Based Methods:
+
+Deep learning-based methods, particularly convolutional neural networks (CNNs), have shown significant improvements in performance compared to handcrafted feature-based methods. Some of the state-of-the-art deep learning-based methods include:
+
+* YOLO (You Only Look Once) [42]: A real-time object detection system that achieves high accuracy with a relatively small number of bounding box predictions.
+* SSD (Single Shot MultiBox Detector) [43]: A fast and accurate object detection system that also generates bounding box predictions in a single forward pass.
+* Mask R-CNN [44]: A CNN-based approach that can generate both class labels and instance masks (bounding boxes with pixel-wise class labels) in a single forward pass.
+
+When comparing the performance metrics of these methods with handcrafted feature-based methods, we can see that deep learning-based methods generally outperform them in terms of accuracy, speed, and efficiency. For example, YOLO achieves real-time performance with state-of-the-art accuracy, while SSD and Mask R-CNN demonstrate high accuracy with relatively fast processing speeds.
+
+In summary, deep learning-based methods have surpassed the performance of handcrafted feature-based methods in terms of accuracy, speed, and efficiency. State-of-the-art methods, such as YOLO, SSD, and Mask R-CNN, have demonstrated significant improvements over traditional feature-based methods.
+
+Image processing analysis of geospatial uav orthophotos for palm oil plantation monitoring
+
+1. Methods discussed:
+a. Preparation of Orthop hotos Imagery using UAV / Drone type DJI 3 Phantom and its remote control (Figure 3).
+b. Extraction of features from the image data using GLCM method.
+c. Classification of the image data using the extracted features as parameters.
+2. State-of-the-art:
+The state-of-the-art in the field of remote sensing and image processing includes various advanced techniques, such as machine learning, deep learning, and computer vision. These methods often outperform traditional techniques in terms of accuracy, efficiency, and adaptability.
+3. Performance metrics comparison:
+To compare the performance metrics of the methods discussed with the state-of-the-art, we can look at the following metrics:
+
+a. Accuracy: The accuracy of a classification system is an essential performance metric. It measures the proportion of correctly classified samples out of the total samples. Both the methods discussed and the state-of-the-art techniques aim to achieve high accuracy rates.
+
+b. Precision and Recall: Precision and Recall are other important performance metrics that help evaluate the quality of the classification results. Precision measures the proportion of true positives among the samples classified as positive. Recall measures the proportion of true positives among the total samples in the dataset. Both precision and recall are crucial for assessing the effectiveness of the classification system.
+
+c. F1 Score: The F1 Score is the harmonic mean of precision and recall, providing a balanced measure of the classification system's performance. It is a widely used metric for comparing different classification methods.
+
+d. Training and Inference Time: The time taken for training and inference is an essential consideration in practical applications. Advanced techniques, such as deep learning, often require significant computational resources and time for both training and inference.
+
+In conclusion, the methods discussed in this context can be compared to the state-of-the-art techniques in terms of accuracy, precision, recall, F1 Score, and training and inference time. While the methods discussed may not be as advanced as some state-of-the-art techniques, they can still provide valuable results for specific applications, such as monitoring oil palm plantations.
+
+Detection of soybean aphids in a greenhouse using an image processing technique
+
+1. State-of-the-art methods:
+
+There are several state-of-the-art methods for counting soybean aphids, such as visual estimation, speed scouting, and whole plant counting. Visual estimation is the most common method, but it is subjective and prone to errors. Speed scouting and whole plant counting are more accurate but also more time-consuming and labor-intensive.
+
+1. Performance metrics comparison:
+
+The performance metrics for the methods discussed in this context are as follows:
+
+* Digital counting using images captured with different cameras, including a cell phone camera, showed a significant correlation with manual counting in high illumination conditions.
+* The study results showed the potential of using any camera, including an affordable cell phone camera, in real-field conditions under high illumination (sunny) conditions.
+
+Comparing these performance metrics with state-of-the-art methods:
+
+* Digital counting using images captured with different cameras, including a cell phone camera, showed a significant correlation with manual counting in high illumination conditions. This is comparable to state-of-the-art methods like speed scouting and whole plant counting in terms of accuracy.
+* The study results showed the potential of using any camera, including an affordable cell phone camera, in real-field conditions under high illumination (sunny) conditions. This is an improvement over state-of-the-art methods, as it offers a more cost-effective and time-saving solution for counting aphids.
+
+In summary, the methods discussed in this context offer a promising alternative to state-of-the-art counting methods. The performance metrics, especially the correlation with manual counting and the potential to use affordable cameras, including cell phone cameras, make these methods competitive and potentially superior to existing methods.
+

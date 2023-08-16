@@ -1,0 +1,118 @@
+A Survey on Deep Semi-supervised Learning
+
+1. Projective transformation: This transformation preserves the relative positions of the points, but not their lengths. The novelty is to apply this transformation to text data, which is not a traditional application.
+2. Affine transformation: This transformation preserves both the relative positions and the lengths of the points. The novelty is to apply this transformation to text data, which is not a traditional application.
+3. Similarity transformation: This transformation is based on the similarity between the input points. The novelty is to apply this transformation to text data, which is not a traditional application.
+4. Euclidean transformation: This transformation is based on the distance between the input points. The novelty is to apply this transformation to text data, which is not a traditional application.
+
+The main ideas and novelty proposed by the paper are:
+
+1. Applying various transformations to text data, which is not a traditional application.
+2. Combining multiple transformations to create more diverse and representative instances.
+3. Training an encoder to learn a good feature representation from the transformed instances.
+4. Demonstrating the effectiveness of the proposed method on a text classification task.
+
+In summary, the paper proposes a novel approach to text data by applying different transformations and combining them to create more diverse instances. The method is then used to train an encoder to learn a good feature representation, which is demonstrated to be effective on a text classification task.
+
+Meta Pseudo Labels
+
+1. Inpainting-based regularization: The main idea is to use inpainting as a regularization technique during the training process. This technique encourages the model to learn more robust features by filling in the missing parts of the input images.
+2. Context-based clustering: The novelty in this approach is the use of context-based clustering to separate the two clusters of images into their correct classes. This idea is based on the assumption that images from the same class tend to have similar contextual information.
+3. Regularized evolution for architecture search: The proposed method incorporates a search for the optimal architecture using regularized evolution. This allows the model to be adaptable to different datasets and improve its performance.
+4. Learning to reweight examples: The method involves learning how to reweight examples during the training process. This helps the model focus more on the most informative examples and reduces overfitting.
+5. Automatically generating extraction patterns: The method proposes using an algorithm to automatically generate extraction patterns from untagged text. This can help improve the performance of text classification models.
+
+In summary, the proposed method combines multiple novel ideas and techniques to improve the performance of deep learning models. These include inpainting-based regularization, context-based clustering, regularized evolution for architecture search, learning to reweight examples, and automatically generating extraction patterns from untagged text.
+
+Pseudo-Label : The Simple and Efficient Semi-Supervised Learning Method for Deep Neural Networks
+
+=exp(j=1Wk
+ijhk
+)
+
+Wk
+ijhk
+=
+(n=1N)
+
+n=1N
+
+Self-Training With Noisy Student Improves {ImageNet} Classification
+
+1. Data
+
+The main idea of data filtering and balancing is to improve the performance of the student model by focusing on high-confidence images for self-training. This helps to reduce the impact of out-of-domain or low-quality images on the model's learning.
+
+1. Self-training
+
+The novelty in self-training with data filtering and balancing is to ensure that the student model learns from high-quality images during the self-training process. This leads to an improvement in the model's performance, especially when labeled data is limited.
+
+1. Teacher model
+
+The teacher model plays a crucial role in the proposed method. It provides high-confidence labels for the unlabeled images, which are then used for self-training. The novelty in this approach is the use of a robust teacher model, such as the Inception-v4 model, to ensure the accuracy and reliability of the labels.
+
+In summary, the main ideas and novelty proposed in the paper are:
+
+* Data filtering and balancing to improve the quality of images used for self-training.
+* Robust teacher models to provide accurate and reliable labels for unlabeled images.
+* Self-training with data filtering and balancing to improve the performance of the student model, especially when labeled data is limited.
+
+A Survey on Deep Semi-supervised Learning
+
+1. Projective transformation: This transformation preserves the relative positions of the points, but not their lengths. The novelty is to apply this transformation to text data, which is not a traditional application.
+2. Affine transformation: This transformation preserves both the relative positions and the lengths of the points. The novelty is to apply this transformation to text data, which is not a traditional application.
+3. Similarity transformation: This transformation is based on the similarity between the input points. The novelty is to apply this transformation to text data, which is not a traditional application.
+4. Euclidean transformation: This transformation is based on the distance between the input points. The novelty is to apply this transformation to text data, which is not a traditional application.
+
+The main ideas and novelty proposed by the paper are:
+
+1. Applying various transformations to text data, which is not a traditional application.
+2. Combining multiple transformations to create more diverse and representative instances.
+3. Training an encoder to learn a good feature representation from the transformed instances.
+4. Demonstrating the effectiveness of the proposed method on a text classification task.
+
+In summary, the paper proposes a novel approach to text data by applying different transformations and combining them to create more diverse instances. The method is then used to train an encoder to learn a good feature representation, which is demonstrated to be effective on a text classification task.
+
+Meta Pseudo Labels
+
+1. Inpainting-based regularization: The main idea is to use inpainting as a regularization technique during the training process. This technique encourages the model to learn more robust features by filling in the missing parts of the input images.
+2. Context-based clustering: The novelty in this approach is the use of context-based clustering to separate the two clusters of images into their correct classes. This idea is based on the assumption that images from the same class tend to have similar contextual information.
+3. Regularized evolution for architecture search: The proposed method incorporates a search for the optimal architecture using regularized evolution. This allows the model to be adaptable to different datasets and improve its performance.
+4. Learning to reweight examples: The method involves learning how to reweight examples during the training process. This helps the model focus more on the most informative examples and reduces overfitting.
+5. Automatically generating extraction patterns: The method proposes using an algorithm to automatically generate extraction patterns from untagged text. This can help improve the performance of text classification models.
+
+In summary, the proposed method combines multiple novel ideas and techniques to improve the performance of deep learning models. These include inpainting-based regularization, context-based clustering, regularized evolution for architecture search, learning to reweight examples, and automatically generating extraction patterns from untagged text.
+
+Pseudo-Label : The Simple and Efficient Semi-Supervised Learning Method for Deep Neural Networks
+
+=exp(j=1Wk
+ijhk
+)
+
+Wk
+ijhk
+=
+(n=1N)
+
+n=1N
+
+Self-Training With Noisy Student Improves {ImageNet} Classification
+
+1. Data
+
+The main idea of data filtering and balancing is to improve the performance of the student model by focusing on high-confidence images for self-training. This helps to reduce the impact of out-of-domain or low-quality images on the model's learning.
+
+1. Self-training
+
+The novelty in self-training with data filtering and balancing is to ensure that the student model learns from high-quality images during the self-training process. This leads to an improvement in the model's performance, especially when labeled data is limited.
+
+1. Teacher model
+
+The teacher model plays a crucial role in the proposed method. It provides high-confidence labels for the unlabeled images, which are then used for self-training. The novelty in this approach is the use of a robust teacher model, such as the Inception-v4 model, to ensure the accuracy and reliability of the labels.
+
+In summary, the main ideas and novelty proposed in the paper are:
+
+* Data filtering and balancing to improve the quality of images used for self-training.
+* Robust teacher models to provide accurate and reliable labels for unlabeled images.
+* Self-training with data filtering and balancing to improve the performance of the student model, especially when labeled data is limited.
+

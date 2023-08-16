@@ -1,0 +1,26 @@
+{PlantSize} Offers an Affordable, Non-destructive Method to Measure Plant Size and Color in Vitro
+
+
+
+The context mentions a "simple linear model" and "quantitative information on plant size and development." This suggests that the main idea is to develop a model that can accurately predict plant size and development based on image analysis.
+
+The novelty proposed in the context is the use of machine learning algorithms to analyze plant images and extract quantitative information on plant size and development. This is a departure from traditional methods that rely on human expertise to analyze plant images. The use of machine learning algorithms can potentially improve the accuracy and efficiency of plant size and development analysis.
+
+In summary, the main idea is to develop a model using machine learning algorithms for predicting plant size and development based on image analysis. The novelty is the use of machine learning algorithms to analyze plant images, which can potentially improve the accuracy and efficiency of plant size and development analysis.
+
+A pattern recognition strategy for visual grape bunch detection in vineyards
+
+
+
+1. The proposed method divides regions of pixels clustered by DBSCAN into separate clusters if there exists a separation of at least two berries along the horizontal axis and a concavity of two berries in the vertical axis.
+2. Fig. 3 shows two contour concavities of the many there in the grape bunches. Concavity I can be detected by drawing a vertical line and noticing some points are outside the grape bunch. Concavity II can be found by drawing a horizontal line B and noticing there exists an interval between points 5 and 6 that falls outside the grape bunch.
+3. The latter concavity is special because it is large enough to fit a few grapes, unlike Concavity I which does not provide useful information to decide whether there is an overlapping grape bunch.
+
+The main ideas and novelty proposed in this context are:
+
+1. Proposing a method to isolate each grape bunch by dividing regions of pixels clustered by DBSCAN into separate clusters based on specific criteria.
+2. Identifying and using concavities in grape bunch contours as a novel feature for grape detection and bunch separation. Concavity II is special because it is large enough to fit a few grapes, making it a more reliable feature for detecting overlapping grape bunches.
+3. Combining shape, texture, and color descriptors to improve the accuracy and robustness of grape detection and bunch separation methods.
+
+In summary, the proposed method combines shape, texture, and color descriptors to improve the accuracy and robustness of grape detection and bunch separation methods. The novelty lies in the use of concavities in grape bunch contours as a reliable feature for detecting overlapping grape bunches, with Concavity II being the special feature due to its large enough to fit a few grapes.
+

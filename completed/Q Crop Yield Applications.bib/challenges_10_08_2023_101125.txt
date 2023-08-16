@@ -1,0 +1,258 @@
+Satellite Images and Deep Learning Tools for Crop Yield Prediction and Price Forecasting
+
+
+
+1. Data collection: The authors mention that they collected data from various sources, including satellite images, weather data, and crop yield data. However, they do not provide specific details about the challenges they faced during data collection.
+2. Data preprocessing: The authors preprocess the data to remove noise and irrelevant information. They mention that they use techniques such as dimensionality reduction and masking to achieve this. However, they do not provide specific details about the challenges they faced during data preprocessing.
+3. Model training and evaluation: The authors train machine learning models on the preprocessed data and evaluate their performance. They mention that they use techniques such as cross-validation and performance metrics to assess the models' accuracy and generalization. However, they do not provide specific details about the challenges they faced during model training and evaluation.
+
+In summary, while the authors mention various aspects of their research, they do not provide detailed information about the challenges they faced during each stage of their study.
+
+Crop Yield Estimation Using Multi-Source Satellite Image Series and Deep Learning
+
+
+
+1. Data collection: Gathering data from multiple sources, such as satellite imagery, weather data, and crop yield data, can be challenging due to differences in data formats, resolutions, and time scales.
+2. Data preprocessing: Preprocessing the data to make it suitable for analysis can be challenging. This includes tasks such as image registration, radiometric correction, and data normalization.
+3. Feature extraction: Extracting relevant features from the data can be challenging, especially when working with large and complex datasets. This may involve manual feature engineering or using automated techniques, such as deep learning.
+4. Model selection and training: Choosing the appropriate machine learning or deep learning model for the task at hand can be challenging. Additionally, training these models with large datasets can be computationally intensive and time-consuming.
+5. Model evaluation and validation: Evaluating and validating the performance of the chosen model is crucial for ensuring accurate predictions. This may involve using cross-validation techniques, performance metrics, and comparing the results with ground truth data.
+6. Scalability and real-time processing: Developing algorithms and models that can scale to handle large volumes of data in real-time can be challenging, especially when working with streaming data from satellites or other sources.
+7. Integration with existing systems: Integrating the developed algorithms and models with existing systems, such as decision support systems or operational workflows, can be challenging due to differences in data formats, protocols, and system architectures.
+8. Interpretability and explainability: Ensuring that the developed models are interpretable and can provide meaningful explanations for their predictions can be challenging, especially when working with complex deep learning models.
+9. Handling missing data: Dealing with missing data in the dataset can be challenging, as it may introduce biases and reduce the accuracy of the predictions.
+10. Handling outliers and anomalies: Identifying and handling outliers and anomalies in the data can be challenging, as they may introduce errors and reduce the accuracy of the predictions.
+
+Addressing these challenges requires a combination of domain knowledge, technical expertise, and creative problem-solving skills. By understanding and overcoming these challenges, researchers and practitioners can develop more accurate and effective predictive models for agricultural applications.
+
+Wheat Crop Yield Prediction Using Deep {LSTM} Model
+
+
+
+Challenge 1: Limited Computational Resources
+The challenge mentioned is related to the choice of the number of convolutional layers and filters in each layer. The authors were constrained by the computational resources, which means they had limited computing power to run their models. This constraint forced them to make trade-offs in the design of their CNN feature extractor.
+
+Challenge 2: Handling Inconsistencies in the Images
+The authors mention that they expect to see inconsistencies in the images between areas where the harvesting has been completed and with those where it has not taken place. This inconsistency is one of the reasons for the marginal increase in the error towards the end of the crop season. The challenge here is to develop a model that can effectively handle these inconsistencies and still provide accurate predictions of crop yield.
+
+Challenge 3: Integrating Contextual Information
+The authors hypothesize that integrating contextual information such as the location of water bodies, farmlands, and urban landscape will help the CNN-LSTM-12 model to predict the crop yield more accurately. However, integrating this information into the model presents a challenge. The challenge is to effectively incorporate the contextual information while maintaining the accuracy of the model's predictions.
+
+Challenge 4: Fine-tuning and Model Selection
+The authors mention that they used a cross-validation process to fine-tune their proposed model that uses raw satellite imagery and contextual information such as water bodies, an area of 120 km². This fine-tuning process and the subsequent model selection challenge the researchers to identify the best model architecture and parameters that provide the best performance on the test dataset.
+
+In summary, the challenges mentioned in the context are related to the limitations in computational resources, handling inconsistencies in the images, effectively incorporating contextual information, and fine-tuning and model selection to achieve the best performance on the test dataset.
+
+Predicting rice yield at pixel scale through synthetic use of crop and deep learning models with satellite data in South and North Korea {\textbar} Elsevier Enhanced Reader
+
+
+
+Challenge 1: Data collection and integration
+
+Challenge 2: Data preprocessing and quality control
+
+Challenge 3: Feature selection and engineering
+
+Challenge 4: Model training, validation, and optimization
+
+Challenge 5: Model interpretation and communication of results
+
+Challenge 6: Scalability and real-time processing
+
+Challenge 7: Handling missing data and imputation techniques
+
+Challenge 8: Dealing with data privacy and security concerns
+
+Challenge 9: Continuous improvement and adaptation to new data sources and techniques
+
+Challenge 10: Collaboration and knowledge sharing among researchers and stakeholders
+
+County-Level Soybean Yield Prediction Using Deep {CNN}-{LSTM} Model
+
+0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+Deep Gaussian Process for Crop Yield Prediction Based on Remote Sensing Data
+
+
+
+1. Data quality and availability: The quality and availability of data are challenges. Sometimes, data may be missing or have errors, which can affect the accuracy of the model. Additionally, data availability can be limited, especially in remote areas or during specific seasons.
+2. Scalability: Scaling the model to cover larger areas or multiple regions can be challenging. The model may require significant computational resources, and the data may need to be preprocessed or aggregated to handle larger spatial extents.
+3. Model complexity: Balancing model complexity with interpretability and generalizability is a challenge. More complex models may provide better performance, but they can also be more difficult to interpret and may not generalize well to new data.
+4. Real-time processing: Processing large amounts of data in real-time can be challenging, especially when dealing with streaming data or high-resolution imagery. Efficient data processing and storage mechanisms are essential to handle these requirements.
+5. Integration with existing systems: Integrating the model with existing systems, such as decision support systems or operational workflows, can be challenging. Ensuring seamless data flow, compatibility, and effective communication between different components is crucial for a successful implementation.
+6. Validation and verification: Validating and verifying the accuracy and reliability of the model is essential. This includes assessing the performance of the model under different conditions, comparing it with ground truth data, and refining the model as needed.
+7. Adaptability to changing conditions: Ensuring that the model remains adaptable to changing conditions, such as changes in land use, climate, or human activities, is important. This may require continuous monitoring, updating, and retraining of the model to maintain its accuracy and relevance.
+
+By addressing these challenges, the model can be improved and better adapted to real-world applications, ultimately providing more accurate and reliable predictions of agricultural productivity.
+
+Integrating satellite-derived climatic and vegetation indices to predict smallholder maize yield using deep learning {\textbar} Elsevier Enhanced Reader
+
+
+
+Challenge 1: Handling missing data
+Solution: Use imputation techniques like mean, median, or mode imputation for continuous variables, and mode imputation for categorical variables. Additionally, consider using machine learning algorithms that can handle missing data, such as LASSO, LightGBM, or LSTM.
+
+Challenge 2: Selecting optimal input indices
+Solution: Train multiple machine/deep learning models with different combinations of input indices. This will help in identifying the optimal combination of input indices for the specific prediction task.
+
+Challenge 3: Overfitting and underfitting
+Solution: Use techniques like cross-validation, regularization (e.g., LASSO, LightGBM, or LSTM), and feature selection to prevent overfitting and underfitting. Additionally, use advanced technologies, such as high-resolution satellite imagery and airborne LiDAR data, to further reduce over-fitting.
+
+Challenge 4: Designing experiments
+Solution: Design comparative experiments to address the three questions mentioned in the introduction. This will help in identifying the optimal vegetation index, climatic index, and combination of input indices for specific prediction tasks.
+
+Integration of a Crop Growth Model and Deep Learning Methods to Improve Satellite-Based Yield Estimation of Winter Wheat in Henan Province, China
+
+
+
+1. Limited training data: The main challenge mentioned is the limited number of training samples available for the deep learning model. This can lead to overfitting or underfitting, making it difficult to achieve accurate predictions.
+2. Scalability: Another challenge mentioned is the scalability of the deep learning model to the regional scale. The model needs to be adapted to handle larger datasets and more complex relationships between variables.
+3. Complexity of wheat growth: Wheat growth is a complex process involving multiple factors such as soil, meteorological, and management conditions. This complexity can make it challenging to develop accurate predictive models using deep learning techniques.
+4. Integration with existing models: The authors mention the challenge of integrating deep learning models with existing agro-meteorological models, such as the CERES-Wheat model. This requires careful calibration and validation to ensure the accuracy and reliability of the combined models.
+5. Data preprocessing: Preprocessing the large volume of data from multiple sources can be challenging. This includes data cleaning, normalization, and transformation, which are essential for the deep learning model to function effectively.
+6. Interpretability: Deep learning models can sometimes be considered as "black boxes," making it difficult to understand and interpret the underlying mechanisms driving the predictions. This can be a challenge for the practical implementation of such models in real-world applications.
+
+In summary, the challenges mentioned in the context include limited training data, scalability issues, the complexity of wheat growth, integration with existing models, data preprocessing, and interpretability. Addressing these challenges is crucial for developing accurate and reliable deep learning-based predictive models for wheat yield estimation.
+
+A deep learning approach to conflating heterogeneous geospatial data for corn yield estimation: A case study of the {US} Corn Belt at the county level
+
+
+
+1. Lack of awareness about the challenges: The first challenge mentioned is the lack of awareness about the challenges faced by the researchers. This could be due to the researchers themselves not being aware of the challenges they face, or it could be due to a lack of communication between the researchers and the relevant stakeholders.
+2. Limited access to research materials: The second challenge mentioned is limited access to research materials. This could be due to various reasons, such as restrictions on access to certain publications, limited availability of research materials in certain regions, or high costs associated with obtaining access to research materials.
+3. Time-consuming processes: The third challenge mentioned is time-consuming processes. This could be due to the complexity of the research process, the need for extensive literature reviews, or the requirement for multiple rounds of revisions.
+4. Difficulty in finding relevant information: The fourth challenge mentioned is difficulty in finding relevant information. This could be due to the vast amount of information available, the lack of proper indexing and categorization of research materials, or the use of different terminologies across various disciplines.
+5. Insufficient funding: The fifth challenge mentioned is insufficient funding. This could be due to limited financial resources available for research, high costs associated with conducting research, or the lack of funding opportunities for researchers in certain fields or regions.
+6. Pressure to publish in high-impact journals: The sixth challenge mentioned is pressure to publish in high-impact journals. This could be due to the emphasis on publishing in prestigious journals for career advancement and recognition, which may lead researchers to prioritize publication outlets over the quality or relevance of their research.
+7. Challenges in interdisciplinary research: The seventh challenge mentioned is challenges in interdisciplinary research. This could be due to differences in research methods, terminologies, and perspectives across various disciplines, which may hinder collaboration and communication between researchers from different fields.
+
+In summary, the challenges mentioned in the context include: lack of awareness, limited access to research materials, time-consuming processes, difficulty in finding relevant information, insufficient funding, pressure to publish in high-impact journals, and challenges in interdisciplinary research.
+
+Deep Learning For Crop Yield Prediction in Africa
+
+
+
+1. Data quality and availability: The main challenge is related to the quality and availability of satellite data, particularly for countries with limited resources. The data may be affected by cloud cover, sensor degradation, or other issues that can reduce the accuracy and reliability of the data.
+2. Scalability: Another challenge is related to the scalability of the model. As the number of countries and years increases, the model may become computationally expensive, especially when using deep learning techniques.
+3. Handling missing data: Satellite data often has missing values due to cloud cover or other factors. Handling missing data is crucial to ensure the accuracy and reliability of the model's predictions.
+4. Integration of multiple data sources: The model should integrate multiple data sources, such as satellite data, ground-based measurements, and socio-economic data. Integrating these data sources can be challenging, especially when dealing with different data formats, scales, and sources of uncertainty.
+5. Adaptability to different crops and regions: The model should be adaptable to different crops and regions, as yield predictions may vary significantly depending on the crop and the local agricultural conditions.
+6. Interpretability: The model should provide interpretable results to help experts understand the factors contributing to yield variations. This is particularly important for decision-making in the agricultural sector.
+7. Scalability across different regions: The model should be scalable across different regions, taking into account the variability in climate, soil, and agricultural practices.
+8. Real-time processing: The model should be able to process satellite data in real-time to provide timely yield predictions.
+
+These challenges highlight the complexity of developing a robust and accurate yield prediction model for African countries using satellite data. Addressing these challenges will require careful consideration of data quality, model scalability, and integration of multiple data sources to ensure accurate and reliable predictions.
+
+A deep learning framework under attention mechanism for wheat yield estimation using remotely sensed indices in the Guanzhong Plain, {PR} China {\textbar} Elsevier Enhanced Reader
+
+
+
+Challenges mentioned in the context are:
+
+1. The incorporation of external knowledge bases, pre-training embeddings or multi-task learning with deep learning models would provide greater insight by facilitating interpretability (Chaudhari et al., 2020).
+2. Many variables affecting wheat yield. Soil moisture is both an integrator of climatic conditions and a driver of local weather and climate, which provides useful information that better describe the growth of crops.
+3. Toward global soil moisture monitoring with Sentinel-1: harnessing assets and overcoming obstacles (Bauer-Marschallinger et al., 2019).
+4. A generalized regression-based model for forecasting winter wheat yields in Kansas and Ukraine using MODIS data (Becker-Reshef et al., 2010).
+5. Forecasting crop yield using remotely sensed vegetation indices and crop phenology metrics (Bolton and Friedl, 2013).
+
+In summary, the challenges mentioned in the context are related to:
+
+1. Interpretability and understanding of deep learning models.
+2. Integration of soil moisture data for better crop yield prediction.
+3. Global monitoring of soil moisture using Sentinel-1.
+4. Developing models for forecasting crop yield using remotely sensed data.
+5. Improving crop yield prediction models by incorporating external knowledge bases, pre-training embeddings, or multi-task learning with deep learning models.
+
+An {LSTM} neural network for improving wheat yield estimates by integrating remote sensing data and meteorological data in the Guanzhong Plain, {PR} China {\textbar} Elsevier Enhanced Reader
+
+
+
+1. Data intensive nature: The study requires a large amount of data to train the LSTM model, which can be a challenge in data-scarce problems.
+2. Relatively large efforts: Determining the optimal hyperparameters for the LSTM model can be time-consuming and require trial-and-error approaches.
+3. Traceability and interpretability: The activation and squashing functions in the LSTM model can weaken traceability and interpretability, making it difficult to understand the model's decision-making process.
+4. Potential limitation in application: The data-intensive nature of LSTM models can be a barrier for applying them in data-scarce problems.
+5. Limited adaptability: The findings in the study demonstrate the potential of applying a deep-learning model in the field of agriculture, but also highlight the model's limited adaptability to interannual fluctuations of climate.
+6. Challenges in understanding the model: The study mentions the challenges in understanding the machine learning process using attention network and the difference between temporal linking architecture and the improvement of model structure.
+7. Automating hyperparameter search: To address the challenge of determining the best hyperparameters through trial and error, automating the search for the best hyperparameters could be a solution.
+
+By addressing these challenges, future studies can improve the application of LSTM models in various fields, including agriculture, and enhance the understanding and interpretability of deep learning models.
+
+Estimating and understanding crop yields with explainable deep learning in the Indian Wheat Belt
+
+
+
+1. The context mentions the rice harvest (Global Information and Early Warn-
+
+Wheat yield predictions at a county and field scale with deep learning, machine learning, and google earth engine {\textbar} Elsevier Enhanced Reader
+
+
+
+1. Limited training data: The authors mentioned that they only had 8806 and 629 samples as training data and test data each time. This could be a challenge for the DL model to learn effectively from the limited data.
+2. Feature extraction: The authors noted that the selected features have strong correlations with crop yields, which can be used to estimate crop yields even with traditional ML models. However, they didn't discuss the potential of DL models to automatically extract new features from input data, reducing the need for feature engineering.
+3. Model performance: The authors compared the performance of three DL and RF models at a county level. They found that the DL models performed better than some previous studies, while the RF model seemed to perform better than the other DL models to some extent. The authors speculated that there were two main reasons for this: (i) the training of the DL model requires a large number of datasets, but they only had limited datasets as training and test data; and (ii) one of the advantages of DL is that it can automatically extract new features from input data, which may not have been sufficiently utilized in this study.
+
+In summary, the challenges mentioned are related to limited training data, the potential of DL models to automatically extract new features, and the comparison of model performance at a county level.
+
+Use Of Deep Neural Networks For Crop Yield Prediction: A Case Study Of Soybean Yield in Lauderdale County, Alabama, {USA}
+
+
+
+Challenge 1: Limited data availability
+Authorized licensed use limited to: James Cook University of Northern Queensland. Downloaded on October 12,2022 at 04:31:10 UTC from IEEE Xplore.  Restrictions apply. 
+
+Challenge 2: Diverse land cover types and complex interactions
+Authorized licensed use limited to: James Cook University of Northern Queensland. Downloaded on October 12,2022 at 04:31:10 UTC from IEEE Xplore.  Restrictions apply. 
+
+Challenge 3: High-level abstraction of agricultural systems
+Authorized licensed use limited to: James Cook University of Northern Queensland. Downloaded on October 12,2022 at 04:31:10 UTC from IEEE Xplore.  Restrictions apply. 
+
+Challenge 4: Scalability and generalization across different regions and environments
+Authorized licensed use limited to: James Cook University of Northern Queensland. Downloaded on October 12,2022 at 04:31:10 UTC from IEEE Xplore.  Restrictions apply. 
+
+Challenge 5: Integration of multiple data sources and sensor technologies
+Authorized licensed use limited to: James Cook University of Northern Queensland. Downloaded on October 12,2022 at 04:31:10 UTC from IEEE Xplore.  Restrictions apply. 
+
+Challenge 6: Handling of missing data and data preprocessing
+Authorized licensed use limited to: James Cook University of Northern Queensland. Downloaded on October 12,2022 at 04:31:10 UTC from IEEE Xplore.  Restrictions apply. 
+
+Challenge 7: Ensuring data privacy and security
+Authorized licensed use limited to: James Cook University of Northern Queensland. Downloaded on October 12,2022 at 04:31:10 UTC from IEEE Xplore.  Restrictions apply. 
+
+Challenge 8: Interpretability and explainability of deep learning models
+Authorized licensed use limited to: James Cook University of Northern Queensland. Downloaded on October 12,2022 at 04:31:10 UTC from IEEE Xplore.  Restrictions apply. 
+
+Challenge 9: Adaptability to changing environmental conditions and farming practices
+Authorized licensed use limited to: James Cook University of Northern Queensland. Downloaded on October 12,2022 at 04:31:10 UTC from IEEE Xplore.  Restrictions apply. 
+
+Challenge 10: Integration with decision support systems for improved agricultural management
+Authorized licensed use limited to: James Cook University of Northern Queensland. Downloaded on October 12,2022 at 04:31:10 UTC from IEEE Xplore.  Restrictions apply. 
+
+By addressing these challenges, the researchers can develop a robust and accurate agricultural forecasting model that can effectively predict crop yields and support informed decision-making in the agricultural sector.
+
+Winter Wheat Yield Estimation from Multitemporal Remote Sensing Images based on Convolutional Neural Networks
+
+
+
+1. Scarcity of labeled training data: The paper mentions that labeled training data are scarce, which is a significant challenge in deep learning applications, especially for remote sensing data analysis.
+2. Dependence on the number of samples: The paper also mentions that CNNs are more dependent on the number of samples, which may be the reason for the overfitting in Shanxi and Shandong provinces.
+3. Regional imbalance: The paper highlights the regional imbalance in terms of the estimation results of Shandong and Shanxi, indicating that the models in these regions have been overfitting.
+4. Potential of CNN in remote sensing data analysis: The paper emphasizes the potential of CNN in remote sensing data analysis, as it can extract high-level semantic information from the underlying features of the original pixels based on remote sensing data.
+5. Research area selection: North China (110.22°E to 122.71°E, 31.39°N to 42.62°N) is selected as the research area, mainly including Henan, Hebei, Shanxi, and Shandong provinces.
+
+Based on the challenges mentioned, the main goal of the paper is to address the scarcity of labeled training data and the dependence of CNNs on the number of samples. The authors also aim to improve the estimation results in regions with regional imbalance and demonstrate the potential of CNN in remote sensing data analysis.
+
+Estimating crop yields with deep learning and remotely sensed data
+
+
+
+1. Data acquisition: Limited data availability in some areas can be a challenge.
+2. Data quality: Data quality may vary due to different sources, sensors, or weather conditions.
+3. Data preprocessing: Preprocessing the data to remove noise, fill gaps, or normalize values can be time-consuming and may introduce errors.
+4. Handling missing values: Missing values in the data can lead to inaccuracies in the model's predictions.
+5. Scalability: Deep learning models may require significant computational resources, which can be a challenge for real-time applications or when working with limited resources.
+6. Interpretability: Deep learning models can be challenging to interpret, which may be an issue in some applications, such as understanding the factors affecting crop yields.
+7. Training data: Insufficient or imbalanced training data can lead to suboptimal performance of the deep learning model.
+8. Model selection and optimization: Choosing the right deep learning architecture and optimizing its hyperparameters can be a challenging task.
+9. Generalization: Ensuring that the deep learning model generalizes well to unseen data can be a challenge.
+10. Real-world deployment: Integrating the deep learning model into real-world applications, such as providing crop yield estimates to farmers, can be challenging due to factors like data privacy, trust, and user adoption.
+

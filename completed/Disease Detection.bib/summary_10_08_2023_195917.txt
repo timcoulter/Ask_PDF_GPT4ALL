@@ -1,0 +1,44 @@
+An intelligent mobile application for diagnosis of crop diseases in Pakistan using fuzzy inference system
+
+
+
+1. The main idea is to develop a mobile application that provides farmers with relevant information and advice based on their specific needs and local conditions.
+2. The novelty proposed is the integration of fuzzy logic into the mobile application to contextualize information for the farmers.
+3. The application aims to address various agricultural issues such as pest infestations, diseases, and environmental factors that may affect crop growth and yield.
+4. The application also takes into account the specific needs and local conditions of the farmers, providing tailored advice and recommendations.
+5. The use of fuzzy logic in the mobile application provides a unique approach to contextualize information for the farmers, making the advice and recommendations more relevant and accurate.
+
+In summary, the main ideas proposed are to develop a mobile application that provides farmers with relevant information and advice, and to integrate fuzzy logic into the application to enhance its contextualization capabilities. The novelty of this proposal lies in the combination of these ideas to create a more effective and tailored solution for the farmers.
+
+Development of automatic counting system for urediospores of wheat stripe rust based on image processing
+
+
+
+1. Traditional microscopic counting method is time-consuming and labor consumptive.
+2. Long-time microscopic observation is easy to cause eye fatigue, and local optimality.
+3. The problem of counting spores in the field is a challenging task due to the great number and small size of the trapped spores.
+
+Based on these observations, the main ideas and novelty proposed in the context are:
+
+1. Propose an automated method for spore counting using computer vision and machine learning techniques to reduce the time and labor consumption associated with traditional counting methods.
+2. Develop a novel spore detection and counting system that can work with low-quality images captured by spore trap methods, which often produce blurry and low-resolution images.
+3. Address the challenges associated with counting spores due to their small size and large number by developing an efficient and accurate spore counting system.
+
+The proposed method aims to improve the efficiency and accuracy of spore counting while minimizing the potential for human error and fatigue. This novelty is particularly relevant in the context of plant disease monitoring and management, where accurate and timely spore counting is crucial for making informed decisions and implementing effective control measures.
+
+Automatic Image-Based Plant Disease Severity Estimation Using Deep Learning
+
+
+
+1. The paper proposes a novel deep learning architecture called "Rethinking the Inception Architecture for Computer Vision."
+2. The main idea is to improve the accuracy and efficiency of the Inception architecture, which is a popular deep learning model for computer vision tasks.
+3. The novelty of the proposed architecture lies in the introduction of "skip connections" and "bottleneck layers." These components help in reducing overfitting, improving training speed, and enhancing the model's ability to learn hierarchical representations.
+4. The proposed architecture has been shown to achieve state-of-the-art performance on various computer vision benchmarks, demonstrating its effectiveness and novelty.
+
+In summary, the main ideas and novelty proposed in the paper are:
+
+1. Proposing a novel deep learning architecture called "Rethinking the Inception Architecture for Computer Vision."
+2. Improving the accuracy and efficiency of the Inception architecture.
+3. Introducing "skip connections" and "bottleneck layers" to reduce overfitting, improve training speed, and enhance the model's ability to learn hierarchical representations.
+4. Demonstrating the effectiveness of the proposed architecture through state-of-the-art performance on various computer vision benchmarks.
+

@@ -1,0 +1,53 @@
+A Survey on Deep Semi-supervised Learning
+
+1. Pseudo-label: Pseudo-labeling is a widely used method in SSL. It has been shown to achieve state-of-the-art performance on various benchmarks, such as CIFAR-10 [224], ImageNet [229], and TinyImageNet [236]. The performance metrics for pseudo-labeling methods are typically evaluated using accuracy, F1-score, or other relevant metrics depending on the task.
+2. Consistency Regularization: Consistency regularization methods, such as those based on the self-training and co-training frameworks, have also demonstrated state-of-the-art performance on various benchmarks. For example, the Self-Training method [225] has achieved competitive results on CIFAR-10 and ImageNet. Similarly, Co-Training [27] has shown promising results on various datasets, including the Caltech-UCSD Birds-200-2011 dataset [14].
+3. Entropy Minimization: Entropy minimization methods, such as those based on the Maximum Mean Discrepancy (MMD) [237] and the Variational Lower Bound (VLB) [238], have also shown promising results on various benchmarks. For example, the MMD-based method [237] has achieved state-of-the-art performance on the CIFAR-10 dataset [239].
+4. Hybrid Methods: Hybrid methods that combine multiple SSL techniques have also demonstrated state-of-the-art performance on various benchmarks. For example, the FixMatch method [229] has achieved competitive results on the CIFAR-10 and ImageNet datasets. Similarly, the S4L method [229] has shown promising results on various datasets, including the Caltech-UCSD Birds-200-2011 dataset [14].
+
+In summary, the results from the methods discussed in this context compare favorably to the state-of-the-art in SSL. The performance metrics for these methods vary depending on the task, but they generally demonstrate improved accuracy, F1-score, or other relevant metrics compared to traditional supervised learning methods.
+
+Meta Pseudo Labels
+
+1. On CIFAR-10, the state-of-the-art methods achieve accuracies around 97.3% [ 76]. Our method with WideResNet-28-2 and Reduced Meta Pseudo Labels achieves an accuracy of 98.56% ± 0.07, which is very close to the best-known accuracy.
+2. On SVHN, the state-of-the-art methods achieve accuracies around 98.71% [ 77]. Our method with WideResNet-28-2 and Reduced Meta Pseudo Labels achieves an accuracy of 98.78% ± 0.07, which is also very close to the best-known accuracy.
+3. On ImageNet, the state-of-the-art methods achieve top-1 accuracy around 80.9% [ 80]. Our method with ResNet-50 and Reduced Meta Pseudo Labels achieves an accuracy of 86.87% ± 0.11, which is a significant improvement of more than 5% relative to the UDA teacher.
+
+Comparing the performance metrics of the discussed methods with the state-of-the-art, we can see that our methods achieve accuracies that are very close to the best-known accuracies on CIFAR-10 and SVHN. On ImageNet, our method achieves a significant improvement of more than 5% relative to the UDA teacher.
+
+In summary, our methods demonstrate competitive performance compared to the state-of-the-art, with some methods even surpassing the best-known accuracies on CIFAR-10 and SVHN. The improvement on ImageNet is particularly noteworthy, as it represents a substantial leap in top-1 accuracy compared to existing methods.
+
+Pseudo-Label : The Simple and Efficient Semi-Supervised Learning Method for Deep Neural Networks
+
+1. Dropout Regularization: Dropout regularization is a popular technique used in deep neural networks to prevent overfitting. It randomly sets a fraction of input units to zero during training. The dropout regularization method is widely used in various deep learning tasks, including image classification, speech recognition, and natural language processing.
+
+Compared to the state-of-the-art, dropout regularization provides competitive performance. However, it may not be the best choice for semi-supervised learning, as demonstrated by the +PL method.
+
+1. Pseudo-Label Training: Pseudo-Label training is a semi-supervised learning technique that uses unlabeled data to improve the performance of the model. It generates pseudo-labels for the unlabeled data and uses them during training along with labeled data. This method has shown promising results in various deep learning tasks, including image classification, speech recognition, and natural language processing.
+
+Compared to the state-of-the-art, Pseudo-Label training can provide better performance, especially when combined with other techniques, such as unsupervised pre-training (e.g., +PL+DAE).
+
+1. Unsupervised Pre-training: Unsupervised pre-training is a technique that uses an unsupervised learning algorithm to initialize the weights of a neural network. This method has been shown to be effective in improving the performance of deep learning models, especially when combined with semi-supervised learning techniques.
+
+Unsupervised pre-training can provide significant improvements in performance, especially when combined with other techniques, such as Pseudo-Label training (e.g., +PL+DAE) or transfer learning (e.g., MTC).
+
+1. Transfer Learning: Transfer learning is a technique that involves using a pre-trained model as a starting point for a new task. This method has been shown to be effective in improving the performance of deep learning models, especially when the source and target tasks share similar features.
+
+Transfer learning can provide significant improvements in performance, especially when combined with other techniques, such as unsupervised pre-training (e.g., MTC) or semi-supervised learning (e.g., +PL+DAE).
+
+In summary, the methods discussed in this context, such as dropout regularization, Pseudo-Label training, unsupervised pre-training, and transfer learning, have shown promising results in various deep learning tasks. When combined with other techniques or applied to specific tasks, these methods can provide state-of-the-art performance.
+
+Self-Training With Noisy Student Improves {ImageNet} Classification
+
+1. EfﬁcientNets trained with NoisyStudent have better tradeoff in terms of accuracy and model size compared to previous state-of-the-art models.
+2. NoisyStudent (EfﬁcientNet-L2) outperforms the state-of-the-art accuracy of 86.4% by FixRes ResNeXt-101 WSL [ 55,84].
+3. Our method only requires 300M unlabeled images, which is perhaps more easy to collect. Our model is also approximately twice as small in the number of parameters compared to FixRes ResNeXt-101 WSL.
+
+Now let's compare the performance metrics:
+
+1. On ImageNet-A, our method leads to a top-1 accuracy improvement from 61.0% to 83.7%.
+2. On ImageNet-C, our method leads to a mean corruption error (mCE) improvement from 45.7 to 28.3.
+3. On ImageNet-P, our method leads to a mean ���ip rate (mFR) improvement from 27.8 to 12.2.
+
+In summary, the results from the methods discussed in this paper significantly outperform the state-of-the-art. The performance metrics also show significant improvements, demonstrating the effectiveness of our proposed method.
+

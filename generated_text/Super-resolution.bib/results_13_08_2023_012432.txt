@@ -1,0 +1,222 @@
+{SwinFIR}: Revisiting the {SwinIR} with Fast Fourier Convolution and Improved Training for Image Super-Resolution
+
+ERROR: The prompt size exceeds the context window size and cannot be processed.
+
+{SwinIR}: Image Restoration Using Swin Transformer
+
+ERROR: The prompt size exceeds the context window size and cannot be processed.
+
+Learned Image Downscaling for Upscaling using Content Adaptive Resampler
+
+ERROR: The prompt size exceeds the context window size and cannot be processed.
+
+Activating More Pixels in Image Super-Resolution Transformer
+
+
+
+1. We have discussed several state-of-the-art methods, such as EDSR [30], RCAN [65], SAN [7], IGNN [69], HAN [41], NLSN [40], RCAN-it [32], and approaches using ImageNet pre-training, i.e., IPT [5] and EDT [26].
+2. We have also discussed the proposed method, called HAT (Hierarchical Attention Transform).
+3. We have provided quantitative results for all the discussed methods on various benchmark datasets, such as Set5, BSD100, Urban100, and Manga109.
+
+Now, let's analyze the results and compare the performance metrics of these methods:
+
+1. EDSR [30], RCAN [65], SAN [7], IGNN [69], HAN [41], NLSN [40], RCAN-it [32] are all deep learning-based methods that use convolutional layers for image restoration.
+2. IPT [5] and EDT [26] are pre-trained models that use ImageNet for image restoration.
+3. HAT (Hierarchical Attention Transform) is a novel deep learning-based
+
+A comprehensive review of deep learning-based single image super-resolution
+
+
+
+1. PSNR: PSNR is a widely used metric for image quality assessment. It compares the difference between the original image and the SR image by calculating the mean squared error (MSE) between the two images. PSNR is a widely accepted metric, and it is commonly used for comparing the performance of different SR methods. However, PSNR has some limitations, such as not considering the structural information within the image.
+2. SSIM: SSIM is another widely used metric for image quality assessment. It is based on the structural similarity index (SSIM), which quantifies the similarity between two images based on their structural information. SSIM is a perceptually based metric, meaning that it takes into account human visual perception. SSIM is also commonly used for comparing the performance of different SR methods.
+3. Task-based evaluation: Task-based evaluation is appropriate when the SR images are used for a specific task, such as object detection, classification, or diagnosis. In these cases, the performance of the SR method can be indirectly measured by evaluating the performance of the associated task. This method helps in measuring the performance of the whole task, which uses SR images.
+
+When comparing the performance metrics of these methods, it is important to note that PSNR and SSIM are more focused on the visual quality of the SR images, while task-based evaluation takes into account the performance of the associated task.
+
+In summary, the results from the methods discussed (PSNR, SSIM, and task-based evaluation) compare favorably to the state-of-the-art in terms of image quality assessment. However, it is important to consider the specific use case and the requirements of the application when choosing the most appropriate method.
+
+Deep Learning for Image Super-resolution: A Survey
+
+
+
+1. Full-reference methods: PSNR and SSIM are widely used full-reference methods. According to the benchmark results in Fig. 8, the state-of-the-art models generally achieve higher PSNR values than the methods discussed. However, the performance gap between the discussed methods and the state-of-the-art models is not significant.
+2. Reduced-reference methods: Reduced-reference methods, such as MS-SSIM [59] and UQSPICE [60], are also used for SR evaluation. These methods are generally less accurate than full-reference methods like PSNR and SSIM, but they can provide more perceptually meaningful results. The discussed methods may not perform as well as these reduced-reference metrics in terms of perceptual quality.
+3. No-reference methods: No-reference methods, also known as blind IQA methods, aim to provide an objective quality assessment without the need for reference images. Examples of no-reference methods include the Structural Similarity Index (SSIM) [58] and the Visual Information Fidelity (VIF) [61]. The discussed methods may not perform as well as these no-reference metrics in terms of objective quality assessment.
+
+In summary, the discussed methods generally perform well compared to the state-of-the-art models in terms of PSNR and other full-reference metrics. However, when compared to reduced-reference and no-reference metrics, the discussed methods may not provide the same level of perceptual quality or objective quality assessment. Further research is needed to develop more accurate and comprehensive evaluation metrics for super-resolution.
+
+A comprehensive review on deep learning based remote sensing image super-resolution methods
+
+/7)-(1/7))
+
+Super-Resolution of Plant Disease Images for the Acceleration of Image-based Phenotyping and Vigor Diagnosis in Agriculture
+
+
+
+1. State-of-the-art super-resolution methods: These methods are typically based on deep learning techniques, such as convolutional neural networks (CNNs) [24]. These methods often achieve higher PSNR and SSIM values than the methods discussed in the context.
+2. Performance metrics comparison: The performance metrics for the methods discussed in the context are as follows:
+
+a. Nearest Neighbor: Low PSNR and SSIM values, but low processing time.
+b. Bilinear: Moderate PSNR and SSIM values, but low processing time.
+c. Cubic: Moderate PSNR and SSIM values, but low processing time.
+d. Bicubic: Moderate PSNR and SSIM values, but low processing time.
+e. Lanczos4: Moderate PSNR and SSIM values, but low processing time.
+f. SRCNN: High PSNR and SSIM values, but high processing time.
+g. Original: Low PSNR and SSIM values, but low processing time.
+
+Comparing the performance metrics of the methods discussed in the context with state-of-the-art super-resolution methods, it is evident that the SRCNN method, which is based on deep learning, outperforms other methods in terms of PSNR and SSIM values. However, it has a higher processing time than other methods.
+
+In conclusion, the methods discussed in the context, especially the SRCNN method, provide a good trade-off between processing time and image quality. Although they may not be as advanced as state-of-the-art super-resolution methods, they can still be useful for specific applications, such as agricultural monitoring, where real-time processing and reasonable image quality are more important than achieving the absolute best performance.
+
+Agricultural Pest Super-Resolution and Identification With Attention Enhanced Residual and Dense Fusion Generative and Adversarial Network
+
+
+
+1. Baseline Method:
+Baseline method is the original image without any super-resolution enhancement. In terms of classification accuracy, the baseline method would have an accuracy of around
+
+Crop Leaf Disease Image Super-Resolution and Identification With Dual Attention and Topology Fusion Generative Adversarial Network
+
+
+
+1. Li et al. [14] proposed an identification method for forested landslides using LiDAR data, object-based image analysis, and machine learning algorithms. The method achieved an accuracy of 91% to 98% in separate class tests, with an average value of 96.3%. Although the method is not directly comparable to the other discussed methods, it demonstrates the potential of machine learning algorithms in landslide identification.
+2. Pillonetto et al. [15] presented a survey on kernel methods in system identification, machine learning, and function estimation. The survey discussed various kernel methods and their applications in different fields. Although the survey does not present any specific performance metrics, it highlights the importance and versatility of kernel methods in various machine learning tasks.
+3. Wäldchen and Mäder [16] proposed a machine learning method for image-based species identification. The method achieved an accuracy of 8% to 99% in separate class tests, with an average value of 95.1%. The method demonstrates the potential of machine learning in species identification tasks.
+4. Sladojevic et al. [17] presented a deep neural networks (DNN)-based recognition method for plant diseases by leaf image classification. The method achieved an accuracy of 92% to 99% in separate class tests, with an average value of 97.1%. The method demonstrates the potential of DNNs in plant disease recognition tasks.
+5. Amara et al. [18] developed a deep learning-based approach that automates the identification of plant species using leaf images. The method achieved an accuracy of 82% to 99% in separate class tests, with an average value of 96.3%. The method demonstrates the potential of deep learning in plant species identification tasks.
+
+Comparing the performance metrics of these methods, we can see that the average accuracy values range from 91% to 99%. The methods proposed by Wäldchen and Mäder [16], Sladojevic et al. [17], and Amara et al. [18] have average accuracy values close to 95% to 99%. These methods demonstrate the potential of machine learning and deep learning in various tasks, including species identification, land-
+
+Deep recursive super resolution network with Laplacian Pyramid for better agricultural pest surveillance and detection
+
+
+
+1. Baseline method: The baseline method is a simple average pooling of the input images. It provides a basic understanding of the image content but does not capture the fine-grained details.
+2. Bicubic Interpolation (Bicubic): Bicubic interpolation is a widely used method for image upscaling. It can effectively reduce the blur effect but may not capture the fine details.
+3. SRCNN (SRCNN): SRCNN is a state-of-the-art super-resolution method. It can effectively recover the fine details in the images but may not be able to handle complex scenes with multiple objects or scenes with motion blur.
+4. DSRNLP (ours): Our proposed method, DSRNLP, outperforms the state-of-the-art methods in terms of PSNR, SSIM, and recall rate. DSRNLP can effectively recover the fine details and maintain the overall structure of the images, even in complex scenes with multiple objects or scenes with motion blur.
+
+In summary, our proposed method, DSRNLP, demonstrates superior performance compared to other state-of-the-art methods. The improvements in PSNR, SSIM, and recall rate indicate that DSRNLP can effectively recover the fine details and maintain the overall structure of the images, even in complex scenes with multiple objects or scenes with motion blur.
+
+{LASSR}: Effective super-resolution method for plant disease diagnosis
+
+
+
+1. Kasturiwala and Aladhake (2015) applied an iterative curvature-based interpolation method (Giachetti and Asuni, 2011) to increase the resolution of diseased leaf images. Although this method could support pathologists with better visual quality of the infected leaves, it has not yet been tested on any disease diagnosis tasks.
+2. Yamamoto et al. (2017) and Dai et al. (2020) improved disease diagnostic performance by applying an SRCNN and a GAN-based SR model called DATFGAN to tomatoes and other types of crops, respectively. Although these methods showed promising results, they are not very realistic, since they were applied to the impractical PlantVillage dataset.
+
+Comparing these methods to our LASSR approach, we can see that our method is more realistic and applicable to real-world scenarios. Our method does not rely on specific datasets or impractical conditions, making it more versatile and adaptable to various agricultural settings.
+
+In terms of performance metrics, our LASSR method achieved better results than the state-of-the-art methods, such as ESRGAN and DATFGAN, on both datasets. This demonstrates the effectiveness and superiority of our method in terms of generating high-quality, artifact-free images for disease diagnosis tasks.
+
+In conclusion, our LASSR method provides a more realistic and effective solution for generating high-quality images in agricultural applications. Compared to the state-of-the-art methods, our method outperforms them in terms of diagnostic performance and artifact reduction.
+
+Super-Resolution Based on Residual Dense Network for Agricultural Image
+
+
+
+1. Method 1: Traditional CNN (Baseline)
+The baseline method is a traditional CNN, which is a widely used and well-established method for image classification and segmentation tasks. The performance of this method depends on the specific architecture and training process. In general, the performance of a well-trained CNN can be competitive or even better than state-of-the-art methods, especially when considering the large number of publications in the field of computer vision.
+
+1. Method 2: Progressive Growing of GANs (PGGANs)
+PGGANs is a state-of-the-art method for single-image super-resolution. It has shown impressive results in various benchmark datasets. Compared to traditional CNN-based methods, PGGANs can generate higher-quality super-resolved images with better detail preservation and fewer artifacts. However, PGGANs may require more computational resources and longer training times due to its complex architecture.
+
+1. Method 3: Anchored Neighborhood Regression (ANR)
+ANR is a popular method for single-image super-resolution. It has been shown to achieve competitive results compared to other state-of-the-art methods. ANR is computationally efficient and can be trained relatively quickly. However, its performance might be limited when compared to more advanced methods, such as PGGANs.
+
+1. Method 4: Sparse Representation (SR)
+SR is a popular method for single-image super-resolution. It has been shown to achieve competitive results compared to other state-of-the-art methods. SR is computationally efficient and can be trained relatively quickly. However, its performance might be limited when compared to more advanced methods, such as PGGANs.
+
+In summary, the performance of the methods discussed varies significantly. Traditional CNNs can provide competitive results, while PGGANs and other advanced methods, such as ANR and SR, can achieve better performance in terms of image quality and detail preservation. However, these advanced methods may require more computational resources and longer training times.
+
+Blind Image Super-Resolution: A Survey and Beyond
+
+
+
+1. State-of-the-art methods: We have discussed several state-of-the-art methods, including KernelGAN [6], IKC [7], and CinCGAN [8]. These methods have been shown to achieve impressive results in terms of PSNR, SSIM, and other quantitative metrics.
+2. Comparison with the state-of-the-art: The results from the methods discussed in this paper can be compared with the state-of-the-art methods mentioned above. In general, the methods we have discussed can achieve competitive performance in terms of PSNR, SSIM, and other quantitative metrics. However, it is important to note that the performance of these methods may vary depending on the specific application and the quality of the input image.
+3. Performance metrics comparison: When comparing the performance metrics of different methods, it is essential to consider the specific metrics used by each method. For example, KernelGAN [6] primarily focuses on learning a suitable kernel for image SR, while IKC [7] and CinCGAN [8] aim to learn more complex representations of images. As a result, the performance metrics of these methods may differ, even though they are all state-of-the-art methods.
+
+In summary, the results from the methods discussed in this paper can be compared to the state-of-the-art methods in terms of PSNR, SSIM, and other quantitative metrics. While these methods can achieve competitive performance, it is important to consider the specific application and the quality of the input image when selecting a proper method. Additionally, it is crucial to understand the differences in the performance metrics used by each method in order to make a fair comparison.
+
+Blind super-resolution image reconstruction based on novel blur type identification
+
+
+
+1. Gaussian blur:
+The proposed method achieves a CR of 96.5% and 97.6%, which is higher than the state-of-the-art methods. The performance metrics, such as PSNR, ISNR, and FSIM, also show a significant improvement compared to other methods.
+2. Motion blur:
+The proposed method achieves a CR of 92.2% and 93.9%, which is higher than the state-of-the-art methods. The performance metrics, such as PSNR, ISNR, and FSIM, also show a significant improvement compared to other methods.
+3. De-focus blur:
+The proposed method achieves a CR of 89.7% and 90.2%, which is higher than the state-of-the-art methods. The performance metrics, such as PSNR, ISNR, and FSIM, also show a significant improvement compared to other methods.
+
+Comparing the results from the proposed method with the state-of-the-art methods, we can see that the proposed method outperforms the existing methods in terms of accuracy, performance metrics, and visual effect. The proposed method achieves higher CR rates and better performance metrics, such as PSNR, ISNR, and FSIM, than the state-of-the-art methods.
+
+In conclusion, the proposed blur identi
+
+Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
+
+
+
+1. State-of-the-art methods:
+
+a. CycleGAN: A recent method for unpaired image-to-image translation. It uses a CycleGAN model to learn the mapping between two domains.
+
+b. Pix2Pix: A fully supervised method for image-to-image translation. It uses a convolutional neural network to learn the mapping between two domains.
+
+c. Our method: An unsupervised method for image-to-image translation using a CycleGAN model.
+
+1. Performance metrics comparison:
+
+a. Evaluation metrics (AMT perceptual studies):
+
+* Our method: Around a quarter of trials in both maps!aerial photos direction and aerial photos !maps direction at 256256resolution3.
+* Baselines: Almost never fooled participants.
+
+b. Classification performance (Table 1):
+
+* Our method: Outperforms baselines in both maps!aerial photos direction and aerial photos !maps direction at 256256resolution3.
+* Baselines: Generally perform worse than our method.
+
+c. Labels !photo task on Cityscapes (Table 2) and opposite mapping (photos!labels) (Table 3):
+
+* Our method: Outperforms baselines in both tasks.
+
+d. Analysis of the loss function (Table 4 and Table 5):
+
+* Removing the GAN loss substantially degrades results.
+* Removing the cycle-consistency loss also degrades results.
+
+1. Applications:
+
+a. Collection style transfer (Figure 10 and Figure 11):
+
+* Our method: Learns to mimic the style of an entire collection of artworks, rather than transferring a single artwork's style.
+
+b. Other applications (please refer to the appendix for more details):
+
+* Our method: Demonstrates competitive performance compared to state-of-the-art methods, while learning the mapping without paired supervision.
+
+In summary, our unsupervised CycleGAN-based method compares favorably to state-of-the-art methods in terms of performance metrics, classification, and application demonstrations. The method learns the mapping without paired supervision, making it an attractive alternative for scenarios where paired data is not available.
+
+Unpaired remote sensing image super-resolution with content-preserving weak supervision neural network
+
+
+
+1. The paper discusses two methods: CPWSNN and GSR.
+2. CPWSNN uses a weakly supervised learning approach with a content-preserving weak supervision neural network (CPWSNN).
+3. GSR is a generative adversarial network (GAN) based method for remote sensing image SR.
+
+Comparing the two methods to the state-of-the-art:
+
+1. The paper mentions that the unpaired method (CPWSNN) achieves competitive SR results and high robustness.
+2. The GSR method is also competitive, as it demonstrates enhanced edge retention and degradation consistency in the testing phase.
+
+Now, let's compare the performance metrics of these methods with the state-of-the-art:
+
+1. CPWSNN: The paper mentions that the method achieves high robustness and competitive SR results. However, it does not provide specific performance metrics for comparison with the state-of-the-art.
+2. GSR: The paper mentions that the method demonstrates enhanced edge retention and degradation consistency in the testing phase. However, it does not provide specific performance metrics for comparison with the state-of-the-art.
+
+In conclusion, while the two methods discussed in the paper show promise in terms of performance, there is a lack of specific performance metrics for comparison with the state-of-the-art. Further research and experimentation would be necessary to provide a comprehensive comparison of these methods with the current state-of-the-art in remote sensing image SR.
+

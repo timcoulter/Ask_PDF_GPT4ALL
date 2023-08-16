@@ -1,0 +1,102 @@
+Recognition of ripe, unripe and scaled condition of orange citrus based on decision tree classification
+
+1. Orange Production Data: The paper presents the orange production data for the year 2014, which is a valuable resource for understanding the global orange production scenario.
+2. Orange Conditions: The paper discusses three different conditions of oranges: unripe, ripe, and scaled oranges. This provides a comprehensive understanding of the various stages of orange production.
+3. Feature Extraction: The paper proposes a methodology for extracting features from orange images. This includes the use of watershed segmentation, distance computation, and gray value extraction.
+4. Classification Techniques: The paper applies three different classification techniques to classify the extracted features: Naive Bayes, Artificial Neural Network, and Decision Tree.
+
+The main ideas and novelty proposed in the paper can be summarized as follows:
+
+1. The paper presents a comprehensive analysis of global orange production data for the year 2014, which can be useful for researchers, policymakers, and farmers alike.
+2. The paper discusses various conditions of oranges, providing a better understanding of the different stages of orange production.
+3. The proposed methodology for feature extraction from orange images is innovative and can be applied to other fruit types as well.
+4. The application of multiple classification techniques, including Naive Bayes, Artificial Neural Network, and Decision Tree, demonstrates the versatility and effectiveness of these methods in classifying fruit conditions.
+
+In summary, the paper presents a well-rounded analysis of global orange production data, various orange conditions, and an innovative methodology for feature extraction. Additionally, the application of multiple classification techniques showcases the versatility and effectiveness of these methods in classifying fruit conditions.
+
+Fruit and vegetables classification system using image saliency and convolutional neural network
+
+1. Online collecting: The main idea is to gather a large number of images containing various fruit and vegetable categories. This process helps to enrich the database and ensure the model's robustness.
+2. Shooting photos via digital camera: The novelty here is to capture different numbers and various forms of a fruit or vegetable category. This approach guarantees the richness of the database and helps the model to learn more diverse features.
+3. Combining two databases: By combining the databases, the model can benefit from the strengths of both sources. This fusion process allows the model to learn more effectively and achieve higher accuracy.
+4. Biologically-plausible architecture: The proposal of this architecture aims to develop a model that is inspired by the human brain's structure and function. This approach enables the model to learn more efficiently and generalize better to new data.
+5. Saliency concept: The introduction of saliency in the model helps to identify and focus on the most relevant regions of the input images. This feature improves the model's tolerance to variations in the input data and enhances its classification performance.
+
+In summary, the main ideas and novelty proposed in this work are:
+
+1. Enriching the database with online collected images and shooting photos via digital camera.
+2. Combining two databases to achieve better performance.
+3. Proposing a biologically-plausible architecture for the model.
+4. Incorporating the saliency concept to improve the model's tolerance and classification performance.
+
+These ideas contribute to the development of a robust and accurate fruit and vegetable classification system.
+
+Classification of Vegetables using {TensorFlow}
+
+The main ideas and novelty proposed in the paper are:
+
+1. Vegetable classification: The paper proposes a vegetable classifier to ease people's lives. The challenge in vegetable classification is the complexity of the background, similarity between species, and differences in shape, scale, viewpoint, and so on.
+2. Inspiration from Goren's handwritten digit recognition: The paper is inspired by Martin Görner's handwritten digit recognition using TensorFlow for Poets. A similar procedure is followed for developing this android-based system.
+3. Combining multiple features: The paper combines color, texture, and density features to achieve high accuracy in vegetable classification. The reported accuracy is approximately 95% when color and texture features are combined, but the top four responses are used to achieve such results.
+4. Unified approach for combining multiple features and classifiers: The paper presents a unified approach that can combine many features and classifiers. This approach is efficient compared to traditional methods, where all features are simply concatenated and fed independently to each classification algorithm.
+5. Expectation of long-term impact: The paper expects that this solution will endure beyond the problem solved in this paper.
+
+In summary, the main ideas and novelty proposed in the paper are:
+
+1. Vegetable classification to ease people's lives.
+2. Inspiration from Görner's handwritten digit recognition.
+3. Combining multiple features for high accuracy in vegetable classification.
+4. A unified approach for combining multiple features and classifiers.
+5. Expectation of long-term impact for the proposed solution.
+
+Recognition of ripe, unripe and scaled condition of orange citrus based on decision tree classification
+
+1. Orange Production Data: The paper presents the orange production data for the year 2014, which is a valuable resource for understanding the global orange production scenario.
+2. Orange Conditions: The paper discusses three different conditions of oranges: unripe, ripe, and scaled oranges. This provides a comprehensive understanding of the various stages of orange production.
+3. Feature Extraction: The paper proposes a methodology for extracting features from orange images. This includes the use of watershed segmentation, distance computation, and gray value extraction.
+4. Classification Techniques: The paper applies three different classification techniques to classify the extracted features: Naive Bayes, Artificial Neural Network, and Decision Tree.
+
+The main ideas and novelty proposed in the paper can be summarized as follows:
+
+1. The paper presents a comprehensive analysis of global orange production data for the year 2014, which can be useful for researchers, policymakers, and farmers alike.
+2. The paper discusses various conditions of oranges, providing a better understanding of the different stages of orange production.
+3. The proposed methodology for feature extraction from orange images is innovative and can be applied to other fruit types as well.
+4. The application of multiple classification techniques, including Naive Bayes, Artificial Neural Network, and Decision Tree, demonstrates the versatility and effectiveness of these methods in classifying fruit conditions.
+
+In summary, the paper presents a well-rounded analysis of global orange production data, various orange conditions, and an innovative methodology for feature extraction. Additionally, the application of multiple classification techniques showcases the versatility and effectiveness of these methods in classifying fruit conditions.
+
+Fruit and vegetables classification system using image saliency and convolutional neural network
+
+1. Online collecting: The main idea is to gather a large number of images containing various fruit and vegetable categories. This process helps to enrich the database and ensure the model's robustness.
+2. Shooting photos via digital camera: The novelty here is to capture different numbers and various forms of a fruit or vegetable category. This approach guarantees the richness of the database and helps the model to learn more diverse features.
+3. Combining two databases: By combining the databases, the model can benefit from the strengths of both sources. This fusion process allows the model to learn more effectively and achieve higher accuracy.
+4. Biologically-plausible architecture: The proposal of this architecture aims to develop a model that is inspired by the human brain's structure and function. This approach enables the model to learn more efficiently and generalize better to new data.
+5. Saliency concept: The introduction of saliency in the model helps to identify and focus on the most relevant regions of the input images. This feature improves the model's tolerance to variations in the input data and enhances its classification performance.
+
+In summary, the main ideas and novelty proposed in this work are:
+
+1. Enriching the database with online collected images and shooting photos via digital camera.
+2. Combining two databases to achieve better performance.
+3. Proposing a biologically-plausible architecture for the model.
+4. Incorporating the saliency concept to improve the model's tolerance and classification performance.
+
+These ideas contribute to the development of a robust and accurate fruit and vegetable classification system.
+
+Classification of Vegetables using {TensorFlow}
+
+The main ideas and novelty proposed in the paper are:
+
+1. Vegetable classification: The paper proposes a vegetable classifier to ease people's lives. The challenge in vegetable classification is the complexity of the background, similarity between species, and differences in shape, scale, viewpoint, and so on.
+2. Inspiration from Goren's handwritten digit recognition: The paper is inspired by Martin Görner's handwritten digit recognition using TensorFlow for Poets. A similar procedure is followed for developing this android-based system.
+3. Combining multiple features: The paper combines color, texture, and density features to achieve high accuracy in vegetable classification. The reported accuracy is approximately 95% when color and texture features are combined, but the top four responses are used to achieve such results.
+4. Unified approach for combining multiple features and classifiers: The paper presents a unified approach that can combine many features and classifiers. This approach is efficient compared to traditional methods, where all features are simply concatenated and fed independently to each classification algorithm.
+5. Expectation of long-term impact: The paper expects that this solution will endure beyond the problem solved in this paper.
+
+In summary, the main ideas and novelty proposed in the paper are:
+
+1. Vegetable classification to ease people's lives.
+2. Inspiration from Görner's handwritten digit recognition.
+3. Combining multiple features for high accuracy in vegetable classification.
+4. A unified approach for combining multiple features and classifiers.
+5. Expectation of long-term impact for the proposed solution.
+

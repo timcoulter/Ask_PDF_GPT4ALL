@@ -1,0 +1,110 @@
+A Carrot Sorting System Using Machine Vision Technique
+
+
+
+1. Introduction: The article introduces the problem of manual carrot grading and sorting, which is labor-intensive, time-consuming, and prone to human errors.
+2. Related Work: The authors review previous studies on carrot grading and sorting, noting the limitations of manual labor and the potential of computer vision systems.
+3. Proposed System: The authors propose an automated carrot grading and sorting system that combines mechanical equipment and novel algorithms. This system aims to improve efficiency, reduce labor costs, and minimize human errors.
+4. Methodology: The authors describe the process of collecting carrot samples from a packinghouse in China. They then present the methodology for developing the automated grading and sorting system, including the design and implementation of the mechanical equipment and the development of the novel algorithms.
+5. Results: The authors report the results of their experiments, demonstrating the efficiency and accuracy of the proposed automated system. They achieve a processing speed of 12-15 carrots per second and maintain a high level of accuracy in carrot classification.
+6. Discussion: The authors discuss the implications of their research, emphasizing the potential benefits of the proposed system for the carrot packaging industry. They also acknowledge the limitations of their work and suggest directions for future research.
+
+In summary, the main ideas and novelty proposed in the article are:
+
+1. To address the challenges and limitations of manual carrot grading and sorting, the authors propose an automated system that combines mechanical equipment and novel algorithms.
+2. The proposed system aims to improve efficiency, reduce labor costs, and minimize human errors in the carrot packaging industry.
+3. The authors present the methodology for developing the automated grading and sorting system, including the design and implementation of the mechanical equipment and the development of the novel algorithms.
+4. The results of the experiments demonstrate the efficiency and accuracy of the proposed automated system, achieving a processing speed of 12-15 carrots per second and maintaining a high level of accuracy in carrot classification.
+5. The authors discuss the implications of their research and suggest directions for future research, acknowledging the limitations of their work.
+
+Nondestructive Detection of Blackheart in Potato by Visible/Near Infrared Transmittance Spectroscopy
+
+
+
+1. Introduction
+Potato (Solanum tuberosum L. ) plays an important role in
+the food market bothfor its large consumptionin the worldand for its richness in health-related food components sucha sv i t a m i nC ,p r o t e i n ,c a l c i u m ,p o t a s s i u m ,a n dd i e t a r yfi b e r[1]. China produced 88.99 million metric tons of potatoes
+which accounted for 24.17% of the world production in
+2013 and the potato ranks fifth in Chinese food crops [ 2].
+However, during the storage or transport period, potatois easy to suffer from internal defect such as blackheart.Blackheart is an important physiological disorder of potato,which is associated with high carbon dioxide conditions orrapid change of environment temperature [ 3]. It can cause 
+
+ 2,pp.194–201,2008.
+[22] J. Xing and D. Guyer, “Detecting internal insect infestation
+in tart cherry using transmittance spectroscopy,” Postharvest 
+
+ 
+                         #  - -
+                         # Question: What are the main ideas and novelty proposed?
+                         # Answer: Let's think step by step and answer in detail.
+
+1. Introduction
+Potato (Solanum tuberosum L. ) plays an important role in
+the food market bothfor its large consumptionin the worldand for its richness in health-related food components sucha sv i t a m i nC ,p r o t e i n ,c a l c i u m ,p o t a s s i u m ,a n dd i e t a r yfi b e r[1]. China produced 88.99 million metric tons of potatoes
+which accounted for 24.17% of the world production in
+2013 and the potato ranks fifth in Chinese food crops [ 2].
+However, during the storage or transport period, potatois easy to suffer from internal defect such as blackheart.Blackheart is an important physiological disorder of potato,which is associated with high carbon dioxide conditions orrapid change of environment temperature [ 3]. It can cause 
+
+ 2,pp.194–201,2008.
+[22] J. Xing and D. Guyer, “Detecting internal insect infestation
+in tart cherry using transmittance spectroscopy,” Postharvest 
+
+ 
+                         #  - -
+                         # Question: What are the main ideas and novelty proposed?
+                         # Answer: Let's think step by step and answer in detail.
+
+1. Introduction
+Potato (Solanum tuberosum L. ) plays an important role in
+the food market bothfor its large consumptionin the worldand for its richness in health-related food components sucha sv i t a m i nC ,p r o t e i n ,c a l c i u m ,p o t a s s i u m ,a n dd i e t a r yfi b e r[1]. China produced 88.99 million metric tons of potatoes
+which accounted for 24.17% of the world production in
+2013 and the potato ranks fifth in Chinese food crops [ 2].
+However, during the storage or transport period, potatois easy to suffer from internal defect such as blackheart.Blackheart is an important physiological disorder of potato,which is associated with high carbon dioxide conditions orrapid change of environment temperature [ 3]. It can cause 
+
+ 2,pp.194–201,2008.
+[22] J. Xing and D. Guyer, “Detecting internal insect infestation
+in tart cherry using transmittance spectroscopy,” Postharvest 
+
+ 
+                         #  - -
+                         # Question: What are the main ideas and novelty proposed?
+                         # Answer: Let's think step by step and answer in detail.
+
+1. Introduction
+Potato (Solanum tuberosum L. ) plays an important role in
+the food market bothfor its large consumptionin the worldand for its rich
+
+{SeeFruits}: Design and evaluation of a cloud-based ultra-portable {NIRS} system for sweet cherry quality detection
+
+
+
+1. ESP8266 Wi-Fi module: The main idea is to use an ESP8266 Wi-Fi module as a communication device for agricultural sensors. This module provides a convenient and cost-effective way to transmit sensor data to a remote location, such as a computer or a cloud-based platform.
+2. Non-OS based and RTOS based SDK: The novelty is in the software development kits (SDK) provided by Ai-thinker Team. The ESP8266 family has two kinds of SDK: Non-OS based and RTOS based. The Non-OS based SDK is more suitable for standalone systems, while the RTOS based SDK is more efficient in resource allocation and suitable for real-time applications based on underlying sensor data.
+3. ESP-12F Wi-Fi module: The main idea is to use the ESP-12F Wi-Fi module as a platform for agricultural sensor networking. This module supports Soft-AP mode and Station mode simultaneously, providing networking flexibility and making it stand out from other Wi-Fi modules.
+4. Custom ESP8266Ex ﬁrmware: The novelty is in the ability to create custom ESP8266Ex ﬁrmware for the ESP-12F Wi-Fi module. This allows for the development of custom applications tailored to the specific needs of agricultural monitoring systems.
+5. Nano module and UART communication: The main idea is to use a Nano module, a development board for Arduino, to communicate with the ESP-12F Wi-Fi module via UART communication. This enables data exchange between the two modules and facilitates the integration of agricultural sensors with the Wi-Fi networking system.
+
+In summary, the main ideas and novelty proposed in this research are:
+
+1. Using an ESP8266 Wi-Fi module as a communication device for agricultural sensors.
+2. Utilizing the Non-OS based and RTOS based SDKs provided by Ai-thinker Team.
+3. Employing the ESP-12F Wi-Fi module as a platform for agricultural sensor networking.
+4. Developing custom ESP8266Ex ﬁrmware for the ESP-12F Wi-Fi module.
+5. Using a Nano module for UART communication with the ESP-12F Wi-Fi module.
+
+These ideas and novelty contribute to the advancement of agricultural monitoring systems by enabling efficient data transmission, resource allocation, and custom application development.
+
+Comparison between soft computing methods for tomato quality grading using machine vision
+
+
+
+1. The main idea is to develop a computer vision system for grading tomatoes based on their quality. The system should be able to accurately classify tomatoes into different categories, such as commercial, processing, or fresh consumption, based on their physical characteristics and sensory properties.
+2. The novelty proposed in this study is the integration of multiple features extracted from tomato images using computer vision techniques. These features are then used as input to a machine learning model, such as a neural network, to classify the tomatoes into different categories.
+
+The main ideas and novelty proposed in this study are:
+
+1. Develop a computer vision system for grading tomatoes based on their quality.
+2. Integrate multiple features extracted from tomato images using computer vision techniques.
+3. Use these features as input to a machine learning model, such as a neural network, to classify the tomatoes into different categories.
+
+The novelty of this study lies in the integration of various features extracted from tomato images and the use of a machine learning model, such as a neural network, to classify the tomatoes into different categories based on their quality. This approach provides a more comprehensive and accurate method for grading tomatoes compared to traditional visual inspection by human experts.
+

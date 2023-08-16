@@ -1,0 +1,106 @@
+Self-Supervised Learning of Pretext-Invariant Representations
+
+
+
+1. State-of-the-art methods:
+
+a. Supervised learning: ResNet-50 with 25.6M parameters [ 21] achieves 75.9% top-1 accuracy on ImageNet.
+
+b. Concurrent work: MoCo [ 26] with 25.6M parameters obtains 60.6% top-1 accuracy on ImageNet.
+
+c. Prior work: NPID++ [ 81] with 25.6M parameters obtains 59.0% top-1 accuracy on ImageNet.
+
+d. Our method: PIRL with 25.6M parameters obtains 63.6% top-1 accuracy on ImageNet.
+
+e. Other state-of-the-art methods: AMDIM [ 4] with 670M parameters obtains 68.1% top-1 accuracy on ImageNet.
+
+1. Performance metrics comparison:
+
+a. Supervised learning: 25.6M parameters, 75.9% top-1 accuracy.
+
+b. Concurrent work: 25.6M parameters, 60.6% top-1 accuracy.
+
+c. Prior work: 25.6M parameters, 59.0% top-1 accuracy.
+
+d. Our method: 25.6M parameters, 63.6% top-1 accuracy.
+
+e. Other state-of-the-art methods: 670M parameters, 68.1% top-1 accuracy.
+
+1. Comparison with concurrent work and prior work:
+
+a. Concurrent work: Although MoCo [ 26] outperforms ResNet-50 in terms of top-1 accuracy, PIRL still achieves better performance with a smaller model size.
+
+b. Prior work: NPID++ [ 81] and our method both outperform ResNet-50, demonstrating the benefits of self-supervised learning. However, PIRL achieves better performance with a smaller model size.
+
+c. Other state-of-the-art methods: AMDIM [ 4] achieves the highest top-1 accuracy among all methods, including supervised learning. However, PIRL still demonstrates competitive performance with a smaller model size.
+
+In summary, the results from the methods discussed in this paper compare favorably to the state-of-the-art. PIRL outperforms its concurrent work and prior work with smaller model sizes. Although AMDIM [ 4] achieves the highest top-1 accuracy among all methods, PIRL still demonstrates competitive performance with a smaller model size.
+
+Learning Image Representations by Completing Damaged Jigsaw Puzzles
+
+
+
+1. Jigsaw (Sec. 3.1) + Inpainting (Sec. 3.2) + Colorization (Sec. 3.3): This method achieves the best performance among all the combinations, with a 2.6% and 2.5% improvement in classiﬁcation and semantic segmentation tasks, respectively.
+2. Jigsaw (Sec. 3.1) + Inpainting (Sec. 3.2) + Counting (Sec. 3.4): This method also shows a significant improvement over the single tasks, with a 1.9% and 1.8% improvement in classiﬁcation and semantic segmentation tasks, respectively.
+3. Jigsaw (Sec. 3.1) + Colorization (Sec. 3.3) + Watching Object Move (Sec. 3.5): This method achieves a 1.8% and 1.7% improvement in classiﬁcation and semantic segmentation tasks, respectively.
+4. Jigsaw (Sec. 3.1) + Split-Brain (Sec. 3.6) + Counting (Sec. 3.4): This method shows a 1.6% and 1.5% improvement in classiﬁcation and semantic segmentation tasks, respectively.
+5. Jigsaw (Sec. 3.1) + Inpainting (Sec. 3.2) + CDJP (Sec. 3.8): This method achieves a 1.5% and 1.4% improvement in classiﬁcation and semantic segmentation tasks, respectively.
+
+Comparing these results to the state-of-the-art, we can see that our proposed method, Jigsaw + Inpainting + Colorization, outperforms the current best results on both tasks. In particular, our method achieves a new state-of-the-art performance on semantic segmentation task with a mIU score of 36.8.
+
+In terms of performance metrics, the mAP scores for classiﬁcation tasks are consistently high across all methods. The mIU scores for semantic segmentation tasks also show significant improvements across all combinations.
+
+In summary, our proposed method, Jigsaw + Inpain
+
+Unsupervised Representation Learning by Predicting Image Rotations
+
+
+
+1. State-of-the-art methods:
+
+a. Deep Convolutional Networks (AlexNet, VGG, ResNet, etc.): These are supervised learning methods that have achieved state-of-the-art performance on various benchmarks, including ImageNet and CIFAR-10.
+
+b. Self-supervised learning methods:
+
+i. Previous work: Rotation-based methods like RotationNet (Rotation-based ConvNet) and R2C (R2-based ConvNet) have shown promising results in self-supervised learning.
+
+ii. Our work: We present a novel self-supervised learning method called Rotation-based Transformers (RotNet), which outperforms previous rotation-based methods and achieves competitive performance with state-of-the-art supervised learning methods on ImageNet and CIFAR-10.
+
+c. Unsupervised learning methods:
+
+i. Previous work: Autoencoders, especially those with large capacity (e.g., DenseNet, ResNet, etc.), have shown promising results in unsupervised learning.
+
+ii. Our work: We demonstrate that our Rotation-based Transformers (RotNet) can achieve state-of-the-art performance on various benchmarks, including ImageNet and CIFAR-10, while being trained in an unsupervised manner.
+
+1. Performance metrics comparison:
+
+a. Supervised learning methods (e.g., Deep Convolutional Networks): These methods generally achieve better performance than self-supervised and unsupervised learning methods. However, they require large-scale labeled data for training.
+
+b. Self-supervised learning methods (e.g., Rotation-based Transformers): These methods can learn useful features from unlabeled data, which can be used to improve the performance of downstream tasks. Our RotNet method achieves competitive performance with state-of-the-art supervised learning methods on ImageNet and CIFAR-10.
+
+c. Unsupervised learning methods (e.g., Autoencoders): These methods can learn useful features from unlabeled data without any supervision. Although our RotNet method outperforms previous rotation-based methods and achieves competitive performance with state-of-the-art supervised learning methods, it still lags behind some unsupervised learning methods like large capacity autoencoders.
+
+In summary, our Rotation-based Transformers (RotNet) method demonstrates the potential of self-supervised learning in achieving state-of-the-art performance on various benchmarks, including ImageNet and CIFAR-10. Although it still lags behind some unsupervised learning methods, our method represents a significant step forward in the field of self-supervised learning.
+
+Unsupervised Visual Representation Learning by Context Prediction
+
+
+
+1. AlexNet: The original AlexNet paper [ 19] reports an accuracy of 8.4% on the Pascal VOC 2007 dataset. Our pre-trained model with ResNet-10 architecture achieves an accuracy of 83.3% on the same dataset, which is a significant improvement over the original AlexNet.
+2. R-CNN: The R-CNN paper [ 19] reports an accuracy of 86.7% on the Pascal VOC 2007 dataset when pre-trained with ImageNet labels. Our pre-trained model with ResNet-10 architecture achieves an accuracy of 83.3% on the same dataset, which is about 53.4% behind the state-of-the-art performance achieved by R-CNN pre-trained with ImageNet labels.
+
+Comparing the performance metrics, our pre-trained model with ResNet-10 architecture outperforms the original AlexNet by about 64.9% in terms of mean average precision (MAP) on the Pascal VOC 2007 dataset. However, it is still about 53.4% behind the state-of-the-art performance achieved by R-CNN pre-trained with ImageNet labels.
+
+In summary, our pre-trained model with ResNet-10 architecture achieves a significant improvement over the original AlexNet, but it still lags behind the state-of-the-art performance achieved by R-CNN pre-trained with ImageNet labels.
+
+Unsupervised Learning of Visual Representations by Solving Jigsaw Puzzles
+
+] nncheck if Pjis in P
+8: if Pjin P then
+9: P ;
+10: else
+11: P [P1; : : : ; Pj] nnadd PjtoP
+12: end if
+13: end repeat
+14: return P nnmaximal permutation set
+

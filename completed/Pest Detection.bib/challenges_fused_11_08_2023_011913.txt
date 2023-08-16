@@ -1,0 +1,89 @@
+A multispectral machine vision system for invertebrate detection on green leaves
+
+1. Data acquisition:
+Challenge: Ensuring accurate and consistent data acquisition from multiple sensors.
+2. Data preprocessing:
+Challenge: Removing noise and artifacts from the data while preserving important information.
+3. Feature extraction:
+Challenge: Identifying and extracting relevant features from the data to improve the performance of the subsequent steps.
+4. Matching and registration:
+Challenge: Correlating and aligning the data from different sensors and viewpoints to create a unified 3D point cloud.
+5. 3D reconstruction and visualization:
+Challenge: Converting the registered data into a 3D point cloud representation and generating visually appealing and informative visualizations.
+
+In summary, the challenges mentioned are related to the accuracy, consistency, and quality of the data throughout the entire process, from data acquisition to 3D reconstruction and visualization. Addressing these challenges requires careful planning, proper calibration of the sensors, and the use of advanced algorithms for noise reduction, feature extraction, and registration.
+
+A Robust Deep-Learning-Based Detector for Real-Time Tomato Plant Diseases and Pests Recognition
+
+1. Limited annotated data: The dataset is small, and it is challenging to train a deep neural network with limited annotated data.
+2. Overfitting: With a small dataset, the model is more prone to overfitting, which means the model learns the training data too well and fails to generalize to new, unseen data.
+3. Scalability: Deep neural networks can be computationally expensive, and it may be challenging to scale the model to larger datasets or more complex tasks.
+4. Model selection: Choosing the right model architecture and hyperparameters can be challenging, especially when there are multiple options available.
+5. Regularization: Balancing the need for a model to learn the data well (not overfitting) with the need for it to generalize well to new, unseen data is a challenge.
+6. Data augmentation: Generating new training examples by applying various transformations to the existing data can help increase the size of the dataset and improve the model's generalization capabilities. However, it can also be time-consuming and computationally expensive.
+7. Evaluation: Measuring the performance of a model accurately and fairly can be challenging, especially when there are multiple evaluation metrics and techniques available.
+
+By addressing these challenges, our proposed system aims to develop an effective and efficient solution for detecting and recognizing complex diseases and pests in images.
+
+Image processing analysis of geospatial uav orthophotos for palm oil plantation monitoring
+
+1. Image data retrieval is done by UAV / Drone type DJI 3 type Phantom  (Figure 3)
+2. The resulting orthoimage can be synchronized with  other maps
+containing other urban or technical elements such as agriculture or plantations, power grids, dams , etc.
+
+Challenge 1: Weather conditions and flight restrictions can affect the image data retrieval process. For example, strong winds, rain, or fog can make it difficult to capture clear images. Additionally, flight restrictions in certain areas may limit the ability to capture images.
+
+1. Example of orthophotos can be seen in Figure 1.
+2. Geospatial or geo -space is a spatial aspect which indicates the location  and position of an object or
+event that is under  or on the surface of the earth expressed in a particular coordinate system.
+
+Challenge 2: Accurate geospatial data is crucial for the success of this project. Obtaining accurate geospatial data may be challenging, especially when dealing with large areas or complex terrain.
+
+1. Design of contactless hand biometric system with relative
+geometric parameters  Instrumentation, Communications, Information Technology, and Biomedical
+Engineering (ICICI -BME), 2013 3rd International Conference on   IEEE
+2. Image based  water gauge reading developed with ANN
+Kohonen  Electrical Engineering and Computer Science (ICEECS), 2014 International Conference on
+IEEE
+
+Challenge 3: Developing accurate and reliable biometric systems and water gauge readings can be challenging, especially when dealing with varying environmental conditions and user behavior.
+
+1. Mapping a Volcano Hazard Area of Mount Sinabung Using Drone:
+Preliminary Results  IOP Conference Series: Materials Science and Engineering   Vol  180  No  1  IOP
+
+Challenge 4: Conducting accurate and reliable volcano hazard area mapping using drones can be challenging, especially when dealing with dynamic volcanic activity and limited flight time.
+
+1. Mobile application to differentiate flesh meat between beef and pork
+Computati onal Intelligence and Cybernetics (CYBERNETICSCOM), 2016 International Conference on
+IEEE
+
+Challenge 5: Developing accurate and reliable mobile applications for meat differentiation can be challenging, especially when dealing with variations in meat quality, cut, and preparation.
+
+1. Tarigan   A P M and Fahmi F 2017 Mapping a Volcano Hazard Area of Mount Sinabung Using Drone:
+Preliminary Results  IOP Conference Series: Materials Science and Engineering   Vol  180  No  1  IOP
+
+Challenge 6: Conducting accurate and reliable volcano hazard area mapping using drones can be challenging, especially when dealing with dynamic volcanic activity and limited flight time.
+
+1. Muhammadiy  W and Fahmi F 2016 Mobile application to differentiate flesh meat between beef and pork
+Computati onal Intelligence and Cybernetics (CYBERNETICSCOM), 2016 International Conference on
+IEEE
+
+Challenge 7: Developing accurate and reliable mobile applications for meat differentiation can be challeng
+
+Detection of soybean aphids in a greenhouse using an image processing technique
+
+1. Challenges in image acquisition:
+* Different cameras with varying resolutions and illumination conditions.
+* Different lighting conditions, including high and low illumination.
+* Different settings in digital cameras, such as aperture and shutter speed.
+2. Challenges in image processing and analysis:
+* Variations in image quality due to different cameras and lighting conditions.
+* Manual segmentation of leaves and aphids, which can be time-consuming and prone to errors.
+* Detection and counting of aphids, which can be affected by the presence of dead skins and yellow spots.
+3. Challenges in data analysis and interpretation:
+* Comparison of aphid area distribution between different cameras and lighting conditions.
+* Comparison of mean pixel area between different cameras and lighting conditions.
+* Statistical analysis to determine the significance of differences in aphid counts between manual and digital methods.
+
+By addressing these challenges, the researchers aimed to develop an accurate and efficient method for counting aphids using digital cameras.
+

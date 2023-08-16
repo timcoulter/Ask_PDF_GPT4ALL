@@ -1,0 +1,83 @@
+An intelligent mobile application for diagnosis of crop diseases in Pakistan using fuzzy inference system
+
+
+
+1. Limited access to expert knowledge: The main challenge is to collect and integrate expert knowledge into the system. Expert knowledge may not be readily available, and it may be scattered across various sources.
+2. Vagueness and uncertainty in inputs: Users may provide vague inputs as intuitive guesses when they lack specific information. This can lead to inaccurate results and system unreliability.
+3. Scalability and adaptability: The system should be scalable and adaptable to handle a wide range of crops, diseases, and environmental conditions. This may require continuous updates and improvements to the knowledge base and fuzzy inference engine.
+4. User interface and usability: The system should have an intuitive user interface that allows farmers and other agricultural stakeholders to easily provide inputs and receive recommendations. This may involve designing interfaces in multiple languages to cater to a diverse user base.
+5. Integration with existing systems: The proposed system should be able to integrate with existing agricultural information systems, databases, and decision support tools to provide a comprehensive solution for farmers and other stakeholders.
+6. Data privacy and security: Ensuring data privacy and security is crucial, as the system may handle sensitive information related to crop management and disease outbreaks. Appropriate data protection measures should be in place to safeguard user data.
+7. Regulatory and policy compliance: The system should comply with relevant regulatory requirements and agricultural policies in the target regions. This may involve working closely with local authorities and stakeholders to ensure compliance.
+
+By addressing these challenges, the proposed system can provide valuable decision support to farmers and other agricultural stakeholders, ultimately contributing to improved crop management and reduced agricultural risks.
+
+Development of automatic counting system for urediospores of wheat stripe rust based on image processing
+
+
+
+1. Image acquisition:
+* Obtaining high-quality images of urediospores.
+* Ensuring that the image size and resolution are suitable for automatic counting.
+1. Image preprocessing:
+* Removing noise and artifacts from the image.
+* Enhancing the contrast of the image to improve the visibility of the urediospores.
+1. Feature extraction:
+* Identifying and isolating individual urediospores in the image.
+* Extracting relevant features (e.g., size, shape, and color) for each urediospore.
+1. Image segmentation:
+* Separating the urediospores from the background and other image elements.
+* Ensuring that the segmented regions accurately represent the urediospores.
+1. Watershed segmentation:
+* Applying the watershed algorithm to separate the urediospores in the image.
+* Ensuring that the watershed segmentation results in well-defined, individual urediospores.
+1. Data output module:
+* Conducting automated urediospore counting based on the extracted features and segmentation results.
+* Generating a Pst urediospore counting result that can be directly used for further analysis and decision-making.
+
+In summary, the challenges mentioned are related to the quality and suitability of the image, the accuracy and effectiveness of the preprocessing, feature extraction, image segmentation, and data output modules. Addressing these challenges is crucial for developing an efficient and reliable automatic counting system for Pst urediospores.
+
+Automatic Image-Based Plant Disease Severity Estimation Using Deep Learning
+
+
+
+Challenge 1: High Performance Requirements
+
+The first challenge mentioned is related to the high performance requirements for computer vision tasks. The goal is to develop models that can achieve state-of-the-art performance while maintaining efficiency and minimizing computational complexity.
+
+Challenge 2: Scalability
+
+The second challenge mentioned is related to the scalability of the models. Researchers aim to develop architectures that can be easily scaled up or down with high computational efficiency and low parameter count.
+
+Challenge 3: Reducing Overfitting
+
+The third challenge mentioned is related to reducing overfitting in deep learning models. Overfitting occurs when a model becomes too complex and starts to capture noise in the training data, leading to poor generalization performance on unseen data.
+
+Challenge 4: Convolutional Filter Size
+
+The fourth challenge mentioned is related to the choice of convolutional filter size. Researchers need to find an optimal balance between the trade-off between computational complexity and model performance.
+
+Challenge 5: Network-in-Network Approach
+
+The fifth challenge mentioned is related to the network-in-network approach used in the Inception architecture. This approach involves using a series of filters of different sizes to handle multiple scales, which can be computationally expensive.
+
+Challenge 6: Reducing Computational Cost
+
+The sixth challenge mentioned is related to reducing the computational cost of deep learning models. As the models become more complex, the training and inference times can become prohibitively long, especially for real-time applications.
+
+Challenge 7: Handling Multiple Scales
+
+The seventh challenge mentioned is related to handling multiple scales in deep learning models. This challenge is addressed by the Inception architecture, which uses a hierarchical approach to process images at different scales.
+
+Challenge 8: Training Deep Models
+
+The eighth challenge mentioned is related to the challenges associated with training deep models. As the depth of the models increases, the risk of vanishing or exploding gradients becomes more pronounced, which can lead to difficulties in training the models effectively.
+
+Challenge 9: Memory Requirements
+
+The ninth challenge mentioned is related to the memory requirements of deep learning models during training and inference. As the models become more complex, the memory requirements can become prohibitively high, especially for deploying these models on resource-constrained devices.
+
+Challenge 10: Efficient Use of Parameters
+
+The tenth challenge mentioned is related to the efficient use of model parameters. As the depth and complexity of the models increase, the number of parameters also grows significantly. Researchers aim to develop architectures that can effectively use the available parameters while maintaining high performance.
+

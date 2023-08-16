@@ -1,0 +1,292 @@
+Counting and Segmenting Sorghum Heads
+
+1. The authors are working on a project related to maize tassels counting.
+2. They thank Prof. Mitchell Tuinstra and Prof. Clifford Weil for their contributions to the project.
+3. The authors appreciate the help provided by several professors and their students in collecting image-related data and providing important feedback.
+4. The authors plan to focus on a less mainstream application for counting, but a rich domain that has real impact in people's lives.
+5. For agronomy applications, understanding the crop is fundamental to developing an effective algorithm.
+6. The authors propose a novel approach to count maize tassels by detecting them in images.
+7. The proposed method uses a deep learning model, specifically a CNN, to accurately detect and count maize tassels in images.
+8. The authors experiment with various hyperparameters of the network to optimize its performance.
+9. The proposed method is compared to other state-of-the-art methods for counting objects in images, demonstrating its effectiveness and novelty.
+
+In summary, the main ideas and novelty proposed in the given context are:
+
+1. Focusing on a less mainstream application for counting (maize tassels) in a rich domain that has real impact in people's lives.
+2. Proposing a novel approach to count maize tassels by detecting them in images using a deep learning model (CNN).
+3. Experimenting with various hyperparameters of the network to optimize its performance for counting maize tassels.
+4. Comparing the proposed method to other state-of-the-art methods for counting objects in images, demonstrating its effectiveness and novelty.
+
+Panicle-{SEG}: a robust image segmentation method for rice panicles in the field based on deep learning and superpixel optimization
+
+1. Used two cameras (Nikon D40 and Nikon D7100) to capture rice plot images from different angles (top-view and overhead-view).
+2. Implemented a wireless shutter to trigger the cameras when the imaging bracket is manually moved in the paddy field.
+3. Proposed a two-step segmentation method that combines graph-based segmentation and superpixel generation.
+4. Used a general classifier based on SIFT features or other features (such as color features, morphological features, and location features) to classify the candidate regions.
+5. Proposed a powerful method for automatically detecting flowering panicles of paddy rice in RGB images taken under natural field conditions.
+6. Developed visual words as a coding method to encode the SIFT features for each of the candidate regions.
+7. Utilized an SVM classifier as a fine-detection method for the candidate regions.
+
+The main ideas and novelty proposed in this context are:
+
+1. Combining the advantages of two different cameras (Nikon D40 and Nikon D7100) to capture rice plot images from different angles, which provides more comprehensive data for rice plant classification.
+2. Implementing a wireless shutter to trigger the cameras when the imaging bracket is manually moved in the paddy field, allowing for more flexible and efficient data collection.
+3. Proposing a two-step segmentation method that combines graph-based segmentation and superpixel generation, which achieves better division and representation of candidate regions.
+4. Using a general classifier based on SIFT features or other features to classify the candidate regions, which provides a more robust and adaptable method for rice plant classification.
+5. Proposing a powerful method for automatically detecting flowering panicles of paddy rice in RGB images taken under natural field conditions, which enhances the accuracy and efficiency of rice plant detection.
+6. Developing visual words as a coding method to encode the SIFT features for each of the candidate regions, which improves the representation and processing of the extracted features.
+7. Utilizing an SVM classifier as a fine-detection method for the candidate regions, which further refines the rice plant classification process and increases the accuracy of the results.
+
+The novelty of this work lies in the integration of various techniques and methods, such as the use of different cameras, wireless shutter, two-step segmentation, general classifier, automatic detection, visual words, and SVM classifier, to develop an efficient and accurate rice plant classification system.
+
+The use of plant models in deep learning: an application to leaf counting in rosette plants
+
+The main ideas and novelty proposed in the following context are:
+
+1. Using a deep CNN to predict leaf counts from images of plants.
+2. Training the CNN on purely synthetic data.
+3. Testing the CNN on two real datasets with different distributions of leaf counts.
+4. Addressing both covariate shift (different distributions of leaf counts) and dataset shift (intersection between the two datasets) as described in the background on deep learning.
+
+The novelty in this approach lies in the idea of using a deep CNN to predict leaf counts from images of plants, and then addressing the challenges posed by dataset shift and covariate shift. This approach combines the advantages of deep learning models with strategies to mitigate the effects of dataset shift and covariate shift, which are common challenges in deep learning.
+
+In summary, the proposed method combines the use of a deep CNN for a specific task (predicting leaf counts from images of plants) with strategies to address the challenges posed by dataset shift and covariate shift. This novel approach demonstrates the potential of deep learning models to address real-world problems while considering the complexities of dataset variation.
+
+Detection and analysis of wheat spikes using Convolutional Neural Networks
+
+The context mentions a study using a deep learning model called R-CNN for detecting wheat spikes in images. The model is trained on a dataset called SPIKE, which consists of images with wheat spikes annotated with their corresponding bounding boxes. The goal is to accurately detect all wheat spikes in an image using the R-CNN model.
+
+The main ideas and novelty proposed in this context are:
+
+1. Utilizing deep learning for agricultural applications: The study demonstrates the potential of deep learning, specifically R-CNN, in solving real-world problems in agriculture. This highlights the versatility and adaptability of deep learning techniques for various domains.
+2. Annotated dataset for training and validation: The SPIKE dataset is crucial for the success of the study, as it provides labeled images for training and validating the R-CNN model. This ensures that the model learns to accurately detect wheat spikes, which is essential for the effectiveness of the proposed method.
+3. Balancing between false positives and false negatives: The study aims to achieve a balance between false positives (incorrectly classifying non-spike regions as spike regions) and false negatives (failing to detect actual spike regions). This is a critical aspect of the method, as it ensures that the model's performance is both accurate and reliable.
+4. Evaluation and performance metrics: The study emphasizes the importance of evaluating the model's performance using appropriate metrics, such as precision, recall, and F1-score. This ensures that the model's performance is thoroughly assessed and allows for improvements to be made as needed.
+
+In summary, the main ideas and novelty proposed in the context are:
+
+1. Utilizing deep learning for agricultural applications.
+2. Annotated dataset for training and validation.
+3. Balancing between false positives and false negatives.
+4. Evaluation and performance metrics.
+
+These ideas demonstrate the potential of deep learning and R-CNN for solving real-world problems in agriculture, while also emphasizing the importance of accurate annotation, model evaluation, and performance metrics in ensuring the effectiveness and reliability of the proposed method.
+
+Automatic estimation of heading date of paddy rice using deep learning
+
+1. The context mentions a farmer making informed crop management decisions based on observing the heading stage of a crop.
+2. The context also mentions using machine learning algorithms to predict the yield of the crop.
+
+Based on these points, we can identify the main ideas and novelty proposed in the context:
+
+Main ideas:
+
+1. Observing the heading stage of a crop can help farmers make informed crop management decisions.
+2. Machine learning algorithms can be used to predict the yield of a crop.
+
+Novelty proposed:
+
+1. The context proposes using machine learning algorithms to predict the yield of a crop, which can be a novel application of machine learning in agriculture.
+2. The context also mentions using remote sensing data to estimate the heading date of a crop, which can be a novel approach to crop management.
+
+In summary, the main ideas and novelty proposed in the context are:
+
+1. Observing the heading stage of a crop can help farmers make informed crop management decisions.
+2. Machine learning algorithms can be used to predict the yield of a crop, which is a novel application of machine learning in agriculture.
+3. Using remote sensing data to estimate the heading date of a crop is a novel approach to crop management.
+
+A Weakly Supervised Deep Learning Framework for Sorghum Head Detection and Counting
+
+The main ideas and novelty proposed in the given context are:
+
+1. Introducing a visualization strategy as a trust mechanism to demonstrate that the neural network has learned important visual cues comparable to what humans would usually look for when performing manual surveys in the field.
+2. Proposing an active learning framework for agricultural image data that leverages a semitrained learning model (trained with a small subset of labeled data) to optimally select a subset of (originally) unlabeled training data samples for human experts to validate and label.
+3. Addressing the challenges and complexities associated with agricultural image data, such as higher possibilities of confusing objects of interest with background elements, environmental variations, imaging angles, field conditions, and plant genotypes.
+
+The novelty in this context lies in the integration of these ideas to develop a robust and efficient learning model for agricultural applications, while also ensuring trust and validation through the proposed visualization strategy.
+
+Aerial Imagery Analysis – Quantifying Appearance and Number of Sorghum Heads for Applications in Breeding and Agronomy
+
+The main ideas and novelty proposed in the context are:
+
+1. Automated sorghum head counting: The authors aimed to develop an automated method for counting sorghum head numbers in a real breeding field. This novelty addresses the challenges of manual head counting, such as subjectivity, time-consuming, and prone to errors.
+2. Machine learning and image processing: The authors employed machine learning and image processing techniques to develop an automated method for sorghum head counting. This combination of techniques allows the extraction of relevant features from the images and the training of a model to accurately predict head numbers based on the extracted features.
+3. Quadratic-SVM classifier: The authors used a Quadratic-SVM classifier for head number prediction. SVM is a supervised machine learning algorithm that has become commonly used to solve classification problems. The novelty in this context lies in the use of a Quadratic-SVM classifier, which may provide better performance and generalization than traditional SVMs.
+4. Multi-modal feature extraction: The authors extracted multiple features from the sorghum head images, including color, texture, and shape descriptors. This multi-modal feature extraction approach allows the model to capture various aspects of the head images, potentially improving the accuracy and robustness of the head counting system.
+5. Cross-validation and performance evaluation: The authors employed cross-validation and performance evaluation techniques to assess the accuracy and generalization of the developed head counting system. This rigorous evaluation process ensures the reliability and validity of the system's predictions.
+
+In summary, the main ideas and novelty proposed in the context are: automating sorghum head counting, using machine learning and image processing techniques, employing a Quadratic-SVM classifier, multi-modal feature extraction, and rigorous evaluation through cross-validation and performance evaluation. These innovative approaches aim to develop an accurate, reliable, and automated system for sorghum head counting in real breeding fields.
+
+Image processing analysis of geospatial uav orthophotos for palm oil plantation monitoring
+
+1. Orthophotos and geospatial data: The context discusses the use of orthophotos, which are photographic maps that can be synchronized with other maps containing urban or technical elements such as agriculture, power grids, dams, etc. The main idea is to use this type of imagery for various applications, including land use and management, infrastructure planning, and environmental monitoring. The novelty lies in the use of unmanned aerial vehicles (UAVs) for orthophoto collection, which has become increasingly popular in recent years due to advancements in drone technology and reduced costs.
+
+1. Geospatial data: The context also mentions geospatial data, which is information about the location, size, and characteristics of natural and man-made features on Earth's surface. The main idea is to leverage this type of data for various applications, such as urban planning, resource management, and environmental assessments. The novelty lies in the increasing availability and accessibility of geospatial data, which has been facilitated by advancements in remote sensing technologies, GIS tools, and the growing number of open data initiatives.
+
+1. Classification using distance method: The context discusses the classification of palm oil using the distance method, specifically the Euclidean method. The main idea is to use this method for categorizing palm oil into fertile, infertile, and non-growing categories based on the spatial distribution of features in the imagery. The novelty lies in the application of distance-based classification methods to remote sensing data, which can provide valuable insights into land use and resource management.
+
+1. Research method: The context outlines the research method, which includes the prepar
+
+Aerial Imagery Analysis – Quantifying Appearance and Number of Sorghum Heads for Applications in Breeding and Agronomy
+
+The main ideas and novelty proposed in the context are:
+
+1. Automated sorghum head counting: The authors aimed to develop an automated method for counting sorghum head numbers in a real breeding field. This novelty addresses the challenges of manual head counting, which is time-consuming and prone to human errors.
+2. Machine learning and image processing: The authors employed machine learning and image processing techniques to develop an automated method for sorghum head counting. This combination of techniques allows the method to learn from the data and adapt to various conditions in the breeding field.
+3. Two-step machine-learning, voting-based method: The authors proposed a two-step machine-learning, voting-based method to overcome the challenges associated with sorghum head detection in real breeding fields. This method uses multiple features extracted from the images to improve the accuracy and robustness of the head counting process.
+4. Novel features for head detection: The authors introduced novel features, such as Minor axis length, ConvexArea, FilledArea, EquivDiameter, Solidity, and Roundness, to enhance the performance of the head detection method. These features help characterize the candidate head regions more accurately and robustly.
+5. Quadratic-SVM classifier with ﬁvefold cross-validation: The authors employed a Quadratic-SVM classifier with ﬁvefold cross-validation to train the head detection model. This approach ensures that the model generalizes well to unseen data and improves the overall performance and reliability of the head counting method.
+
+In summary, the main ideas and novelty proposed in the context are:
+
+1. Automating sorghum head counting in real breeding fields.
+2. Combining machine learning and image processing techniques for head detection.
+3. Proposing a two-step machine-learning, voting-based method to address challenges in head detection.
+4. Introducing novel features for enhanced head detection performance.
+5. Employing a Quadratic-SVM classifier with ﬁvefold cross-validation for training the head detection model, ensuring better generalization and reliability.
+
+{PlantSize} Offers an Affordable, Non-destructive Method to Measure Plant Size and Color in Vitro
+
+The context mentions a "simple linear model" and "quantitative information on plant size and development." This suggests that the main idea is to develop a model that can accurately predict plant size and development based on image analysis.
+
+The novelty proposed in the context is the use of machine learning algorithms to analyze plant images and extract quantitative information on plant size and development. This is a departure from traditional methods that rely on human expertise to analyze plant images. The use of machine learning algorithms can potentially improve the accuracy and efficiency of plant size and development analysis.
+
+In summary, the main idea is to develop a model using machine learning algorithms for predicting plant size and development based on image analysis. The novelty is the use of machine learning algorithms to analyze plant images, which can potentially improve the accuracy and efficiency of plant size and development analysis.
+
+A pattern recognition strategy for visual grape bunch detection in vineyards
+
+1. The proposed method divides regions of pixels clustered by DBSCAN into separate clusters if there exists a separation of at least two berries along the horizontal axis and a concavity of two berries in the vertical axis.
+2. Fig. 3 shows two contour concavities of the many there in the grape bunches. Concavity I can be detected by drawing a vertical line and noticing some points are outside the grape bunch. Concavity II can be found by drawing a horizontal line B and noticing there exists an interval between points 5 and 6 that falls outside the grape bunch.
+3. The latter concavity is special because it is large enough to fit a few grapes, unlike Concavity I which does not provide useful information to decide whether there is an overlapping grape bunch.
+
+The main ideas and novelty proposed in this context are:
+
+1. Proposing a method to isolate each grape bunch by dividing regions of pixels clustered by DBSCAN into separate clusters based on specific criteria.
+2. Identifying and using concavities in grape bunch contours as a novel feature for grape detection and bunch separation. Concavity II is special because it is large enough to fit a few grapes, making it a more reliable feature for detecting overlapping grape bunches.
+3. Combining shape, texture, and color descriptors to improve the accuracy and robustness of grape detection and bunch separation methods.
+
+In summary, the proposed method combines shape, texture, and color descriptors to improve the accuracy and robustness of grape detection and bunch separation methods. The novelty lies in the use of concavities in grape bunch contours as a reliable feature for detecting overlapping grape bunches, with Concavity II being the special feature due to its large enough to fit a few grapes.
+
+Mapping skips in sugarcane fields using object-based analysis of unmanned aerial vehicle ({UAV}) images
+
+#  - -
+# Context: 2015 ). This information could help minimize the time and energy spent
+
+Berni, J., Zarco-Tejada, P.J., Suarez, L., Fereres, E., 2009. Thermal and narrowband
+multispectral remote sensing for vegetation monitoring from an unmanned aerialvehicle. IEEE Trans. Geosci. Remote Sens. 47, 722 –738. http://dx.doi.org/10.1109/
+TGRS.2008.2010457 .
+Blaschke, T., 2010. Object based image analysis for remote sensing. ISPRS J.
+Photogramm. Remote Sens. 65, 2 –16.http://dx.doi.org/10.1016/j.isprsjprs.2009.06.
+004.
+Bocca, F.F., Rodrigues, L.H.A., Arraes, N.A.M., 2015. When do I want to know and why?
+Di���erent demands on sugarcane yield predictions. Agric. Syst. 135, 48 –56.http://dx.
+doi.org/10.1016/j.agsy.2014.11.008 .
+Castillejo-González, I.L., Peña-Barragán, J.M., Jurado-Expósito, M., Mesas-Carrascosa,
+F.J., López-Granados, F., 2014. Evaluation of pixel- and object-based approaches for
+mapping wild oat (Avena sterilis) weed patches in wheat ﬁelds using QuickBird
+imagery for site-speci ﬁc management. Eur. J. Agron. 59, 57 –66.http://dx.doi.org/
+10.1016/j.eja.2014.05.009 .
+
+Available online 16 October 2017
+0168-1699/ © 2017 Elsevier B.V. All rights reserved.
+
+The main ideas and novelty proposed in the context are:
+
+1. Integration of remote sensing data: The study combines thermal and multispectral data to improve the accuracy and reliability of sugarcane classification.
+2. Object-based image analysis (OBIA): The authors employ OBIA techniques to automatically identify and classify sugarcane based on remote sensing data. This approach allows for the efficient extraction of information from large-scale imagery.
+3. Crop rows detection: The study focuses on detecting and using crop rows as a reference for sugarcane classification. This novelty allows for a more accurate and detailed classification of the sugarcane canopy.
+4. Chessboard segmentation: The authors propose using a Chessboard Segmentation algorithm to split the image object domain into smaller segments. This technique enables the efficient extraction of information from remote sensing data and facilitates the classification process.
+5. Grow Main Rows sub-rule set: The authors introduce a loop with Conditional Quad Tree segmentation (Grow Main Rows sub-rule set) to expand the "Main Rows" class and cover the sugarcane canopy partially. This novelty allows for a more comprehensive and accurate classification of the sugarcane.
+
+In summary, the main ideas and novelty proposed in the context are the integration of remote sensing data, the use of OBIA techniques, the detection of crop rows, the application of Chessboard Segmentation, and the introduction of the Grow Main Rows sub-rule set. These innovative approaches contribute to the development of efficient and accurate methods for sugarcane classification.
+
+Validation of agronomic {UAV} and field measurements for tomato varieties
+
+1. The context is about using multiple sensors mounted in UAVs for managing soil and water resources more efficiently.
+2. The advantages of using these multiple sensors are that data can be collected extensively at low cost without the need for extensive ground surveys.
+3. The novelty proposed in this context is the integration of multiple sensors in UAVs to monitor and manage soil and water resources more effectively.
+
+In summary, the main ideas and novelty proposed in the given context are:
+
+1. Using multiple sensors mounted in UAVs for managing soil and water resources more efficiently.
+2. The advantages of using these multiple sensors are that data can be collected extensively at low cost without the need for extensive ground surveys.
+3. The novelty proposed in this context is the integration of multiple sensors in UAVs to monitor and manage soil and water resources more effectively.
+
+Automated Method to Determine Two Critical Growth Stages of Wheat: Heading and Flowering
+
+1. Image acquisition: A RGB image is captured from 8 MP cameramountedinsidethecamerabay.
+2. Pre-processing of the image to improve contrast: The image is pre-processed to enhance the contrast between the ears and leaves, making them more distinguishable to the naked eye.
+3. Extraction of features containing suitable information for discriminating images at the category level: The introduced technique extracts features from the pre-processed image that contain suitable information to discriminate images at the category level.
+4. Bag of Visual Words (BoVW) strategy: The BoVW strategy is being opted for the presented work. This method proves to be the leading strategy in computer vision applications such as image retrieval and image categorization (Csurka et al., 2004); thus, it is being used for the presented work.
+5. Categorizing digital images: The method categorizes digital images by extracting features and creating a visual vocabulary for the given dataset. It comprises the following states:
+a. Extracting features: Reindividually, usually accuracy curves are used to characterize the performance of the retrieval system.
+b. Constructing a visual vocabulary by clustering: The method creates a visual vocabulary by clustering the extracted features.
+c. Using a multi-class classifier for training using bags as feature vector: In this method, one-vs.-all strategy is chosen to train the SVM. Two classes are trained, each label assigned to the sample inside one class as +1 and the samples (background) as -1. The SVM calculates the similarity of all trained classes and assigned the test image to the class with the highest similarity measure.
+6. Experimental results and discussion: The experiment is divided into two sections for identifying ear emergence and ���owering stages from the digital images acquired in the ﬁeld. In the ﬁrst section, ear emergence was tested at di���erent time points, from early stages where only few spikelets are visible, to a more advanced stage where ears are fully emerged (Section 3.1). In the second part of the experiment, the method was tested to identify ���owering growth stage during anthesis (Section 3.2). The training dataset for the ear emergence experiment includes images with ears at di���erent emergence stages (positive class) and leaves, soil, etc. (negative class), which are manually cropped and stored in the dataset. The method uses a three-level SPM, with ﬁrst level comprising a single histogram, second level comprising 4 histograms, and ﬁnally, level 2 comprising 16 histograms (Figure 7). The result is a feature weighted histogram of 21 × K (number of words = 2000).
+
+In summary, the main ideas and novelty proposed in the context are:
+
+1. Enhancing the contrast between ears and leaves to make them more distinguishable to the naked eye.
+2. Using the BoVW strategy for image categorization.
+3. Extracting features and creating a visual vocabulary for the given dataset.
+4. Training a multi-class classifier using bags as feature vectors.
+5. Testing the method for identifying ear emergence and ���owering stages from digital images acquired in the ﬁeld.
+
+The novelty of the method lies in its ability to extract features containing suitable information for discriminating images at the category level, and in using a multi-class classifier for training using bags as feature vectors. This method provides a robust and accurate way to categorize digital images, making it a valuable tool for various computer vision applications.
+
+In-field automatic observation of wheat heading stage using computer vision
+
+1. BySoha and Schwartz (1978) and then Campbell (1996) proposed a novel and more general treatment framework.
+2. The framework stretches principal components to expand the image information with minimum correlation.
+3. This results in some areas increasing the color saturation as well as enhancing contrast, which makes emerging ears more recognizable.
+
+The main ideas and novelty proposed in the context are:
+
+1. A more general treatment framework: The proposed method extends the original method by incorporating additional features, making it more versatile and applicable to a wider range of problems.
+2. Decorrelation stretch: This is a novel technique that helps to reduce the correlation between different image components, resulting in a more robust and accurate representation of the original image.
+3. Enhanced image recognition: The decorrelation stretch technique significantly improves the recognition of emerging ears in the enhanced images, making it easier for automated systems to detect and analyze the data.
+
+In summary, the proposed method introduces a more general treatment framework, incorporates decorrelation stretch for enhanced image recognition, and ultimately improves the accuracy and efficiency of automated systems for analyzing agricultural data.
+
+Fractional-order controllers optimized via heterogeneous comprehensive learning pigeon-inspired optimization for autonomous aerial refueling hose–drogue system
+
+1. Introduction
+Aerial refueling has been regarded as an effective method of increasing the endurance and range limitations of aircrafts. For manned aircrafts, if the pilots are not skilled for aerial refueling, autonomous aerial refueling (AAR) [1] would commendably assist the pilots to accomplish the task. And for unmanned aerial vehicles (UAVs), if UAVs have the ability of AAR, the autonomy of UAVs [2] would be enhanced drastically, which is a developing tendency of UAVs. Thus, AAR has drawn substantial interest from research institutions inspired by an advanced integration of UAVs into current combat missions [3,4].
+
+1. AAR System Overview
+The AAR system consists of two main components: the UAV and the drogue. The drogue is a fuel-efficient device that simulates the fuel supply for the UAV. The UAV is equipped with a refueling receptacle, which allows it to be refueled by the drogue during flight. The AAR system enables the UAV to remain airborne for an extended period, thereby increasing its operational capabilities.
+
+1. Heterogeneous Comprehensive Learning Strategy (HCLS)
+The HCLS is a novel approach to optimize the performance of the AAR system. The strategy incorporates machine learning techniques to adapt the AAR system's behavior based on the feedback received during the refueling process. The HCLS enables the AAR system to learn from its experiences and improve its performance over time.
+
+1. Heterogeneous Comprehensive Learning Strategy (HCLS) Algorithm
+The HCLS algorithm is designed to optimize the performance of the AAR system. The algorithm is based on a pigeon-inspired optimization (PIO) framework, which incorporates the HCLS to enhance the AAR system's learning capabilities. The HCLS algorithm divides the swarm populations into two subpopulations: the exploitation subpopulation and the exploration subpopulation. These subpopulations balance the capacities of exploitation and exploration to overcome the adverse mutual influence.
+
+1. Heterogeneous Comprehensive Learning Strategy (HCLS) Algorithm
+The HCLS algorithm is designed to optimize the performance of the AAR system. The algorithm is based on a pigeon-inspired optimization (PIO) framework, which incorporates the HCLS to enhance the AAR system's learning capabilities. The HCLS algorithm divides the swarm populations into two subpopulations: the exploitation subpopulation and the exploration subpopulation. These subpopulations balance the capacities of exploitation and exploration to overcome the adverse mutual influence.
+
+In summary, the main ideas and novelty proposed in the context are:
+
+1. Introduction: The importance of AAR for enhancing the autonomy and endurance of UAVs in combat missions.
+2. AAR System Overview: The components and functioning of the AAR system.
+3. Heterogeneous Comprehensive Learning Strategy (HCLS): The integration of machine learning techniques to optimize the performance of the AAR system.
+4. HCLS Algorithm: The detailed algorithm based on the pigeon-inspired optimization framework, which divides the swarm populations into exploitation and exploration subpopulations to balance the capacities of exploitation and exploration.
+
+By addressing these aspects, the proposed context provides a comprehensive understanding of the AAR system and its novel features.
+
+A contextualized approach for segmentation of foliage in different crop species
+
+The main ideas and novelty proposed in the given context are:
+
+1. Combining CIE Luv color space and Support Vector Machines (SVM): The authors propose a new formulation that combines the CIE Luv color space and SVM. This approach allows for the extraction of contextualized information obtained through neighboring pixels, thus benefiting from the spatial relationships in the image.
+2. Contextualized information: The proposed method focuses on extracting contextualized information from neighboring pixels, which helps in capturing the spatial relationships present in the image. This is a novel aspect, as most state-of-the-art approaches do not consider the spatial information in the image.
+3. Comparison with state-of-the-art approaches: The authors compare their proposed method with various state-of-the-art approaches, including both thresholding and machine learning techniques. This comparison highlights the novelty and effectiveness of the proposed method.
+4. Addressing generalization between datasets: One of the key novelty proposals is addressing the issue of generalizing between datasets, which has not yet been adequately addressed by the state of the art. The authors aim to fill this gap by investigating the role of vegetative indexes and color spaces in different formulations of machine learning algorithms.
+
+In summary, the main ideas and novelty proposed in the given context are:
+
+1. Combining CIE Luv color space and Support Vector Machines (SVM).
+2. Extracting contextualized information from neighboring pixels.
+3. Comparing the proposed method with state-of-the-art approaches.
+4. Addressing the issue of generalizing between datasets.
+

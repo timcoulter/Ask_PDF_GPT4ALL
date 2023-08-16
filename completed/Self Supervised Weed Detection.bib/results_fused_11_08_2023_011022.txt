@@ -1,0 +1,160 @@
+Review of Current Robotic Approaches for Precision Weed Management
+
+1. Arrow hoe vs. wild oats: The performance of arrow hoe in weeding wild oats is better than other mechanical tools. This result is in line with the state-of-the-art, as arrow hoe has been shown to be effective in controlling wild oats [9].
+2. Tine vs. Feathertop Rhodes: The study found that tine is more effective than other mechanical tools for weeding Feathertop Rhodes. This result is consistent with the state-of-the-art, as tine has been reported to provide good control of Rhodes grass [9].
+3. Whipper-snipper (W/S) vs. cottonweed: The study revealed that W/S is more efficient than other mechanical tools for weeding cottonweed. This finding is consistent with the state-of-the-art, as W/S has been shown to provide effective control of various weed species, including cottonweed [9].
+4. Fine-tuning deep learning models: The transfer learning method, where deep learning models are fine-tuned for specific crop types, has demonstrated very promising classification performance under varying ambient light conditions [103]. This result is consistent with the state-of-the-art, as transfer learning has been widely adopted in deep learning for various applications, including agriculture [104].
+
+When comparing the performance metrics of the discussed methods with the state-of-the-art, it is evident that the methods discussed in this context can provide similar or better performance in terms of accuracy, efficiency, and environmental friendliness. However, it is important to consider the specific context and requirements of each application to determine the most suitable method or technology.
+
+In summary, the results from the discussed methods compare favorably to the state-of-the-art. The performance metrics of these methods, such as accuracy, efficiency, and environmental friendliness, are often comparable or better than other state-of-the-art solutions. However, it is crucial to consider the specific context and requirements of each application to determine the most suitable method or technology.
+
+Self-supervised contrastive learning on agricultural images
+
+1. Linear Evaluation:
+
+* SwAV initialization: 6.2% top-1 accuracy on ImageNet-1k and 8.2% on COCO.
+* ImageNet weights: 6.2% top-1 accuracy on ImageNet-1k and 88.2% on COCO.
+
+Comparing the performance metrics, SwAV initialization outperforms ImageNet weights for both datasets.
+
+1. Classification Fine-tuning:
+
+* SwAV initialization: 6.2% top-1 accuracy on ImageNet-1k and 88.2% on COCO.
+* ImageNet weights: 6.2% top-1 accuracy on ImageNet-1k and 88.2% on COCO.
+
+Comparing the performance metrics, SwAV initialization and ImageNet weights perform similarly for both datasets.
+
+1. Modifications:
+
+* xResNet-34: 66.6% top-1 accuracy on ImageNet-1k and 88.8% on COCO.
+
+Comparing the performance metrics, xResNet-34 outperforms both SwAV initialization and ImageNet weights for both datasets.
+
+1. State-of-the-art self-supervised contrastive learning approaches:
+
+* SimCLR: 66.6% top-1 accuracy on ImageNet-1k and 88.8% on COCO.
+* MoCo: 66.6% top-1 accuracy on ImageNet-1k and 88.8% on COCO.
+* BYOL: 66.6% top-1 accuracy on ImageNet-1k and 88.8% on COCO.
+
+Comparing the performance metrics, the state-of-the-art self-supervised contrastive learning approaches outperform SwAV initialization, ImageNet weights, and xResNet-34 for both datasets.
+
+In summary, the results from the methods discussed are not as competitive as the state-of-the-art self-supervised contrastive learning approaches. However, transferring weights obtained with SwAV initialization in the agriculture domain might still be beneficial, as the primary goal is not performance maximization but rather investigating whether transferring weights is useful in the specific domain.
+
+Semi-Self-Supervised Learning for Semantic Segmentation in Images with Dense Patterns
+
+1. Baseline model (ImageNet pretrained backbone):
+The baseline model has a Dice score of 0.6358 and an IoU score of 0.3150 on the internal test set Ψ. This performance is relatively low, indicating that the backbone pretrained on ImageNet does not provide sufficient segmentation capabilities for the GWHD dataset.
+
+1. Model S (synthetic images only, no real data augmentation):
+Model S has a Dice score of 0.7090 and an IoU score of 0.5658 on the internal test set Ψ. Although there is a slight improvement over the baseline model, the performance is still not satisfactory for the GWHD dataset.
+
+1. Model D (synthetic images + real data augmentation):
+Model D has a Dice score of 0.8860 and an IoU score of 0.7974 on the internal test set Ψ. This improvement over Model S demonstrates the importance of real data augmentation in enhancing the model's performance.
+
+1. Model P (synthetic images + pseudo-labels from video clips):
+Model P has a Dice score of 0.8984 and an IoU score of 0.8167 on the internal test set Ψ. Although there is a slight improvement over Model D, the performance is still not satisfactory for the GWHD dataset.
+
+1. Model G (synthetic images + real data augmentation + pseudo-labels from video clips):
+Model G has a Dice score of 0.9144 and an IoU score of 0.8583 on the internal test set Ψ. This improvement over Model P demonstrates the effectiveness of incorporating both real data augmentation and pseudo-labels from video clips in enhancing the model's performance.
+
+1. Baseline model (ImageNet pretrained backbone) on test set Γ (GWHD dataset, 18 domains):
+The baseline model has a Dice score of 0.5080 and an IoU score of 0.3235 on the GWHD dataset test set Γ. This performance is still relatively low, indicating that the backbone pretrained on ImageNet does not provide sufficient segmentation capabilities for the diverse domains within the GWHD dataset.
+
+1. Model S (synthetic images only, no real data augmentation) on test set Γ (GWHD dataset, 18 domains):
+Model S has a Dice score of 0.3678 and an IoU score of 0.2742 on the GWHD dataset test set Γ. Although there is a slight improvement over the baseline model, the performance is still not satisfactory for the diverse domains within the GWHD dataset.
+
+1. Model D (synthetic images + real data augmentation) on test set Γ (GWHD dataset, 18 domains):
+Model D has a Dice score of 0.6528 and an IoU score of 0.5272 on the GWHD dataset test set Γ. This improvement over Model S demonstrates the importance of real data augmentation in enhancing the model's performance for the diverse domains within the GWHD dataset.
+
+1. Model P (synthetic images + pseudo-labels from video clips) on test set Γ (GWHD dataset, 18 domains):
+Model P has a Dice score of 0.6748 and an IoU score of 0.5606 on the GWHD dataset test set Γ. Although there is a slight improvement over Model D, the performance is still not satisfactory for the diverse domains within the GWHD dataset.
+
+1. Model G (synthetic images + real data augmentation + pseudo-labels from video clips)
+
+Self-supervised weed detection in vegetable crops using ground based hyperspectral imaging
+
+1. Hand labelled datasets: The performance metrics for hand labelled datasets are typically very high, often close to 100%. This is because these datasets are generated by experts who have a deep understanding of the target species and can accurately label the pixels.
+2. Automatically generated datasets: The performance metrics for automatically generated datasets can vary greatly depending on the quality of the extracted features and the chosen classification algorithm. In general, the performance metrics for automatically generated datasets are lower than those for hand labelled datasets, often ranging from 70% to 90%.
+
+Comparing the performance metrics of the two methods, it is evident that hand labelled datasets generally outperform automatically generated datasets. However, it is important to note that the automatically generated datasets are generated without any human intervention, which can be a significant advantage in situations where obtaining hand labelled datasets is difficult, time-consuming, or expensive.
+
+In summary, the performance metrics for hand labelled datasets are typically very high, while the performance metrics for automatically generated datasets can vary greatly depending on the quality of the extracted features and the chosen classification algorithm. Although hand labelled datasets generally outperform automatically generated datasets, the latter can be a valuable alternative in situations where obtaining hand labelled datasets is difficult, time-consuming, or expensive.
+
+Development of Weed Detection Method in Soybean Fields Utilizing Improved {DeepLabv}3+ Platform
+
+lXl−1+b1l(12)
+ˆXl+1=WlXl+1−1+b1l(13)
+ˆXl+2=WlXl+2−1+b1l(14)
+ˆXl+3=WlXl+3−1+b1l(15)
+where Wl and bl are the weights and biases of the l-th layer, and Xl−1, Xl+1, Xl+2, and Xl+3 are the input features of the l-th layer.
+
+Agronomy 2022 , 12, x FOR PEER REVIEW 12 of 15
+
+Table 2. Comparison of performance metrics of the different models .
+Model ���������������� (%)  ������������ (%)  �������� (%)  �������� (%)  ST (ms)
+U-Net 86.61 92.65 93.58 92.63 356
+PSPNet 88.18 93.01 94.11 93.36 301
+DeepLabv3+ 88.59 93.40 94.32 93.10 319
+UPerNet 88.75 92.87 95.14 92.72 338
+CCNet 87.62 93.17 93.20 93.19 340
+OCRNet 88.73 93.15 94.69 93.13 335
+Swin-DeepLab 91.53 95.48 95.92 94.58 367
+To investigate the effectiveness of the Swin-DeepLab model for densely distributed
+weed detection, the image detection results we re analyzed, and the results are described
+
+Agronomy 2022 ,12, 2889 9 of 15
+3.2. Evaluation Indicators
+In this study, four common metrics for semantic segmentation are used to evaluate
+the accuracy of the model segmentation results: the mean intersection over union (mIoU),
+accuracy rate (Acc), precision (Pr), recall (Re), and segmentation time (ST, i.e., the time
+taken by the model to segment a single image in the test set). The formulae for several
+indicators are as follows:
+mIoU =åTP
+åTP+åFN+åFP100% (8)
+Acc=åTP+åTN
+åTP+åTN+åFN+åFP100% (9)
+Pr=åTP
+åTP+åFP100% (10)
+Re=åTP
+åTP+åFN100% (11)
+TP is true positive; TN is true negative; FP is false positive; FN is false negative.
+3.3. Analysis of Results
+3.3.1. Ablation Experiments
+To explore the impact of different improvement points on the performance of the
+model, we compared the original DeepLabv3+ model (with a ResNet50 backbone), the
+DeepLabv3+ model with a modiﬁed backbone (with the backbone replaced by a Swin
+transformer with a similar number of parameters as ResNet50), and Swin-DeepLab (which
+
+the model was trained using RGB and NIR images. The results showed that the method
+
+consecutive Swin transformer blocks are calculated as follows:
+ˆXl=WlXl−1+b1l(12)
+ˆXl+1=WlXl+1−1
+
+Benchmarking Self-Supervised Contrastive Learning Methods for Image-based Plant Phenotyping
+
+ERROR: The prompt size exceeds the context window size and cannot be processed.
+
+Self-Supervised Overlapped Multiple Weed and Crop Species Leaf Segmentation under Complex Light Condition
+
+1. Compare the results from the methods discussed with the state-of-the-art:
+
+The proposed PSP-U-SegNet model has achieved 98.95% data accuracy, which is significantly higher than the existing U-Net classifier (89.93% data accuracy) and other existing CNN models (e.g., SegNet and U-SegNet) in the Deep Weed dataset. This demonstrates the superior performance of the proposed model compared to the state-of-the-art.
+
+1. Compare the performance metrics:
+
+The performance metrics for the different models are as follows:
+
+| Model | Precision | Recall | F1-Score | Accuracy |
+| --- | --- | --- | --- | --- |
+| U-Net | 86.97 | 87.45 | 87.97 | 89.93 |
+| SegNet | 87.65 | 86.54 | 88.90 | 90.98 |
+| U-SegNet | 89.76 | 90.09 | 90.56 | 91.90 |
+| PSP-U-SegNet | 96.98 | 97.98 | 97.88 | 98.96 |
+| CWFID U-Net | 84.97 | 85.45 | 85.97 | 90.90 |
+| SegNet | 89.65 | 88.54 | 89.90 | 85.45 |
+| U-SegNet | 89.79 | 90.09 | 90.56 | 93.67 |
+
+From the table above, we can see that the proposed PSP-U-SegNet model has achieved the highest data accuracy (98.95%) among all the models discussed. Additionally, it has shown the best performance in terms of precision (97.98%), recall (97.98%), and F1-score (97.88%). These results demonstrate the effectiveness of the proposed method in comparison to the state-of-the-art.
+

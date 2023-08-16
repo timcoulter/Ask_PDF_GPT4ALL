@@ -1,0 +1,55 @@
+A Carrot Sorting System Using Machine Vision Technique
+
+
+
+1. Shape detection:
+The proposed method achieved an accuracy rate of 98.3% for crack carrots and 85.7% for normal carrots. Compared to the state-of-the-art, the proposed method shows a higher accuracy rate, especially for crack carrots. The performance metrics of the proposed method are better than the existing methods.
+
+1. Crack detection:
+The proposed crack detection method was tested on 600 carrot samples, and the results are listed in Table 3. The method achieved an accuracy rate of 98.3% for crack carrots and 85.7% for normal carrots. Although the accuracy rate for normal carrots is lower than that for crack carrots, it is still quite high.
+
+When comparing the performance metrics of the proposed method with the state-of-the-art, the time efficiency of the proposed algorithms should also be considered. Each carrot was processed in about 54 ms, which is quite efficient and meets real-time requirements well.
+
+In conclusion, the proposed methods for shape detection and crack detection in carrots have shown better performance than the state-of-the-art methods. The accuracy rates are higher, and the time efficiency is also satisfactory. These results demonstrate the potential of computer vision algorithms in the carrot grading and sorting process, which can help address labor-related problems and improve the efficiency of the carrot-packaging industry.
+
+Nondestructive Detection of Blackheart in Potato by Visible/Near Infrared Transmittance Spectroscopy
+
+
+
+1. Weight correction: This method is widely used in practice, and it is considered a standard preprocessing step. However, compared to the state-of-the-art, the performance improvement might not be significant.
+2. Height correction: This method is also widely used in practice, and it can improve the performance of some applications. However, compared to the state-of-the-art, the performance improvement might not be significant.
+3. Volume correction: This method is less common in practice, but it can provide better performance in some applications. Compared to the state-of-the-art, the performance improvement might be more significant, especially when dealing with small sample sizes.
+4. Combining multiple preprocessing methods: By combining multiple preprocessing methods, the performance can be further improved. However, compared to the state-of-the-art, the performance improvement might not be significant if the state-of-the-art already employs multiple preprocessing methods.
+
+Now let's compare the performance metrics:
+
+1. Weight correction: The improvement in performance might be slight, and the performance metrics might not show a significant difference compared to the state-of-the-art.
+2. Height correction: The improvement in performance might be slight, and the performance metrics might not show a significant difference compared to the state-of-the-art.
+3. Volume correction: The improvement in performance might be more significant, but the performance metrics might not show a dramatic difference compared to the state-of-the-art, especially if the state-of-the-art already employs multiple preprocessing methods.
+
+In summary, the results from the methods discussed can provide better performance compared to some state-of-the-art methods, especially when dealing with small sample sizes. However, the performance improvement might not be significant in all cases, and the performance metrics might not show a dramatic difference compared to the state-of-the-art.
+
+{SeeFruits}: Design and evaluation of a cloud-based ultra-portable {NIRS} system for sweet cherry quality detection
+
+
+
+1. Comparison with state-of-the-art:
+
+The results from the methods discussed in this study are in line with those reported by other researchers (Martínez-Romero et al., 2006; Özkaya et al., 2006). This indicates that the methods and techniques used in this study are at least as accurate and reliable as those used in other state-of-the-art studies.
+
+1. Performance metrics comparison:
+
+The performance metrics used to evaluate the methods discussed in this study include:
+
+* Correlation coefficient (R2): Measures the strength of the relationship between the predicted and actual values. Higher R2 values indicate better correlation between the predicted and actual values.
+* Root-mean-square error (RMSE): Measures the difference between the predicted and actual values. Lower RMSE values indicate better accuracy in the predictions.
+* Residual prediction deviation (RPD): Measures the ability of the model to make accurate predictions. Higher RPD values indicate better precision in the predictions.
+
+Comparing the performance metrics of the methods discussed in this study with those from other state-of-the-art studies, we can see that the methods used in this study generally perform well. The R2 values, RMSE values, and RPD values are all within a reasonable range, indicating that the methods are accurate and reliable.
+
+In summary, the methods discussed in this study are in line with state-of-the-art methods, and the performance metrics show that the methods are accurate and reliable.
+
+Comparison between soft computing methods for tomato quality grading using machine vision
+
+ERROR: The prompt size exceeds the context window size and cannot be processed.
+

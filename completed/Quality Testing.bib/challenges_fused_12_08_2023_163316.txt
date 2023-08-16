@@ -1,0 +1,112 @@
+A Carrot Sorting System Using Machine Vision Technique
+
+Challenge 1: Variation in carrot size and shape
+
+Solution: To address this challenge, we selected a random sample of carrots with varying sizes and shapes to cover both regular and defective tubers. This ensured that the grading system could accurately identify and classify defects in carrots with different dimensions.
+
+Challenge 2: Detection of surface cracks
+
+Solution: We used the Hough Transform method to detect surface cracks on the carrot's surface. First, we applied the Canny edge detection method to the G channel image to detect the edges. Then, we performed an erosion operation on the binary image to remove the border. After that, we applied the "And" operation between the canny edge image and the binary image to remove the contour and only keep the crack. Finally, we used the linear Hough Transform to detect the crack curve. By connecting the adjacent lines in the Hough space, we could accurately identify and classify carrots with surface cracks.
+
+Challenge 3: Detection of internal defects
+
+Solution: To address this challenge, we relied on the professional inspector's manual classification of the carrots into regular and defective ones. The inspector visually examined the carrots and identified any internal defects, such as soft spots, rot, or other issues that could affect the quality of the carrots.
+
+Challenge 4: Ensuring accurate grading
+
+Solution: To ensure accurate grading, we used the Bayes Classifier function. This function was defined by the following equation:
+
+P(C | D) = P(D | C) \* P(C) / P(D)
+
+Here, P(C | D) represents the probability of a carrot being classified as defective given that it was defective (D). P(D | C) represents the probability of a carrot being defective given that it was classified as defective (C). P(C) represents the prior probability of a carrot being classified as defective, and P(D) represents the probability of a carrot being defective. By using this Bayes Classifier function, we could accurately determine the curvature threshold and ensure accurate grading of the carrots.
+
+Nondestructive Detection of Blackheart in Potato by Visible/Near Infrared Transmittance Spectroscopy
+
+Challenges mentioned in the context:
+
+1. Vis/NIR transmission technology transfer from laboratory to industrial application.
+2. Non-destructive, real-time, or portable measurement of potatoes quality.
+
+Based on the context, the challenges mentioned are:
+
+1. Adapting laboratory-based Vis/NIR transmission technology for industrial application, which may involve addressing issues related to scale, efficiency, and cost-effectiveness.
+2. Developing non-destructive, real-time, or portable measurement systems for assessing potatoes quality, which may require overcoming technical limitations, such as sensor size, power consumption, and data processing capabilities.
+
+These challenges highlight the need for innovative solutions and careful consideration of the specific requirements of industrial settings and portable measurement devices.
+
+{SeeFruits}: Design and evaluation of a cloud-based ultra-portable {NIRS} system for sweet cherry quality detection
+
+1. The paper mentions that "SVC, Logistic-R and LDA were employed to analyze the data obtain from ‘SeeFruits ’system".
+2. The paper also states that "10-fold cross validation was hired to select candidate models".
+3. The paper then says that "all three models achieved satisfactory result with their F1-scores on prediction set above 0.80 (SVC:0.89, Logistic-R:0.83, LDA:0.80)".
+
+Based on these points, we can infer that the challenges mentioned are related to the di ���culties while categorizing the samples in S2. This is because the paper specifically mentions that "almost all the values which were 0.80 and below took place in S2".
+
+In summary, the challenges mentioned are related to the di ���culties while categorizing the samples in S2, which is evident from the fact that "almost all the values which were 0.80 and below took place in S2".
+
+Comparison between soft computing methods for tomato quality grading using machine vision
+
+1. Limited data: The main challenge mentioned is the limited data available for training the auto-encoder. This can lead to overfitting or underfitting, making it difficult to obtain accurate results.
+2. Sparsity constraints: The auto-encoder is trained with sparsity constraints on the hidden units. This can make the training process more challenging, as the network needs to learn both the compressed representation and the sparsity pattern simultaneously.
+3. Handling multiple levels: The article discusses multiple levels of auto-encoders, with each level building upon the features extracted by the previous level. This can introduce additional challenges in terms of training, validation, and evaluation of the models at each level.
+4. Balancing complexity and generalization: The authors mention that the auto-encoder should learn a compressed representation of the input data while maintaining a balance between complexity and generalization. This can be a challenging task, as the network needs to avoid overfitting while still capturing the underlying structure of the data.
+5. Competing with other methods: The article states that the auto-encoder is compared to other well-known deep learning networks, such as CNNs. This competition highlights the need for the auto-encoder to demonstrate competitive performance and accuracy in order to be considered a viable solution for the problem at hand.
+
+In summary, the challenges mentioned in the article include limited data, sparsity constraints, handling multiple levels, and balancing complexity and generalization. These challenges make the development and application of auto-encoders in tomato quality grading a complex and demanding task.
+
+A Carrot Sorting System Using Machine Vision Technique
+
+Challenge 1: Variation in carrot size and shape
+
+Solution: To address this challenge, we selected a random sample of carrots with varying sizes and shapes to cover both regular and defective tubers. This ensured that the grading system could accurately identify and classify defects in carrots with different dimensions.
+
+Challenge 2: Detection of surface cracks
+
+Solution: We used the Hough Transform method to detect surface cracks on the carrot's surface. First, we applied the Canny edge detection method to the G channel image to detect the edges. Then, we performed an erosion operation on the binary image to remove the border. After that, we applied the "And" operation between the canny edge image and the binary image to remove the contour and only keep the crack. Finally, we used the linear Hough Transform to detect the crack curve. By connecting the adjacent lines in the Hough space, we could accurately identify and classify carrots with surface cracks.
+
+Challenge 3: Detection of internal defects
+
+Solution: To address this challenge, we relied on the professional inspector's manual classification of the carrots into regular and defective ones. The inspector visually examined the carrots and identified any internal defects, such as soft spots, rot, or other issues that could affect the quality of the carrots.
+
+Challenge 4: Ensuring accurate grading
+
+Solution: To ensure accurate grading, we used the Bayes Classifier function. This function was defined by the following equation:
+
+P(C | D) = P(D | C) \* P(C) / P(D)
+
+Here, P(C | D) represents the probability of a carrot being classified as defective given that it was defective (D). P(D | C) represents the probability of a carrot being defective given that it was classified as defective (C). P(C) represents the prior probability of a carrot being classified as defective, and P(D) represents the probability of a carrot being defective. By using this Bayes Classifier function, we could accurately determine the curvature threshold and ensure accurate grading of the carrots.
+
+Nondestructive Detection of Blackheart in Potato by Visible/Near Infrared Transmittance Spectroscopy
+
+Challenges mentioned in the context:
+
+1. Vis/NIR transmission technology transfer from laboratory to industrial application.
+2. Non-destructive, real-time, or portable measurement of potatoes quality.
+
+Based on the context, the challenges mentioned are:
+
+1. Adapting laboratory-based Vis/NIR transmission technology for industrial application, which may involve addressing issues related to scale, efficiency, and cost-effectiveness.
+2. Developing non-destructive, real-time, or portable measurement systems for assessing potatoes quality, which may require overcoming technical limitations, such as sensor size, power consumption, and data processing capabilities.
+
+These challenges highlight the need for innovative solutions and careful consideration of the specific requirements of industrial settings and portable measurement devices.
+
+{SeeFruits}: Design and evaluation of a cloud-based ultra-portable {NIRS} system for sweet cherry quality detection
+
+1. The paper mentions that "SVC, Logistic-R and LDA were employed to analyze the data obtain from ‘SeeFruits ’system".
+2. The paper also states that "10-fold cross validation was hired to select candidate models".
+3. The paper then says that "all three models achieved satisfactory result with their F1-scores on prediction set above 0.80 (SVC:0.89, Logistic-R:0.83, LDA:0.80)".
+
+Based on these points, we can infer that the challenges mentioned are related to the di ���culties while categorizing the samples in S2. This is because the paper specifically mentions that "almost all the values which were 0.80 and below took place in S2".
+
+In summary, the challenges mentioned are related to the di ���culties while categorizing the samples in S2, which is evident from the fact that "almost all the values which were 0.80 and below took place in S2".
+
+Comparison between soft computing methods for tomato quality grading using machine vision
+
+1. Limited data: The main challenge mentioned is the limited data available for training the auto-encoder. This can lead to overfitting or underfitting, making it difficult to obtain accurate results.
+2. Sparsity constraints: The auto-encoder is trained with sparsity constraints on the hidden units. This can make the training process more challenging, as the network needs to learn both the compressed representation and the sparsity pattern simultaneously.
+3. Handling multiple levels: The article discusses multiple levels of auto-encoders, with each level building upon the features extracted by the previous level. This can introduce additional challenges in terms of training, validation, and evaluation of the models at each level.
+4. Balancing complexity and generalization: The authors mention that the auto-encoder should learn a compressed representation of the input data while maintaining a balance between complexity and generalization. This can be a challenging task, as the network needs to avoid overfitting while still capturing the underlying structure of the data.
+5. Competing with other methods: The article states that the auto-encoder is compared to other well-known deep learning networks, such as CNNs. This competition highlights the need for the auto-encoder to demonstrate competitive performance and accuracy in order to be considered a viable solution for the problem at hand.
+
+In summary, the challenges mentioned in the article include limited data, sparsity constraints, handling multiple levels, and balancing complexity and generalization. These challenges make the development and application of auto-encoders in tomato quality grading a complex and demanding task.
+

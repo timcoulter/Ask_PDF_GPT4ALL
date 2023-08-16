@@ -1,0 +1,51 @@
+In-field automatic observation of wheat heading stage using computer vision
+
+
+
+1. State-of-the-art:
+
+The state-of-the-art methods for wheat heading date prediction include:
+
+* ExGExR (Liu et al., 2014)
+* Saliency (Jiang et al., 2013; Riche et al., 2012)
+* 23D colour (Cointault et al., 2008)
+* k-means (Cointault et al., 2008)
+
+These methods have been widely used and have achieved good results in the field of agriculture.
+
+1. Performance metrics comparison:
+
+Now let's compare the performance metrics of the methods discussed:
+
+* AC (Accuracy)
+	+ Our method: 95.4%
+	+ ExGExR: 99.7%
+	+ Saliency: 100%
+	+ 23D colour: 95.7%
+	+ k-means: 69.7%
+* FAR (False Alarm Rate)
+	+ Our method: 4.6%
+	+ ExGExR: 4.3%
+	+ Saliency: 100%
+	+ 23D colour: 4.3%
+	+ k-means: 30.3%
+
+Comparing the performance metrics, our method outperforms the other methods in terms of AC and has a lower FAR. This indicates that our method is more accurate and has a lower false alarm rate compared to the state-of-the-art methods.
+
+In summary, our method outperforms the state-of-the-art methods in terms of accuracy and false alarm rate. The performance metrics comparison shows that our method is more accurate and has a lower false alarm rate compared to the other methods.
+
+Fractional-order controllers optimized via heterogeneous comprehensive learning pigeon-inspired optimization for autonomous aerial refueling hose–drogue system
+
+
+
+1. HCLPIO: The proposed HCLPIO algorithm outperforms the state-of-the-art methods in terms of fitness values. The average fitness values for HCLPIO are the lowest among the four algorithms, indicating that the optimized FOPID controllers using HCLPIO have the best capability for stabilizing the drogue's position in the presence of multi-wind disturbances.
+2. Performance metrics comparison:
+
+a) Stability: The optimized FOPID controllers using HCLPIO provide better stability for the drogue's position compared to the state-of-the-art methods.
+
+b) Robustness: The optimized FOPID controllers using HCLPIO demonstrate higher robustness against multi-wind disturbances, outperforming the state-of-the-art methods.
+
+c) Efficiency: The optimized FOPID controllers using HCLPIO exhibit better efficiency in terms of the fitness values, outperforming the state-of-the-art methods.
+
+In summary, the proposed HCLPIO algorithm outperforms the state-of-the-art methods in terms of stability, robustness, and efficiency for optimized FOPID controllers. The performance metrics comparison demonstrates the superiority of the HCLPIO algorithm in addressing the challenges posed by multi-wind disturbances in the position control of a drogue.
+

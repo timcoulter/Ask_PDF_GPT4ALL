@@ -1,0 +1,228 @@
+Unpaired Real-World Super-Resolution with Pseudo Controllable Restoration
+
+
+
+1. Blind SR: Despite their success, paired SISR methods [13, 27] fail when applied to LR images from a source different than that used for training, which hinders their applicability to more realistic applications. As a result, trying to model more unpaired solutions, are overall sharper in those regions. Furthermore, it is important to mention that both ESRGAN-FS and Impressionism require special hand-crafted tuning during the first stage of corruption generation. Visual analysis on the type of noise leads to hard-coded assumptions, which can be very difficult to scale to different datasets with different artifacts. Our method has no assumption about the data and it is trained in an end-to-end manner.
+
+1. Domain gap: Our first experiment (PP-ESRGAN) is to exploit the unsupervised nature of the problem in order to known are the most popular choice in the SR landscape. However, it lacks generalization due to the domain gap between real-world LR images and LR images used for training (typically clean bicubically downsampled images). There are two alternatives to deal with this mismatch. Firstly, blind techniques focus on learning a generalized downsampling representation (i.e. blur kernel) in order to impose a more realistic downscaling operation, which can be applied for super-resolution beyond the bicubic degradation. Secondly, unpaired real-world problems focus on data-driven solutions, i.e. super-resolving low-resolution images that lie inside a distribution (typically using a dataset that comes from a small/corrupted device sensor).
+
+1. Joint learning of degradation and SR: There has been little attention to one-stage approaches that aim at jointly learning the degradation and the up-sampling process. This is an important research direction, as it could potentially lead to more robust and generalizable SR methods.
+
+1. Real-world applications: Despite the progress made in SR research, there is still a significant gap between the performance of SR methods on synthetic datasets and their performance on real-world LR images. Future research should focus on developing methods that can generalize better to real-world scenarios, potentially by incorporating domain adaptation techniques or leveraging real-world LR image datasets for training and evaluation.
+
+1. Evaluation metrics and benchmarks: The choice of evaluation metrics and benchmarks plays a crucial role in assessing the performance of SR methods. Current metrics, such as PSNR and SSIM, may not fully capture the perceptual quality of SR images. Future research should explore new evaluation metrics and benchmarks that better reflect human perception and can help guide the development of more visually pleasing and realistic SR methods.
+
+In summary, there are several research gaps and future research directions in the field of super-resolution. Addressing these gaps and pursuing these directions could lead to the development of more robust, generalizable, and visually pleasing SR methods that better serve real-world applications.
+
+Paired and Unpaired Deep Learning Methods for Physically Accurate Super-Resolution Carbonate Rock Images
+
+
+
+1. Deep learning models: Although deep learning models have shown promising results in various SR applications, there is still room for improvement in terms of computational efficiency, generalization to unseen data, and handling of complex image structures. Future research directions could include the development of more efficient architectures, such as pruning techniques or model compression methods, as well as exploring alternative training strategies and regularization techniques.
+2. Generative adversarial networks (GANs): GANs have proven to be effective in generating realistic SR images using unpaired data. However, there are still challenges in terms of stability, controllability, and the ability to generate diverse and accurate results. Future research could focus on developing more stable and controllable GAN architectures, as well as exploring alternative loss functions and training techniques to improve the diversity and accuracy of generated images.
+3. Pore network modelling: Although the conventional PNM approach has shown promising results in various applications, there is still room for improvement in terms of computational efficiency, generalization to unseen data, and handling of complex pore structures. Future research directions could include the development of more efficient algorithms, such as parallelization techniques or optimization strategies, as well as exploring alternative pore network representations and modeling approaches.
+4. 3D EDSR: Although 3D EDSR models have shown promising results in various applications, there is still room for improvement in terms of computational efficiency, generalization to unseen data, and handling of complex 3D image structures. Future research directions could include the development of more efficient 3D CNN architectures, as well as exploring alternative training strategies and regularization techniques to improve the computational efficiency and generalization capabilities of 3D EDSR models.
+5. CinCGAN3D LR: Although CinCGAN3D LR models have shown promising results in various applications, there is still room for improvement in terms of computational efficiency, generalization to unseen data, and handling of complex 3D image structures. Future research directions could include the development of more efficient CNN-based architectures, as well as exploring alternative training strategies and regularization techniques to improve the computational efficiency and generalization capabilities of CinCGAN3D LR models.
+6. 3D volume reconstruction: Although 3D volume reconstruction techniques have shown promising results in various applications, there is still room for improvement in terms of computational efficiency, generalization to unseen data, and handling of complex 3D image structures. Future research directions could include the development of more efficient algorithms, such as parallelization techniques or optimization strategies, as well as exploring alternative volume reconstruction methods and representations to improve the computational efficiency and accuracy of reconstructed 3D volumes.
+7. Histogram matching: Although histogram matching methods have shown promising results in various applications, there is still room for improvement in terms of computational efficiency, generalization to unseen data, and handling of complex image structures. Future research directions could include the development of more efficient histogram matching algorithms, as well as exploring alternative image registration and alignment techniques to improve the computational efficiency and accuracy of histogram matching methods.
+
+In summary, future research directions in SR, GANs, PNM, 3D EDSR, CinCGAN3D LR, 3D volume reconstruction, and histogram matching could focus on improving computational efficiency, generalization to unseen data, and handling of complex image structures. This could involve developing more efficient algorithms, exploring alternative training strategies and regularization techniques, and investigating alternative pore network representations, volume reconstruction methods, and alignment techniques.
+
+An Optimal Transport Perspective on Unpaired Image Super-Resolution
+
+
+2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)
+
+Method Degradation part Super-resolution part Total
+FSSR2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)4 neural networks;
+4 optimizers;
+4 schedulers;
+2 adversarial losses;
+2 content losses ( `1+perceptual)
+DASR2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptural)2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)4 neural networks;
+4 optimizers;
+4 schedulers;
+2 adversarial losses;
+2 content losses ( `1+perceptual)
+OTS
+(ours)
+2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)
+
+Method Degradation part Super-resolution part Total
+FSSR2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)4 neural networks;
+4 optimizers;
+4 schedulers;
+2 adversarial losses;
+2 content losses ( `1+perceptual)
+DASR2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)4 neural networks;
+4 optimizers;
+4 schedulers;
+2 adversarial losses;
+2 content losses ( `1+perceptual)
+OTS
+(ours)
+2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)
+
+Method Degradation part Super-resolution part Total
+FSSR2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)4 neural networks;
+4 optimizers;
+4 schedulers;
+2 adversarial losses;
+2 content losses ( `1+perceptual)
+DASR2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)4 neural networks;
+4 optimizers;
+4 schedulers;
+2 adversarial losses;
+2 content losses ( `1+perceptual)
+OTS
+(ours)
+2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)
+
+Method Degradation part Super-resolution part Total
+FSSR2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)4 neural networks;
+4 optimizers;
+4 schedulers;
+2 adversarial losses;
+2 content losses ( `1+perceptual)
+DASR2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+perceptual)2 neural networks;
+2 optimizers;
+2 schedulers;
+1 adversarial loss;
+1 content loss ( `1+
+
+Unpaired Remote Sensing Image Super-Resolution with Multi-Stage Aggregation Networks
+
+
+
+1. Research gaps:
+
+a. Improved performance metrics: Although existing SR methods have achieved impressive results, there is still room for improvement in terms of performance metrics such as PSNR, SSIM, and LPIPS. Future research can focus on developing new methods that can further reduce the gap between the ground truth and the SR results.
+
+b. Handling complex scenes: Current SR methods often struggle with handling complex scenes containing multiple objects, varying illumination conditions, and occlusions. Future research can explore techniques to better handle these complex scenes, leading to more accurate and visually pleasing SR results.
+
+c. Real-time applications: Most existing SR methods are computationally expensive and require significant processing time. Future research can focus on developing real-time SR methods that can be applied in various real-time applications, such as video processing and augmented reality.
+
+d. Robustness against adversarial attacks: As deep learning models become more prevalent in various applications, they also become more vulnerable to adversarial attacks. Future research can explore methods to improve the robustness of SR models against adversarial attacks, ensuring the reliability and security of SR-based applications.
+
+e. Multi-modal fusion: Many real-world scenarios involve multiple modalities, such as images and videos. Future research can explore methods for multi-modal fusion in SR, enabling the integration of multiple modalities to improve the performance and applicability of SR methods in various domains.
+
+f. Explainable AI: As SR models become more complex, the need for explainable AI becomes increasingly important. Future research can focus on developing SR methods that provide clear explanations for their predictions, enabling better understanding, trust, and potential for human-AI collaboration.
+
+1. Future research directions:
+
+a. Novel architectures: Existing SR methods often follow the residual learning framework introduced by VDSR. Future research can explore novel network architectures that can potentially outperform existing methods.
+
+b. Transfer learning and pre-training: Pre-training and transfer learning techniques have shown promising results in various computer vision tasks. Future research can explore the application of these techniques in SR, potentially reducing the training time and improving the generalization capabilities of SR models.
+
+c. Data-driven optimization: Existing SR methods often rely on heuristic techniques for model optimization. Future research can explore data-driven optimization techniques that can adaptively optimize the model based on the training data, potentially leading to better performance and generalization capabilities.
+
+d. Integration of domain knowledge: Many real-world scenarios involve specific domain knowledge, such as medical imaging or remote sensing. Future research can explore the integration of domain knowledge into SR models, potentially leading to more specialized and accurate SR solutions for various domains.
+
+e. Evaluation metrics tailored for SR: Existing performance metrics, such as PSNR and SSIM, may not fully capture the quality of SR results. Future research can explore the development of new evaluation metrics tailored specifically for SR, potentially providing a more accurate assessment of SR performance.
+
+f. Ethical considerations: As SR technology becomes more prevalent and advanced, it is essential to consider the ethical implications of SR applications. Future research can focus on addressing ethical concerns, such as privacy preservation and fair use of SR technology in various domains.
+
+Unpaired Image Super-Resolution Using Pseudo-Supervision
+
+
+
+1. Research gaps and future research directions:
+
+Research gaps and future research directions can be identified by analyzing the current state of the art, understanding the limitations, and envisioning potential advancements in the field. Here, we discuss some research gaps and future research directions in the context of unpaired single-image super-resolution (SISR) and related topics.
+
+1. Improved perceptual quality:
+
+One of the main research gaps is to improve the perceptual quality of SISR methods. Although recent advancements have led to significant improvements in perceptual quality, there is still room for further enhancement. Future research directions may include exploring new architectures, loss functions, or training strategies that can lead to better perceptual quality.
+
+1. Robustness against adversarial attacks:
+
+Another research gap is to enhance the robustness of SISR methods against adversarial attacks. As SISR methods become more prevalent in real-world applications, they may become more susceptible to adversarial attacks. Future research directions may include developing defensive mechanisms or adversarial training strategies to improve the robustness of SISR methods against such attacks.
+
+1. Multi-modal fusion:
+
+Another research direction could be the development of multi-modal fusion techniques for SISR. By incorporating additional modalities, such as depth, semantic, or multi-spectral information, researchers can potentially improve the quality and robustness of SISR methods. Future research directions may include exploring effective ways to integrate and fuse multiple modalities for enhanced SISR performance.
+
+1. Real-time applications:
+
+Another research direction could be the development of real-time SISR methods. As the demand for real-time applications increases, researchers need to develop efficient algorithms and architectures that can perform SISR in real-time without compromising the quality. Future research directions may include exploring novel computational techniques, hardware accelerators, or algorithmic optimizations to enable real-time SISR.
+
+1. Extension to other domains:
+
+Finally, future research directions may include extending the scope of unpaired SISR methods to other domains, such as video super-resolution, multi-frame SISR, or even 3D super-resolution. By exploring new domains and applications, researchers can continue to push the boundaries of SISR and unpaired image-to-image translation techniques.
+

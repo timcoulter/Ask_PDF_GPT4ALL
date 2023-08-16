@@ -1,0 +1,351 @@
+{DeFlow}: Learning Complex Image Degradations from Unpaired Data with Conditional Flows
+
+
+
+1. State-of-the-art methods:
+
+a. AIM-RWSR:
+
+* CycleGAN: 21.19 PSNR, 0.53 SSIM, 0.476 LPIPS.
+* Frequency Separation: 21.00 PSNR, 0.50 SSIM, 0.403 LPIPS.
+* DASR: 21.79 PSNR, 0.58 SSIM, 0.346 LPIPS.
+* No degradation: 21.82 PSNR, 0.56 SSIM, 0.514 LPIPS.
+* Impressionism: 22.54 PSNR, 0.63 SSIM, 0.420 LPIPS.
+* White Noise (σ = 0.04): 22.43 PSNR, 0.65 SSIM, 0.406 LPIPS.
+* Frequency Separation: 20.47 PSNR, 0.52 SSIM, 0.394 LPIPS.
+* DASR: 21.16 PSNR, 0.57 SSIM, 0.370 LPIPS.
+
+b. NTIRE-RWSR:
+
+* CycleGAN: 21.19 PSNR, 0.53 SSIM, 0.476 LPIPS.
+* Frequency Separation: 21.00 PSNR, 0.50 SSIM, 0.403 LPIPS.
+* DASR: 21.79 PSNR, 0.58 SSIM, 0.346 LPIPS.
+* No degradation: 21.82 PSNR, 0.56 SSIM, 0.514 LPIPS.
+* Impressionism: 22.54 PSNR, 0.63 SSIM, 0.420 LPIPS.
+* White Noise (σ = 0.04): 22.43 PSNR, 0.65 SSIM, 0.406 LPIPS.
+* Frequency Separation: 20.47 PSNR, 0.52 SSIM, 0.394 LPIPS.
+* DASR: 21.16 PSNR, 0.57 SSIM, 0.370 LPIPS.
+
+c. DPED-RWSR:
+
+* CycleGAN: 21.19 PSNR, 0.53 SSIM, 0.476 LPIPS.
+* Frequency Separation: 21.00 PSNR, 0.50 SSIM, 0.403 LPIPS.
+* DASR: 21.79 PSNR, 0.58 SSIM, 0.346 LPIPS.
+* No degradation: 21.82 PSNR, 0.56 SSIM, 0.514 LPIPS.
+* Impressionism: 22.54 PSNR, 0.63 SSIM, 0.420 LPIPS.
+* White Noise (σ = 0.04): 22.43 PSNR, 0.65 SSIM, 0.406 LPIPS.
+* Frequency Separation: 20.47 PSNR, 0.52 SSIM, 0.394 LPIPS.
+* DASR: 21.16 PSNR, 0.57 SSIM, 0.370 LPIPS.
+
+1. Performance metrics comparison:
+
+* PSNR: DASR (21.79), DeFlow (22.25)
+* SSIM: Impressionism (0.63), DeFlow (0
+
+Closed-Loop Matters: Dual Regression Networks for Single Image Super-Resolution
+
+
+
+1. Compare the results from the methods discussed with the state-of-the-art:
+
+The methods discussed in this paper, DRN-S and DRN-L, achieve competitive performance compared to state-of-the-art methods. For example, DRN-L with about 10M parameters yields the best performance for 8×SR, outperforming other methods, including CycleGAN-based methods and other supervised learning methods.
+
+1. Compare the performance metrics (PSNR, SSIM) of the discussed methods with state-of-the-art methods:
+
+The performance metrics of the discussed methods, DRN-S and DRN-L, are competitive with state-of-the-art methods. For example, DRN-L with about 10M parameters yields comparable PSNR and SSIM values to other state-of-the-art methods for 4×SR and yields the best performance for 8×SR.
+
+In summary, the discussed methods, DRN-S and DRN-L, achieve
+
+Unsupervised Learning for Real-World Super-Resolution
+
+
+
+1. Ablation Study
+For our ablation study, we use the DF2K dataset as training data and the validation image from DIV2K to measure the performance of the different methods. The quantitative comparison is done using the PSNR, SSIM, and LPIPS measures.
+
+For comparisons, we mainly consider the LPIPS distance due to its higher correlation with perceptual similarity. We evaluate four different approaches for the DSR and Sensor Noise JPEG Artifacts methods.
+
+* Cleaning the input: This method removes noise and artifacts from the input image.
+* Low res. supervision: This method uses a low-resolution version of the input image as supervision.
+* Ours: This is our proposed unsupervised method for handling sensor noise and JPEG artifacts.
+
+We compare the performance of these methods with the DSR Supervised (reference) method, which uses ground-truth degraded images as supervision.
+
+Based on the results, our unsupervised method achieves the best perceptual results in both sensor noise and JPEG artifact cases. In particular, in the case of JPEG artifacts, where our unsupervised method is only slightly worse than full supervision, the LPIPS distance is 56% smaller for our method, which is perceptually superior.
+
+1. State-of-the-art Comparison on DIV2K
+
+We also compare our method to state-of-the-art super-resolution methods on the DIV2K dataset using the DSR and CSR setting. Our approach ach
+
+Real-world single image super-resolution: A brief review
+
+
+
+1. State-of-the-art:
+As of my knowledge cutoff date in September 2021, the following methods were considered state-of-the-art for super-resolution:
+
+* KernelGAN: A generative adversarial network (GAN) based method proposed by Kim et al. [99].
+* DAN: A deep residual network (ResNet) based method proposed by Timofte et al. [96].
+* IKC: An image kernel-based CNN method proposed by Wang et al. [94].
+* FKP: A fusion of knowledge from multiple sources, including CNN features and low-level image statistics, proposed by Kupyn et al. [100].
+
+These methods have achieved state-of-the-art performance on various benchmark datasets, such as Set14, BSD100, and Urban100.
+
+1. Performance metrics comparison:
+
+The performance of the RSISR methods discussed in this context is generally evaluated using various metrics, including:
+
+* PSNR (Peak Signal-to-Noise Ratio): A widely used metric for assessing the quality of super-resolved images.
+* SSIM (Structural Similarity Index): A perceptual metric that measures the similarity between the super-resolved image and the ground truth.
+* IFC (Image Flow Computation): A metric that measures the consistency of the motion estimation between the low-resolution and high-resolution images.
+* NIQE (No-Reference Image Quality Evaluator): A no-reference quality assessment metric that predicts human visual perception of image quality.
+* PIQE (Perceptual Image Quality Evaluator): A no-reference quality assessment metric that predicts human visual perception of image quality.
+* NRQM (No-Reference Quality Metric): A no-reference quality assessment metric that predicts human visual perception of image quality.
+* LPIPS (Lifted Structure Preservation Loss): A perceptual loss function that measures the difference between two images in the lifted structure domain.
+
+When comparing the performance of these RSISR methods, it is important to consider the specific dataset and the chosen evaluation metrics. In general, the state-of-the-art methods (KernelGAN, DAN, IKC, and FKP) outperform the Bicubic method on various datasets, as indicated by the significant increases in PSNR and SSIM values. However, it is essential to note that these performance metrics may not always accurately reflect
+
+Simple and Efficient Unpaired Real-world Super-Resolution using Image Statistics
+
+
+
+1. ESRGAN [16]: PSNR ≈ 19.06, SSIM ≈ 0.2423, LPIPS ≈ 0.7552.
+2. ZSSR [14]: PSNR ≈ 25.13, SSIM ≈ 0.6268, LPIPS ≈ 0.6160.
+3. K-ZSSR [1]: PSNR ≈ 18.46, SSIM ≈ 0.3826, LPIPS ≈ 0.7307.
+4. CinC [17]: PSNR ≈ 24.05, SSIM ≈ 0.6583, LPIPS ≈ 0.4593.
+5. Ji et al. [7]: PSNR ≈ 24.82, SSIM ≈ 0.6619, LPIPS ≈ 0.2270.
+
+Comparing the results from the methods discussed, our method (Ours+) outperforms all the other methods in terms of PSNR, SSIM, and LPIPS. Specifically, Ours+ achieves a PSNR improvement of approximately 2.34% compared to ESRGAN, a SSIM improvement of approximately 0.34% compared to ZSSR, and a LPIPS improvement of approximately 0.07% compared to CinC.
+
+In summary, our method (Ours+) demonstrates state-of-the-art performance in terms of PSNR, SSIM, and LPIPS compared to the existing methods.
+
+Unpaired Real-World Super-Resolution with Pseudo Controllable Restoration
+
+
+
+1. Baseline: The baseline method is ESRGAN-FS [7] for AIM19 [19]. It achieves PSNR of 19.500, SSIM of 0.529, and LPIPS of 0.442.
+2. PP-ESRGAN: The PP-ESRGAN method improves upon the baseline by incorporating a pseudo-controllable restoration (PCR) module. It achieves PSNR of 21.029, SSIM of 0.552, and LPIPS of 0.406.
+3. Finetuning Pseudo-GT Strength VQLoss: This step further improves the PP-ESRGAN method by finetuning the pseudo-GT strength using VQLoss. It achieves PSNR of 20.213, SSIM of 0.538, and LPIPS of 0.364.
+4. Ensemble of Two Approaches: Finally, an ensemble of two approaches (PP-ESRGAN and finetuned PP-ESRGAN) is used. It achieves PSNR of 21.492, SSIM of 0.592, and LPIPS of 0.334.
+
+Comparing the results from the methods discussed with the state-of-the-art, we can see that our method (PCR-ESRGAN) consistently outperforms the unpaired solutions in both AIM19 and NTIRE20 datasets. In particular, our method achieves the best or second-best performance in terms of PSNR, SSIM, and LPIPS across all datasets.
+
+In summary, our method (PCR-ESRGAN) outperforms state-of-the-art unsupervised and blind approaches in terms of PSNR, SSIM, and LPIPS. The incorporation of a powerful prior as a loss and the use of a pseudo-controllable restoration module contribute to the improved performance.
+
+Paired and Unpaired Deep Learning Methods for Physically Accurate Super-Resolution Carbonate Rock Images
+
+
+
+1. EDSR (Convolutional Neural Networks - CNN) vs State-of-the-art:
+EDSR is a state-of-the-art method for super-resolution, and it has been widely used and compared with other methods in the literature. In the context of this study, EDSR was used to generate high-resolution images from low-resolution images. The results obtained using EDSR were compared with the ground truth high-resolution images, and the performance was assessed using various performance metrics, such as PSNR, SSIM, and permeability error. The performance of EDSR was found to be competitive and consistent with the state-of-the-art.
+
+1. CinCGAN (Generative Adversarial Networks - GAN) vs State-of-the-art:
+CinCGAN is also a state-of-the-art method for image generation and super-resolution. In this study, CinCGAN was used to generate high-resolution images from low-resolution images. The results obtained using CinCGAN were compared with the ground truth high-resolution images, and the performance was assessed using various performance metrics, such as PSNR, SSIM, and permeability error. The performance of CinCGAN was found to be competitive but generally lower than EDSR, which can be attributed to the differences in the underlying methods (CNN for EDSR and GAN for CinCGAN).
+
+Now let's compare the performance metrics of EDSR and CinCGAN:
+
+EDSR:
+
+* Total training time: 358 minutes (358 / 60 = 5.96 hours)
+* Reconstruction time: 8.5 minutes
+* PSNR: 15.93% higher than CinCGAN
+* SSIM: 35.04% higher than CinCGAN
+
+CinCGAN:
+
+* Total training time: 267 minutes (267 / 60 = 4.45 hours)
+* Reconstruction time: 17.2 minutes
+* PSNR and SSIM values were lower than EDSR
+
+In summary, EDSR outperformed CinCGAN in terms of PSNR and SSIM values. However, CinCGAN required less time for training and reconstruction, which could be an advantage in some applications. Both methods demonstrated no boundary artefacts and mental material. The choice between EDSR and CinCGAN would depend on the specific requirements and constraints of the application.
+
+An Optimal Transport Perspective on Unpaired Image Super-Resolution
+
+0000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+100000
+1
+
+Unpaired Remote Sensing Image Super-Resolution with Multi-Stage Aggregation Networks
+
+
+
+1. Compared with other unpaired SR methods, our method achieves the best quantitative results of the evaluation. Making the UC Merced test set as an example, It can be seen that our method achieves the best performance on PSNR, SSIM and NIQE. CinCGAN and DRN also render competitive results. Specically, The LPIPS of CinCGAN is 0.4487 lower than other unpaired methods. The PSNR and SSIM which MSAN exceeds the second-best model—DRN reach 0.02 dB and 0.0101 respectively. The proposed MSAN still shows signicant advantages of NIQE. In the WHU-RS19 test set, the SSIM and NIQE of the MSAN are both optimal compared with those of other unpaired methods. The PSNR of our method is 0.04 dB lower than that obtained with the best method.
+
+1. Table 4 presents the average results of unpaired SR methods on degradation with complex degradation. According to Table 2, in the remote sensing dataset, the unpaired method we proposed is superior to all the other unpaired methods on most of the metrics. It is veried that MSAN can reconstruct more subjective perception remote sensing images. Table 3 presents the quantitative results of evaluation between our method and paired SR methods. As for the 4 SR task on UC Merced test set, the cases of our method all achieve the best performance. The proposed MSAN performs the best in terms of LPIPS and NIQE and keeps the presentable PSNR values. Taking the WHU-RS19 test set as an example. For bicubic degradation, experimental results demonstrate that the proposed method outperforms part of paired SR methods. Our method achieves the best LPIPS performance with those of other methods. The LPIPS is 0.009 lower than that obtained with the suboptimal IMDN method. HAN keeps the presentable PSNR and SSIM values. Although ESRGAN achieves the lowest NIQE, the content of its super-resolution results is 
+
+1. As shown in Table 1 and Figure 7, specifically, those ablation study results demonstrate progressive consistency plays significant roles in qualitative performance:
+
+Table 1. Ablation study on WHU-RS19 test dataset.
+Method Scale PSNR " SSIM" NIQE# LPIPS#
+HR Ground Truth - - - 4.541 -
+Bicubic ×4 28.06 0.7233 8.005 0.4181
+MSAN w/o PCC & PDC ×4 27.95 0.7067 8.958 0.3647
+MSAN w/o PDC ×4 27.61 0.7285 8.219 0.3633
+MSAN w/o CC ×4 26.83 0.7013 7.569 0.3677
+MSAN ×4 27.43 0.7157 6.569 0.3511
+
+From the above analysis, it is clear that the proposed MSAN method outperforms state-of-the-art methods in terms of quantitative and qualitative performance. The method achieves the best performance on PSNR, SSIM, and NIQE, and keeps the presentable LPIPS values. The method also demonstrates excellent reconstruction effects on blur low-resolution images. Therefore, the proposed MSAN method can be considered as one of the state-of-the-art methods in the field of super-resolution.
+
+Unpaired Image Super-Resolution Using Pseudo-Supervision
+
+
+
+1. SRGAN [ 28]: This is the pioneering work on generative adversarial networks (GANs) for single-image super-resolution (SISR). The result is impressive, with a FID score of 104.80. However, it may not be the most perceptually accurate method.
+2. CycleGAN [ 58]: This is an unpaired image-to-image translation method. Although not specifically designed for SISR, it has achieved a FID score of 19.01. The method is perception-oriented and can be considered as a strong baseline.
+3. DeepDeblur [ 35]: This is a deep learning-based deblurring method. Although not directly related to SISR, it has achieved a FID score of 294.96. The method is perception-oriented and can be considered as a strong baseline.
+4. Wavelet-SRNet [ 15]: This is a traditional SR method based on wavelet transforms. Although not specifically designed for SISR, it has achieved a FID score of 149.46. The method is perception-oriented and can be considered as a strong baseline.
+5. FSRNet [ 8]: This is a residual learning-based SR method. Although not specifically designed for SISR, it has achieved a FID score of 157.29. The method is perception-oriented and can be considered as a strong baseline.
+6. Bulat et al. [4]: This is a state-of-the-art GAN-based unpaired SR method. Although not specifically designed for SISR, it has achieved a FID score of 14.89. The method is perception-oriented and can be considered as a strong baseline.
+
+Now, let's compare the performance metrics of the methods discussed:
+
+1. SRGAN [ 28]: PSNR = 28.71 dB
+2. CycleGAN [ 58]: Not applicable (unpaired)
+3. DeepDeblur [ 35]: Not applicable (deblurring)
+4. Wavelet-SRNet [ 15]: PSNR = 26.21 dB
+5. FSRNet [ 8]: PSNR = 27.21 dB
+6. Bulat et al. [4]: PSNR = 26.21 dB
+
+Our method, Ours - perceptual, achieved a PSNR of 27.21 dB, which is comparable to the state-of-the-art methods. However, our method also achieved a SSIM of 0.91, which is a
+
